@@ -1,0 +1,11 @@
+test:
+  override:
+    - sh test.sh
+
+deployment:
+  sync_stage:
+    branch: master
+    commands:
+      - cp website/config.staging.toml website/config.toml
+      - ./send-to-s3.sh 
+      - python create_credentials_file.py
