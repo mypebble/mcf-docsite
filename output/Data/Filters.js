@@ -1,0 +1,1 @@
+define({'Joinos':{c:'', cm:'', o:0},'Arro':{c:'Projects;Clubs;Donations;Events;Grants;Lettings;Services;SRM;Arro', cm:'', o:3},'Fund Manager':{c:'Receipts;Payments;Browsers;Printing', cm:'', o:2},'School Fund Manager':{c:'', cm:'', o:1},})

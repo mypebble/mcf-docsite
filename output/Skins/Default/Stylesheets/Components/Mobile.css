@@ -1,0 +1,148 @@
+/*<meta />*/
+
+@media only screen and (max-width: 767px)
+{
+	.search-bar
+	{
+		width: 100%;
+	}
+
+	.search-bar._Skins_HomeSearchBarOldStyle.mc-component
+	{
+		width: 100%;
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-field
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-filter
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/FilterOutline.png') no-repeat center center;
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/SearchIcon.png') no-repeat center center;
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-filter-content
+	{
+		top: 40px;
+		background-color: #ffffff;
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-filter.open
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: #ffffff;
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-filter.selected
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/Filter.png') no-repeat center center;
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-field::-moz-placeholder
+	{
+		
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-field:-moz-placeholder
+	{
+		
+	}
+
+	._Skins_HomeSearchBarOldStyle.mc-component .search-field:-ms-input-placeholder
+	{
+		
+	}
+
+	.search-bar._Skins_HomeSearchBar.mc-component
+	{
+		width: 100%;
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-field
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-filter
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/FilterOutline.png') no-repeat center center;
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/SearchIcon.png') no-repeat center center;
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-filter-content
+	{
+		top: 40px;
+		background-color: #ffffff;
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-filter.open
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: #ffffff;
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-filter.selected
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/Filter.png') no-repeat center center;
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-field::-moz-placeholder
+	{
+		
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-field:-moz-placeholder
+	{
+		
+	}
+
+	._Skins_HomeSearchBar.mc-component .search-field:-ms-input-placeholder
+	{
+		
+	}
+}
+

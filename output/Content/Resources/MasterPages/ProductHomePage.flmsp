@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="637" MadCap:lastWidth="1061">
+    <head>
+        <link href="../TableStyles/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/StylesForProductHomePage.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <table style="width: 100%;mc-table-style: url('../TableStyles/Simple.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
+                <col style="width: 25%;" class="TableStyle-SimpleWithPadding-Column-Column1" />
+                <col style="width: 10%;" class="TableStyle-SimpleWithPadding-Column-Column1" />
+                <col style="width: 30%;" class="TableStyle-SimpleWithPadding-Column-Column1" />
+                <col style="width: 10%;" class="TableStyle-SimpleWithPadding-Column-Column1" />
+                <col style="width: 25%;" class="TableStyle-SimpleWithPadding-Column-Column1" />
+                <tbody>
+                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" colspan="3" style="text-align: center;">&#160;<img src="../Images/speaktoteam.png" /></td>
+                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">&#160;</td>
+                    </tr>
+                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="font-weight: bold;">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="font-weight: bold;text-align: center;">
+                            <p class="footertext"><span style="color: #000000; font-weight: bold;">Our Office:</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="font-weight: bold;text-align: center;">
+                            <p class="footertext"><span style="color: #000000; font-weight: bold;">We're Available:</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="font-weight: bold;text-align: center;">
+                            <p class="footertext"><span style="color: #000000; font-weight: bold;">Follow Us:</span>
+                            </p>
+                        </td>
+                        <p>&#160;</p>
+                    </tr>
+                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="text-align: center;">
+                            <p class="footertext"><MadCap:variable name="CompanyInfo.CompanyName" />
+                            </p>
+                            <p class="footertext"><MadCap:variable name="CompanyInfo.AddressLine1" />
+                            </p>
+                            <p class="footertext"><MadCap:variable name="CompanyInfo.AddressLine2" />
+                            </p>
+                            <p class="footertext">Newcastle </p>
+                            <p class="footertext">Tyne and Wear</p>
+                            <p class="footertext">NE1 2QB</p>
+                        </td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="text-align: center;">
+                            <p class="footertext">Mon to Fri 8.30 am - 5.30 pm</p>
+                            <p class="footertext">General: <span style="color: #000000; font-weight: bold;">0845 310 1788*</span></p>
+                            <p class="footertext">Fax:&#160;0845 310 1777*</p>
+                            <p class="footertext">&#160;</p>
+                            <p class="footertext">General: <a href="mailto:info@mypebble.co.uk" target="_blank">info@mypebble.co.uk</a></p>
+                            <p class="footertext">Support: <a href="mailto:support@mypebble.co.uk" target="_blank">support@mypebble.co.uk</a>:</p>
+                        </td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="text-align: center;">
+                            <p class="footertext">
+                                <img src="../Images/Pebble twitter.png" style="vertical-align: text-bottom;" /><a href="https://twitter.com/mypebble" target="_blank">Twitter</a>
+                            </p>
+                            <p class="footertext">
+                                <img src="../Images/Pebble facebook.png" style="vertical-align: text-bottom;" /><a href="https://www.facebook.com/PebbleHQ/" target="_blank">Facebook</a>
+                            </p>
+                            <p class="footertext">
+                                <img src="../Images/Pebble linkedin.png" style="width: 21px;height: 19px;vertical-align: text-bottom;" /><a href="https://www.linkedin.com/company/1936847?trk=tyah&amp;trkInfo=tarId%3A1406641590126%2Ctas%3Apebble%2Cidx%3A2-1-7" target="_blank">Linkedin</a>
+                            </p>
+                        </td>
+                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">&#160;</td>
+                    </tr>
+                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">&#160;</td>
+                    </tr>
+                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td colspan="3" style="text-align: center;" class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
+                            <p colspan="3" class="footertext">*Calls to 0845 numbers are charged at 3p per minute from BT landlines. Charges from other networks may vary so please speak to your phone carrier before calling.</p>
+                        </td>
+                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">&#160;</td>
+                    </tr>
+                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">&#160;</td>
+                    </tr>
+                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">&#160;</td>
+                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">&#160;</td>
+                    </tr>
+                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                        <td class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1">&#160;</td>
+                        <td colspan="3" style="text-align: center;" class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1">
+                            <p colspan="3" class="footertext">© SF Software Limited t/a PEBBLE 2015 All Rights Reserved. <a href="https://www.mypebble.co.uk/policy/" target="_blank">Privacy &amp;&#160;Security</a><a href="https://www.mypebble.co.uk/policy/" target="_blank">Terms</a><a href="https://www.mypebble.co.uk/environment/" target="_blank">Environmental Policy</a></p>
+                        </td>
+                        <td class="TableStyle-SimpleWithPadding-BodyA-Column1-Row1">&#160;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

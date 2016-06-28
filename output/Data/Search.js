@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0,69],u:['../Content/New/Arro/About Arro.htm'],s:['$','file','receipt'],p:[['$',56],['all',82],['available',82],['cash',43],['current',70],['ensure',38],['g',19],['import',27],['link',19],['net',85],['other',31],['raised',43],['search',75],['sure',31],['their',28],['transactions',81],['who',72]]});
