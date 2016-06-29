@@ -1,10 +1,15 @@
-@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 /*<meta />*/
 
+@import url("http://staticdemo.pebblecloud.net/css/flare-website.css");
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+.tab-bar{margin-top:50px !important;}
 body
 {
 }
 
+nav.tab-bar, .tab-bar-section{display:none !important;}
+.inner-wrap{padding:0px !important;}
 a
 {
 }

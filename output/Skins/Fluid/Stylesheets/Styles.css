@@ -41,7 +41,7 @@ img
 
 .tab-bar-section.middle > div
 {
-	min-height: 47px;
+	
 }
 
 /* Topbar (Navigation) Dropdown Styles*/
@@ -56,16 +56,16 @@ ul.navigation
 	position: relative;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 278px;
 	background-repeat: repeat;
 	background-position: center center;
-	color: #66afe9;
+	color: transparent;
 	font-family: Arial;
 	font-size: 1em;
 	font-weight: normal;
+	display: none;
 	padding-left: 20px;
 	padding-right: 20px;
-	background: #eef8fb;
+	background: transparent;
 	background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
 	background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
@@ -163,7 +163,7 @@ ul.navigation a
 	text-decoration: none;
 	height: 100%;
 	outline: none;
-	color: #66afe9;
+	color: transparent;
 	font-family: Arial;
 	font-size: 1em;
 	font-weight: normal;
@@ -361,19 +361,19 @@ nav.tab-bar .menu-icon
 
 .tab-bar-section a.logo
 {
+	width: 182px;
+	height: 42px;
 	border: none;
 	padding: 0;
 	margin: 0;
 	position: absolute;
-	display: block;
-	width: 278px;
-	height: 47px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
 	top: 50%;
 	bottom: auto;
-	margin-top: -23.5px;
 	left: 0;
-	background: transparent url('Images/Pebble Logo2.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Pebble Logo2.png') no-repeat center center;
+	background: none;
 }
 
 /* Topbar Menu Functionality Styles */
@@ -677,6 +677,7 @@ h1#results-heading
 	border-bottom: solid 1px #EBEBEB;
 	margin-bottom: 20px;
 	padding-bottom: 10px;
+	display: block;
 }
 
 .search-field::-webkit-input-placeholder

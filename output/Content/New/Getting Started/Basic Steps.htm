@@ -17,8 +17,61 @@
         <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="http://staticdemo.pebblecloud.net/css/flare-website.css" rel="stylesheet" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.topic-ratings-button
+{
+	-pie-background: transparent url('../../../Skins/Default/Stylesheets/Images/star-full.png') no-repeat center center;
+}
+
+.button.select-skin-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/select-skin.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.select-language-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/select-language.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.remove-highlight-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.print-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.filler-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.button.expand-all-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/expand.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.edit-user-profile-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/edit-profile.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
         <script src="../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../Resources/Scripts/jquery.min.js">
@@ -84,7 +137,131 @@
                     </aside>
                     <section class="main-section">
                         <div class="row outer-row" data-mc-content-body="True">
-                            <div class="content">
+                            <header>
+                                <nav class="navbar navbar-fixed-top">
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component" style="mc-topic-toolbar-items: Print Forward ExpandAll CollapseAll Back;">
+                                        <div class="button-group-container-left">
+                                            <div class="button-group star-buttons loading feedback-topic-required">
+                                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                </div>
+                                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                </div>
+                                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                </div>
+                                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                </div>
+                                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                </div>
+                                            </div>
+                                            <button class="button needs-pie select-skin-button" title="Select skin">
+                                                <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="select skin" />
+                                            </button>
+                                            <button class="button needs-pie select-language-button" title="Change language">
+                                                <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="select language" />
+                                            </button>
+                                            <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="remove highlight" />
+                                            </button>
+                                            <button class="button needs-pie print-button" title="Print">
+                                                <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                            </button>
+                                        </div>
+                                        <div class="button-group-container-right">
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="expand all" />
+                                            </button>
+                                            <button class="button feedback-required login-button" id="normalLoginBtn" data-state1-class="login-button" data-state2-class="edit-user-profile-button" title="Login" data-state1-title="Login">
+                                                <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="login" />
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu">
+						☰
+					</button><a class="navbar-brand" href="https://www.mypebble.co.uk/"><span class="sr-only">Pebble</span></a>
+                                        <div class="collapse navbar-toggleable-xs" id="responsive-menu">
+                                            <div class="pull-sm-right">
+                                                <ul class="nav navbar-nav">
+                                                    <li class="nav-item" value="1"><a class="nav-link" href="https://www.mypebble.co.uk/"><i class="awesome awesome-home awesome-lg"></i></a>
+                                                    </li>
+                                                    <li class="dropdown nav-item subnav-dropdown" value="2"><a href="https://www.mypebble.co.uk#" class="nav-link" data-toggle="dropdown">Services <span class="awesome awesome-chevron-down"></span></a>
+                                                        <div class="dropdown-menu" role="menu">
+                                                            <div class="container">
+                                                                <div class="submenu">
+                                                                    <div class="submenu-body">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-10 col-sm-offset-1">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-blue"><i class="awesome awesome-desktop"></i></span>
+                                                                                        <div class="title">Software</div>
+                                                                                        <p>…to help you reach your goals</p><a class="btn btn-primary-outline" href="/software/">Learn More</a>
+                                                                                    </div>
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-green"><i class="awesome awesome-group"></i></span>
+                                                                                        <div class="title">Training</div>
+                                                                                        <p class="">…to become an expert</p><a class="btn btn-primary-outline" href="/training/">Learn More</a>
+                                                                                    </div>
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-yellow"><i class="awesome awesome-book"></i></span>
+                                                                                        <div class="title">Consultancy</div>
+                                                                                        <p class="">…for dedicated one to one support</p><a class="btn btn-primary-outline" href="/consultancy/">Learn More</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="dropdown nav-item subnav-dropdown" value="3"><a href="https://www.mypebble.co.uk#" class="nav-link" data-toggle="dropdown">Resources <span class="awesome awesome-chevron-down"></span></a>
+                                                        <div class="dropdown-menu" role="menu">
+                                                            <div class="container">
+                                                                <div class="submenu">
+                                                                    <div class="submenu-body">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-10 col-sm-offset-1">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-gold"><i class="awesome awesome-video-camera"></i></span>
+                                                                                        <div class="title">Webinars</div>
+                                                                                        <p>…to learn the basics</p><a class="btn btn-primary-outline" href="/webinar/">Learn More</a>
+                                                                                    </div>
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-gray"><i class="awesome awesome-copy"></i></span>
+                                                                                        <div class="title">Blog</div>
+                                                                                        <p>…for the latest news and advice</p><a class="btn btn-primary-outline" href="/blog/">Learn More</a>
+                                                                                    </div>
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-red"><i class="awesome awesome-download"></i></span>
+                                                                                        <div class="title">Free Downloads</div>
+                                                                                        <p>…because everyone likes a freebie</p><a class="btn btn-primary-outline" href="/free-downloads/">Learn More</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item " value="4"><a class="nav-link" href="https://www.mypebble.co.uk/successes/">Successes</a>
+                                                    </li>
+                                                    <li class="nav-item " value="5"><a class="nav-link" href="https://www.mypebble.co.uk/about/">About Us</a>
+                                                    </li>
+                                                    <li class="nav-item " value="6"><a class="btn btn-login" href="https://www.mypebble.co.uk/login/">Login</a>
+                                                    </li>
+                                                    <li class="nav-item " value="7"><a class="btn btn-support" href="https://www.mypebble.co.uk/support/">Support</a>
+                                                    </li>
+                                                    <li class="nav-item " value="8"><a class="btn btn-start" href="https://www.mypebble.co.uk/contact/">Contact Us</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </header>
+                            <div class="container">
                                 <div id="contentBody">
                                     <div class="row">
                                         <div class=" col-sm-12">
@@ -96,15 +273,68 @@
                                                 <li value="3">Here is some general text for a set of steps. Replace this with your own content. Here is some general text for a list item. Replace this with your own content.</li>
                                             </ol>
                                         </div>
-                                        <!-- Remove the comments to include a menu at the top right hand side. Also need to then change col in line 15 to 8 as total is 12.
-					           <div class="col-sm-4">
-                       
-                            <MadCap:topicToolbarProxy />
-                            <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
-                    </div> -->
                                     </div>
                                 </div>
                             </div>
+                            <footer class="text-muted">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4"><strong>Our Office:</strong>
+                                            <ul class="list-unstyled">
+                                                <li value="1">Pebble</li>
+                                                <li value="2">Media Exchange 3</li>
+                                                <li value="3">Coquet Street</li>
+                                                <li value="4">Newcastle</li>
+                                                <li value="5">Tyne and Wear</li>
+                                                <li value="6">NE1 2QB</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4"><strong>We're Available:</strong>
+                                            <ul class="list-unstyled">
+                                                <li value="1">Mon to Fri 8:30am – 5:30pm</li>
+                                                <li value="2">General: <strong>0845 310 1788*</strong></li>
+                                                <li value="3">Fax: 0845 310 1777*</li>
+                                                <li class="list-divider" value="4">
+                                                </li>
+                                                <li value="5">General: <a href="mailto:info@mypebble.co.uk">info@mypebble.co.uk</a></li>
+                                                <li value="6">Support: <a href="mailto:support@mypebble.co.uk">support@mypebble.co.uk</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4"><strong>Follow Us:</strong>
+                                            <ul class="list-unstyled">
+                                                <li value="1"><a href="https://twitter.com/mypebble" target="_blank" class="btn-twitter"><i class="awesome-twitter-square awesome-lg"></i> Twitter</a>
+                                                </li>
+                                                <li value="2"><a href="https://www.facebook.com/pages/Pebble-School-Income-Generation/217743878280547?" target="_blank" class="btn-facebook"><i class="awesome-facebook-square awesome-lg"></i> Facebook</a>
+                                                </li>
+                                                <li value="3"><a href="https://www.linkedin.com/company/1936847?trk=tyah&amp;trkInfo=tarId%3A1406641590126%2Ctas%3Apebble%2Cidx%3A2-1-7" target="_blank" class="btn-linkedin"><i class="awesome-linkedin-square awesome-lg"></i> Linkedin</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="text-xs-center"><small>*Calls to 0845 numbers are charged at 3p per minute from BT landlines. Charges from other networks may vary so please speak to your phone carrier before calling.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-terms">
+                                        <div class="col-md-12">
+                                            <div class="text-xs-center">
+                                                <ul class="nav nav-inline">
+                                                    <li class="nav-item" value="1"><span class="">© SF Software Limited t/a PEBBLE 2015 All Rights Reserved.</span>
+                                                    </li>
+                                                    <li class="nav-item" value="2"><a href="/policy/">Privacy &amp; Security</a>
+                                                    </li>
+                                                    <li class="nav-item" value="3"><a href="/terms/">Terms</a>
+                                                    </li>
+                                                    <li class="nav-item" value="4"><a href="/environment/">Environmental Policy</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
                         </div>
                     </section><a class="exit-off-canvas"></a>
                 </section>

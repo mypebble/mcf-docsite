@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>Importing Schoolmoney Transactions</title>
@@ -18,6 +19,7 @@
         <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
         <link href="http://staticdemo.pebblecloud.net/css/flare-website.css" rel="stylesheet" />
         <script src="../../../../Resources/Scripts/custom.modernizr.js">
         </script>
@@ -84,78 +86,215 @@
                     </aside>
                     <section class="main-section">
                         <div class="row outer-row" data-mc-content-body="True">
-                            <div class="content">
-                                <div id="contentBody">
-                                    <div class="row">
-                                        <div class=" col-sm-12">
-                                            <h1>Importing Schoolmoney Transactions</h1>
-                                            <p>The principle of this exercise is broken down into 3 stages:</p>
-                                            <ol>
-                                                <li value="1">Generating a file within SchoolMoney of all the online Transactions that you want to Import</li>
-                                                <li value="2">Checking the file so the data is correct</li>
-                                                <li value="3">Importing the file into Fund Manager</li>
-                                            </ol>
-                                            <p>It is important to note that this process can only be used for importing online ePayment and PayPoint transactions.  Although Cash and Cheque Transactions can be recorded in SchoolMoney they cannot be Imported into Fund Manager using this process.  If you have any Transactions in the file that should not be Imported use the guidelines in stage 2 to remove these Transactions, i.e. Dinner Money that doesn’t belong in School Fund.</p>
-                                            <h4>Step 1 - Generating a file within SchoolMoney of all the Transactions that you want to Import</h4>
-                                            <ol>
-                                                <li value="1">Within SchoolMoney go to basket &gt; Money Received.</li>
-                                                <li value="2">Choose <span class="Name">Reports</span>.</li>
-                                                <li value="3">Tick the ‘Show transaction breakdown’ box and then click&gt;Filter at the bottom</li>
-                                                <p>
-                                                    <img src="../../Images/FMImportingSchoolMoneyTx01.png" />
-                                                </p>
-                                                <li value="4">Choose only ‘Online Transactions’ in ‘Payment Method’ on the right and choose the dates you would like to import</li>
-                                                <p>
-                                                    <img src="../../Images/FMImportingSchoolMoneyTx02.png" />
-                                                </p>
-                                                <li value="5">Click <span class="Name">OK</span></li>
-                                                <li value="6">Click <span class="Name">Export</span></li>
-                                                <li value="7">Choose <span class="Name">Pebble</span> from the dropdown</li>
-                                                <li value="8">Choose <span class="Name">Bank Account</span> if you have more than one</li>
-                                                <li value="9">Choose <span class="Name">Export</span> to your pc - this report will save as a csv</li>
-                                            </ol>
-                                            <h4>Step 2 - Checking the file so the data and column headers are correct</h4>
-                                            <p>Open the csv from the downloaded location. When you initially open the file in Excel you may need to manually edit the file so only the Transactions you want to Import remain.</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span> To remove rows of data you can use the filter option or by selecting the row(s) and right clicking the mouse to select ‘Delete’</p>
-                                            <ol>
-                                                <li value="1">With the csv open right click the column in the box that says ‘Amount’</li>
-                                                <li value="2">Choose <span class="Name">Format cells</span>.</li>
-                                                <li value="3">Click <span class="Name">Currency &gt; OK</span></li>
-                                                <li value="4">Save the csv with a name that reflects the dates you are importing to a location you can find easily for the next step.</li>
-                                            </ol>
-                                            <h4>Step 3 - Importing the file into Fund Manager</h4>
-                                            <p>Within Fund Manager go to <span class="Name">Transactions &gt; Import ePayments</span>.</p>
-                                            <p>Always check any <span class="Name">Pending Uploads</span> by clicking on this button to ensure that you have no Transactions still waiting to be Imported.</p>
-                                            <p>Once satisfied there are no Pending Transactions repeat the process <span class="Name">Transactions &gt; Import ePayments</span>.</p>
-                                            <p>Upload the CSV file you have just saved by choosing the file and clicking the <span class="Name">Upload</span> button.</p>
-                                            <p>A list of all the Transactions that you have Imported should appear.  From this screen you will need to select from the drop-down list the Account that matches the first Transactions below and the Settlement Account (Support will need to set this up for you if you have no Settlement Account) you wish to allocate the Transactions against.</p>
-                                            <p>Work through each of the Transactions selecting the matching Name to the first Account.  The closest matching Name should appear at the top of the Names list.  Once you have matched all of the Names (or have reached the end of the page) for the first Account <span class="Name">click Import</span>.</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If the Account does not appear then you may need to Create a New Account via Manage Accounts in Fund Manager, Click&gt;Leave and return to this screen to complete the Import process, Click&gt;View Pending Import</p>
-                                            <p>Do each Account (trip/visit/item) at a time, then repeat the process with the different Accounts until you have finished the Import, one page at a time.</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>You will not be allowed to Import any Transactions that you have not matched or if you have not chosen an Account or Settlement Account to place these against</p>
-                                            <p>You can view your Imported ePayments via <span class="Name">Transactions &gt; Search Transactions</span>, choosing the ePayment option under ‘Type’.</p>
-                                            <p>Once you have Imported your Transactions you will be able to Transfer the total Transaction Amounts you see on your Bank Statements from the Settlement Account to your chosen Bank Account by doing the following;</p>
-                                            <ol>
-                                                <li value="1">Go to Bank &amp; Cash</li>
-                                                <li value="2">Transfer between Bank Accounts</li>
-                                                <li value="3">Transfer from &gt; Settlement Account</li>
-                                                <li value="4">Transfer to &gt; Chosen Bank Account</li>
-                                                <li value="5">Enter amount</li>
-                                                <li value="6">Enter date</li>
-                                                <li value="7">Transfer</li>
-                                            </ol>
-                                            <p>You can then ‘Record a Payment’ for the Transaction fees in the normal way via <span class="Name">Transactions &gt; Record a Payment</span>.</p>
-                                            <p class="warning" data-mc-autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; "><span class="autonumber"><span><b><span style="color: Red;" class="mcFormatColor">Warning! </span></b> <![CDATA[ ]]></span></span>If you have already imported a file and have had to navigate away to another screen within Fund Manager do not re-import the file if you wish to return to the import screen.  Click View Pending Import and continue from where you left off.</p>
+                            <header>
+                                <nav class="navbar navbar-fixed-top">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu">
+						☰
+					</button><a class="navbar-brand" href="https://www.mypebble.co.uk/"><span class="sr-only">Pebble</span></a>
+                                        <div class="collapse navbar-toggleable-xs" id="responsive-menu">
+                                            <div class="pull-sm-right">
+                                                <ul class="nav navbar-nav">
+                                                    <li class="nav-item" value="1"><a class="nav-link" href="https://www.mypebble.co.uk/"><i class="awesome awesome-home awesome-lg"></i></a>
+                                                    </li>
+                                                    <li class="dropdown nav-item subnav-dropdown" value="2"><a href="https://www.mypebble.co.uk#" class="nav-link" data-toggle="dropdown">Services <span class="awesome awesome-chevron-down"></span></a>
+                                                        <div class="dropdown-menu" role="menu">
+                                                            <div class="container">
+                                                                <div class="submenu">
+                                                                    <div class="submenu-body">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-10 col-sm-offset-1">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-blue"><i class="awesome awesome-desktop"></i></span>
+                                                                                        <div class="title">Software</div>
+                                                                                        <p>…to help you reach your goals</p><a class="btn btn-primary-outline" href="/software/">Learn More</a>
+                                                                                    </div>
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-green"><i class="awesome awesome-group"></i></span>
+                                                                                        <div class="title">Training</div>
+                                                                                        <p class="">…to become an expert</p><a class="btn btn-primary-outline" href="/training/">Learn More</a>
+                                                                                    </div>
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-yellow"><i class="awesome awesome-book"></i></span>
+                                                                                        <div class="title">Consultancy</div>
+                                                                                        <p class="">…for dedicated one to one support</p><a class="btn btn-primary-outline" href="/consultancy/">Learn More</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="dropdown nav-item subnav-dropdown" value="3"><a href="https://www.mypebble.co.uk#" class="nav-link" data-toggle="dropdown">Resources <span class="awesome awesome-chevron-down"></span></a>
+                                                        <div class="dropdown-menu" role="menu">
+                                                            <div class="container">
+                                                                <div class="submenu">
+                                                                    <div class="submenu-body">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-10 col-sm-offset-1">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-gold"><i class="awesome awesome-video-camera"></i></span>
+                                                                                        <div class="title">Webinars</div>
+                                                                                        <p>…to learn the basics</p><a class="btn btn-primary-outline" href="/webinar/">Learn More</a>
+                                                                                    </div>
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-gray"><i class="awesome awesome-copy"></i></span>
+                                                                                        <div class="title">Blog</div>
+                                                                                        <p>…for the latest news and advice</p><a class="btn btn-primary-outline" href="/blog/">Learn More</a>
+                                                                                    </div>
+                                                                                    <div class="col-sm-4"><span class="icon-circle icon-red"><i class="awesome awesome-download"></i></span>
+                                                                                        <div class="title">Free Downloads</div>
+                                                                                        <p>…because everyone likes a freebie</p><a class="btn btn-primary-outline" href="/free-downloads/">Learn More</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item " value="4"><a class="nav-link" href="https://www.mypebble.co.uk/successes/">Successes</a>
+                                                    </li>
+                                                    <li class="nav-item " value="5"><a class="nav-link" href="https://www.mypebble.co.uk/about/">About Us</a>
+                                                    </li>
+                                                    <li class="nav-item " value="6"><a class="btn btn-login" href="https://www.mypebble.co.uk/login/">Login</a>
+                                                    </li>
+                                                    <li class="nav-item " value="7"><a class="btn btn-support" href="https://www.mypebble.co.uk/support/">Support</a>
+                                                    </li>
+                                                    <li class="nav-item " value="8"><a class="btn btn-start" href="https://www.mypebble.co.uk/contact/">Contact Us</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <!-- Remove the comments to include a menu at the top right hand side. Also need to then change col in line 15 to 8 as total is 12.
-					           <div class="col-sm-4">
-                       
-                            <MadCap:topicToolbarProxy />
-                            <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
-                    </div> -->
+                                    </div>
+                                </nav>
+                            </header>
+                            <div id="contentBody" class="container">
+                                <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="https://www.mypebble.co.uk/support/">Back to Support</a></div></div>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <h1>Importing Schoolmoney Transactions</h1>
+                                        <p>The principle of this exercise is broken down into 3 stages:</p>
+                                        <ol>
+                                            <li value="1">Generating a file within SchoolMoney of all the online Transactions that you want to Import</li>
+                                            <li value="2">Checking the file so the data is correct</li>
+                                            <li value="3">Importing the file into Fund Manager</li>
+                                        </ol>
+                                        <p>It is important to note that this process can only be used for importing online ePayment and PayPoint transactions.  Although Cash and Cheque Transactions can be recorded in SchoolMoney they cannot be Imported into Fund Manager using this process.  If you have any Transactions in the file that should not be Imported use the guidelines in stage 2 to remove these Transactions, i.e. Dinner Money that doesn’t belong in School Fund.</p>
+                                        <h4>Step 1 - Generating a file within SchoolMoney of all the Transactions that you want to Import</h4>
+                                        <ol>
+                                            <li value="1">Within SchoolMoney go to basket &gt; Money Received.</li>
+                                            <li value="2">Choose <span class="Name">Reports</span>.</li>
+                                            <li value="3">Tick the ‘Show transaction breakdown’ box and then click&gt;Filter at the bottom</li>
+                                            <p>
+                                                <img src="../../Images/FMImportingSchoolMoneyTx01.png" />
+                                            </p>
+                                            <li value="4">Choose only ‘Online Transactions’ in ‘Payment Method’ on the right and choose the dates you would like to import</li>
+                                            <p>
+                                                <img src="../../Images/FMImportingSchoolMoneyTx02.png" />
+                                            </p>
+                                            <li value="5">Click <span class="Name">OK</span></li>
+                                            <li value="6">Click <span class="Name">Export</span></li>
+                                            <li value="7">Choose <span class="Name">Pebble</span> from the dropdown</li>
+                                            <li value="8">Choose <span class="Name">Bank Account</span> if you have more than one</li>
+                                            <li value="9">Choose <span class="Name">Export</span> to your pc - this report will save as a csv</li>
+                                        </ol>
+                                        <h4>Step 2 - Checking the file so the data and column headers are correct</h4>
+                                        <p>Open the csv from the downloaded location. When you initially open the file in Excel you may need to manually edit the file so only the Transactions you want to Import remain.</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span> To remove rows of data you can use the filter option or by selecting the row(s) and right clicking the mouse to select ‘Delete’</p>
+                                        <ol>
+                                            <li value="1">With the csv open right click the column in the box that says ‘Amount’</li>
+                                            <li value="2">Choose <span class="Name">Format cells</span>.</li>
+                                            <li value="3">Click <span class="Name">Currency &gt; OK</span></li>
+                                            <li value="4">Save the csv with a name that reflects the dates you are importing to a location you can find easily for the next step.</li>
+                                        </ol>
+                                        <h4>Step 3 - Importing the file into Fund Manager</h4>
+                                        <p>Within Fund Manager go to <span class="Name">Transactions &gt; Import ePayments</span>.</p>
+                                        <p>Always check any <span class="Name">Pending Uploads</span> by clicking on this button to ensure that you have no Transactions still waiting to be Imported.</p>
+                                        <p>Once satisfied there are no Pending Transactions repeat the process <span class="Name">Transactions &gt; Import ePayments</span>.</p>
+                                        <p>Upload the CSV file you have just saved by choosing the file and clicking the <span class="Name">Upload</span> button.</p>
+                                        <p>A list of all the Transactions that you have Imported should appear.  From this screen you will need to select from the drop-down list the Account that matches the first Transactions below and the Settlement Account (Support will need to set this up for you if you have no Settlement Account) you wish to allocate the Transactions against.</p>
+                                        <p>Work through each of the Transactions selecting the matching Name to the first Account.  The closest matching Name should appear at the top of the Names list.  Once you have matched all of the Names (or have reached the end of the page) for the first Account <span class="Name">click Import</span>.</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If the Account does not appear then you may need to Create a New Account via Manage Accounts in Fund Manager, Click&gt;Leave and return to this screen to complete the Import process, Click&gt;View Pending Import</p>
+                                        <p>Do each Account (trip/visit/item) at a time, then repeat the process with the different Accounts until you have finished the Import, one page at a time.</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>You will not be allowed to Import any Transactions that you have not matched or if you have not chosen an Account or Settlement Account to place these against</p>
+                                        <p>You can view your Imported ePayments via <span class="Name">Transactions &gt; Search Transactions</span>, choosing the ePayment option under ‘Type’.</p>
+                                        <p>Once you have Imported your Transactions you will be able to Transfer the total Transaction Amounts you see on your Bank Statements from the Settlement Account to your chosen Bank Account by doing the following;</p>
+                                        <ol>
+                                            <li value="1">Go to Bank &amp; Cash</li>
+                                            <li value="2">Transfer between Bank Accounts</li>
+                                            <li value="3">Transfer from &gt; Settlement Account</li>
+                                            <li value="4">Transfer to &gt; Chosen Bank Account</li>
+                                            <li value="5">Enter amount</li>
+                                            <li value="6">Enter date</li>
+                                            <li value="7">Transfer</li>
+                                        </ol>
+                                        <p>You can then ‘Record a Payment’ for the Transaction fees in the normal way via <span class="Name">Transactions &gt; Record a Payment</span>.</p>
+                                        <p class="warning" data-mc-autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; "><span class="autonumber"><span><b><span style="color: Red;" class="mcFormatColor">Warning! </span></b> <![CDATA[ ]]></span></span>If you have already imported a file and have had to navigate away to another screen within Fund Manager do not re-import the file if you wish to return to the import screen.  Click View Pending Import and continue from where you left off.</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
+					</a>
                                     </div>
                                 </div>
                             </div>
+                            <p>&#160;</p>
+                            <footer class="text-muted">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4"><strong>Our Office:</strong>
+                                            <ul class="list-unstyled">
+                                                <li value="1">Pebble</li>
+                                                <li value="2">Media Exchange 3</li>
+                                                <li value="3">Coquet Street</li>
+                                                <li value="4">Newcastle</li>
+                                                <li value="5">Tyne and Wear</li>
+                                                <li value="6">NE1 2QB</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4"><strong>We're Available:</strong>
+                                            <ul class="list-unstyled">
+                                                <li value="1">Mon to Fri 8:30am – 5:30pm</li>
+                                                <li value="2">General: <strong>0845 310 1788*</strong></li>
+                                                <li value="3">Fax: 0845 310 1777*</li>
+                                                <li class="list-divider" value="4">
+                                                </li>
+                                                <li value="5">General: <a href="mailto:info@mypebble.co.uk">info@mypebble.co.uk</a></li>
+                                                <li value="6">Support: <a href="mailto:support@mypebble.co.uk">support@mypebble.co.uk</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4"><strong>Follow Us:</strong>
+                                            <ul class="list-unstyled">
+                                                <li value="1"><a href="https://twitter.com/mypebble" target="_blank" class="btn-twitter"><i class="awesome-twitter-square awesome-lg"></i> Twitter</a>
+                                                </li>
+                                                <li value="2"><a href="https://www.facebook.com/pages/Pebble-School-Income-Generation/217743878280547?" target="_blank" class="btn-facebook"><i class="awesome-facebook-square awesome-lg"></i> Facebook</a>
+                                                </li>
+                                                <li value="3"><a href="https://www.linkedin.com/company/1936847?trk=tyah&amp;trkInfo=tarId%3A1406641590126%2Ctas%3Apebble%2Cidx%3A2-1-7" target="_blank" class="btn-linkedin"><i class="awesome-linkedin-square awesome-lg"></i> Linkedin</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="text-xs-center"><small>*Calls to 0845 numbers are charged at 3p per minute from BT landlines. Charges from other networks may vary so please speak to your phone carrier before calling.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-terms">
+                                        <div class="col-md-12">
+                                            <div class="text-xs-center">
+                                                <ul class="nav nav-inline">
+                                                    <li class="nav-item" value="1"><span class="">© SF Software Limited t/a PEBBLE 2015 All Rights Reserved.</span>
+                                                    </li>
+                                                    <li class="nav-item" value="2"><a href="/policy/">Privacy &amp; Security</a>
+                                                    </li>
+                                                    <li class="nav-item" value="3"><a href="/terms/">Terms</a>
+                                                    </li>
+                                                    <li class="nav-item" value="4"><a href="/environment/">Environmental Policy</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
                         </div>
                     </section><a class="exit-off-canvas"></a>
                 </section>
