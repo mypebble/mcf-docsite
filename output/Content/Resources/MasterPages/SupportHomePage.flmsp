@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="720" MadCap:lastWidth="863">
     <head>
         <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
@@ -118,7 +118,7 @@
 									<a class="btn btn-login" href="https://www.mypebble.co.uk/login/">Login</a>
 								</li>
 								<li class="nav-item ">
-									<a class="btn btn-support" href="https://www.mypebble.co.uk/support/">Support</a>
+									<a class="btn btn-support" href="https://www.mypebble.co.uk/supportdocs/Content/Support%20Website/SupportHome.htm">Support</a>
 								</li>
 
 								<li class="nav-item ">
