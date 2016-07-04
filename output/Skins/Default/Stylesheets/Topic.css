@@ -616,6 +616,11 @@ a.glossaryTerm
 	border: solid 2px #31b0d5;
 }
 
+.img
+{
+	border: 0;
+}
+
 ul.MCGlossaryProxy_0
 {
 	border-top-width: 1px;
@@ -684,8 +689,8 @@ table.GenTOCTable1
 	word-spacing: inherit;
 	text-decoration: inherit;
 	text-align: inherit;
-	margin-top: 1.12em;
-	margin-bottom: 1.12em;
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 td.GenTOCText1
