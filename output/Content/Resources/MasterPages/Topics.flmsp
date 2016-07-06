@@ -83,7 +83,7 @@
                                 </li>
                                 <li class="nav-item "><a class="btn btn-login" href="https://www.mypebble.co.uk/login/">Login</a>
                                 </li>
-                                <li class="nav-item "><a class="btn btn-support" href="https://www.mypebble.co.uk/supportdocs/Content/Support%20Website/SupportHome.htm">Support</a>
+                                <li class="nav-item "><a class="btn btn-support" href="https://www.mypebble.co.uk/supportdocs/Content/support/home.htm">Support</a>
                                 </li>
                                 <li class="nav-item "><a class="btn btn-start" href="https://www.mypebble.co.uk/contact/">Contact Us</a>
                                 </li>
@@ -95,7 +95,7 @@
         </header>
         <div id="contentBody" class="container">
 			<div class="row"> <div class="col-sm-12">
-<a class="btn btn-default" href="https://www.mypebble.co.uk/supportdocs/Content/Support%20Website/SupportHome.htm">Back to Support</a>			
+<a class="btn btn-default" href="https://www.mypebble.co.uk/supportdocs/Content/support/home.htm">Back to Support</a>			
 					</div>
 				</div>
             <div class="row">
