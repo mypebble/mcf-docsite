@@ -1,0 +1,6 @@
+output/Output
+output/Analyzer
+output/FileSync
+output/Project/Users
+output/.gitignore
+**/Thumbs.db
