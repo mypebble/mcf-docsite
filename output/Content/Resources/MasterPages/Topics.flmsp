@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1668" MadCap:lastWidth="979">
-    <head>
+	<script src="https://www.mypebble.co.uk/js/jquery.min.js"></script>
+	<script src="https://www.mypebble.co.uk/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://www.mypebble.co.uk/js/custom.js"></script>
+	<head>
         <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
@@ -8,7 +11,9 @@
         <link href="../Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://staticdemo.pebblecloud.net/css/flare-website.css">
         </link>
-    </head>
+
+	</head>
+
     <body>
         <header>
             <nav class="navbar navbar-fixed-top">

@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="47" MadCap:lastWidth="889">
+	<script src="https://www.mypebble.co.uk/js/jquery.min.js"></script>
+	<script src="https://www.mypebble.co.uk/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://www.mypebble.co.uk/js/custom.js"></script>
     <head>
         <link href="../TableStyles/table-pebble-clear.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <meta charset="utf-8" />
