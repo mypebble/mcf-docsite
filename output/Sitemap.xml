@@ -1144,7 +1144,7 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/New/Miscellaneous/Tips.htm</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/Topics.flmsp</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/ArroTopics.flmsp</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/arro/Images/RecordDonations_thumb_0_48.png</loc>
@@ -1256,6 +1256,9 @@
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/arro/srm.htm</loc>
+    </url>
+    <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/FMtopics.flmsp</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/faqs/add-interest.htm</loc>

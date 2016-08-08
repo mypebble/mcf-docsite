@@ -1,31 +1,52 @@
 /*<meta />*/
 
-@import url("https://staticdemo.pebblecloud.net/css/flare-website.css");
+@import url('https://staticdemo.pebblecloud.net/css/flare-website.css');
 @namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 
-.section-search{margin-bottom:50px !important;}
-
-.tab-bar{margin-top:50px !important;}
-body
+.section-search
 {
+	margin-bottom: 50px !important;
 }
 
-nav.tab-bar, .tab-bar-section{display:none !important;}
-.inner-wrap{padding:0px !important;}
+.tab-bar
+{
+	margin-top: 50px !important;
+}
+
+body
+{
+	
+}
+
+nav.tab-bar,
+.tab-bar-section
+{
+	display: none !important;
+}
+
+.inner-wrap
+{
+	padding: 0px !important;
+}
+
 a
 {
+	
 }
 
 a:link
 {
+	
 }
 
 a:visited
 {
+	
 }
 
 a:hover
 {
+	
 }
 
 a.MCBreadcrumbsLink
@@ -47,15 +68,17 @@ a.MCBreadcrumbsLink:hover
 
 div.example
 {
+	
 }
 
 div.ImagesFloatLeft
 {
-
+	
 }
 
 div.ImagesFloatRight
 {
+	
 }
 
 div.note
@@ -72,6 +95,7 @@ div.note
 
 div.quotation
 {
+	
 }
 
 div.sideContent
@@ -90,22 +114,27 @@ div.TightContent
 
 Title
 {
+	
 }
 
 h1
 {
+	
 }
 
 h2
 {
+	
 }
 
 h3
 {
+	
 }
 
 img
 {
+	
 }
 
 img.Thumbnail
@@ -117,10 +146,12 @@ img.Thumbnail
 
 img.ReduceButtonSize
 {
+	
 }
 
 li
 {
+	
 }
 
 MadCap|breadcrumbsProxy
@@ -173,6 +204,7 @@ MadCap|dropDownHotspot
 
 MadCap|dropDownHotspot:hover
 {
+	
 }
 
 MadCap|popup
@@ -211,18 +243,22 @@ MadCap|xref:hover
 
 ol
 {
+	
 }
 
 ol ol
 {
+	
 }
 
 ol ol ol
 {
+	
 }
 
 p
 {
+	
 }
 
 p.CompanyInformation1
@@ -256,36 +292,43 @@ p.quotationname
 
 p.TableTextCenterDark
 {
+	
 }
 
 p.TableTextDark
 {
+	
 }
 
 p.TableTextDarkEmphasis
 {
+	
 }
 
 span.Emphasis
 {
+	
 }
 
 span.SetOffFirstLevel
 {
+	
 }
 
 span.SetOffSecondLevel
 {
+	
 }
 
 td
 {
+	
 }
 
 th
 {
+	
 }
-
 
 html.templateTopic div.sideContent
 {
@@ -294,10 +337,12 @@ html.templateTopic div.sideContent
 
 p.FooterRight
 {
+	
 }
 
 p.HeaderLeft
 {
+	
 }
 
 p.FooterLeft
@@ -307,14 +352,17 @@ p.FooterLeft
 
 h1.NotInToc
 {
+	
 }
 
 h1.Title
 {
+	
 }
 
 p.HeaderRight
 {
+	
 }
 
 p.note
@@ -329,8 +377,15 @@ p.Tip
 	mc-auto-number-format: 'Tip: ';
 }
 
+div.Tip
+{
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Tip: ';
+}
+
 span.Name
 {
+	
 }
 
 h1.chapnum
@@ -407,11 +462,12 @@ MadCap|glossaryTerm:focus
 
 li.bullet
 {
-
+	
 }
 
 p.bullet
 {
+	
 }
 
 h4.RelatedTopicHeading
@@ -435,3 +491,14 @@ p.warning
 {
 	mc-auto-number-format: '{b}{color red}Warning! {/color}{/b} ';
 }
+
+div.warning
+{
+	mc-auto-number-format: '{b}{color red}Warning! {/color}{/b} ';
+}
+
+a.tiplink:link
+{
+	color: #ffffff;
+}
+
