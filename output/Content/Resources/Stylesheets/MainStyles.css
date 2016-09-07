@@ -146,7 +146,7 @@ h2
 
 h3
 {
-	
+	mc-heading-level: 0;
 }
 
 img
@@ -354,7 +354,7 @@ html.templateTopic div.sideContent
 
 p.FooterRight
 {
-	
+	text-align: right;
 }
 
 p.HeaderLeft
@@ -367,19 +367,14 @@ p.FooterLeft
 	
 }
 
-h1.NotInToc
-{
-	
-}
-
 h1.Title
 {
-	
+	mc-heading-level: 0;
 }
 
 p.HeaderRight
 {
-	
+	text-align: right;
 }
 
 p.note
@@ -441,6 +436,21 @@ MadCap|glossaryTerm:focus
 	font-style: normal;
 }
 
+h4
+{
+	mc-heading-level: 0;
+}
+
+h5
+{
+	mc-heading-level: 0;
+}
+
+h6
+{
+	mc-heading-level: 0;
+}
+
 @media print
 {
 	MadCap|dropDownBody
@@ -456,7 +466,7 @@ MadCap|glossaryTerm:focus
 
 	h1.NotInToc
 	{
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	p.bullet
@@ -529,5 +539,16 @@ h5.panelmoreinfo
 {
 	font-size: 0.75em;
 	color: #2577aa;
+}
+
+h2.NotInToc
+{
+	text-align: center;
+	mc-heading-level: 0;
+}
+
+h1.NotInToc
+{
+	mc-heading-level: 0;
 }
 
