@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1654" MadCap:lastWidth="755">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1585" MadCap:lastWidth="632" MadCap:conditions="Targets.SupportWebsiteNew">
     <script src="https://www.mypebble.co.uk/js/jquery.min.js">
     </script>
     <script src="https://www.mypebble.co.uk/bootstrap/js/bootstrap.min.js">
@@ -22,94 +22,67 @@
         <meta name="description" content="" />
         <meta name="author" content="" /><title></title>
         <link href="../Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://staticdemo.pebblecloud.net/css/flare-website.css">
+        <link rel="stylesheet" href="https://www.mypebble.co.uk/css/flare-website.css">
+        </link>
+        <link rel="stylesheet" href="https://www.mypebble.co.uk/css/website.css">
         </link>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-fixed-top">
+            <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
                 <div class="container">
                     <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu">
-						☰
-					</button><a class="navbar-brand" href="https://www.mypebble.co.uk/"><span class="sr-only">Pebble</span></a>
-                    <div class="collapse navbar-toggleable-xs" id="responsive-menu">
-                        <div class="pull-sm-right">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item"><a class="nav-link" href="https://www.mypebble.co.uk/"><i class="awesome awesome-home awesome-lg"></i></a>
-                                </li>
-                                <li class="dropdown nav-item subnav-dropdown"><a href="https://www.mypebble.co.uk#" class="nav-link" data-toggle="dropdown">Services <span class="awesome awesome-chevron-down"></span></a>
-                                    <div class="dropdown-menu" role="menu">
-                                        <div class="container">
-                                            <div class="submenu">
-                                                <div class="submenu-body">
-                                                    <div class="row">
-                                                        <div class="col-sm-10 col-sm-offset-1">
-                                                            <div class="row">
-                                                                <div class="col-sm-4"><span class="icon-circle icon-blue"><i class="awesome awesome-desktop"></i></span>
-                                                                    <div class="title">Software</div>
-                                                                    <p>…to help you reach your goals</p><a class="btn btn-primary-outline" href="/software/">Learn More</a>
-                                                                </div>
-                                                                <div class="col-sm-4"><span class="icon-circle icon-green"><i class="awesome awesome-group"></i></span>
-                                                                    <div class="title">Training</div>
-                                                                    <p class="">…to become an expert</p><a class="btn btn-primary-outline" href="/training/">Learn More</a>
-                                                                </div>
-                                                                <div class="col-sm-4"><span class="icon-circle icon-yellow"><i class="awesome awesome-book"></i></span>
-                                                                    <div class="title">Consultancy</div>
-                                                                    <p class="">…for dedicated one to one support</p><a class="btn btn-primary-outline" href="/consultancy/">Learn More</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+						Menu
+					</button>
+                    <div class="navbar-xs hidden-xs-down">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="pull-sm-right">
+                                    <ul class="nav navbar-nav navbar-nav-sm">
+                                        <li class="nav-item">
+                                            <div class="telephone"><i class="awesome awesome-phone"></i>  0845 310 1788*</div>
+                                        </li>
+                                        <li class="nav-item "><a class="btn btn-login" data-toggle="modal" data-target="#modal-login">Login</a>
+                                        </li>
+                                        <li class="nav-item "><a class="btn btn-support" href="https://www.mypebble.co.uk/support/">Support</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-main"><a class="navbar-brand" href="https://www.mypebble.co.uk/"><span class="sr-only">Pebble</span></a>
+                        <div class="collapse navbar-toggleable-xs" id="responsive-menu">
+                            <div class="pull-sm-right">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle  " type="button" id="dropdown-solutions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown-solutions"><a class="dropdown-item " href="https://www.mypebble.co.uk/you-do/" onclick="_gaq.push(['_trackEvent', 'marketing', 'navbar', 'fundpassport',, false]);">
+												Funding Passport
+											</a><a class="dropdown-item" href="https://www.mypebble.co.uk/we-do/" onclick="_gaq.push(['_trackEvent', 'marketing', 'navbar', 'devservice',, false]);">
+												Development Service
+											</a><a class="dropdown-item" href="https://www.mypebble.co.uk/solutions/" onclick="_gaq.push(['_trackEvent', 'marketing', 'navbar', 'all',, false]);">View All</a>
                                         </div>
-                                    </div>
-                                </li>
-                                <li class="dropdown nav-item subnav-dropdown"><a href="https://www.mypebble.co.uk#" class="nav-link" data-toggle="dropdown">Resources <span class="awesome awesome-chevron-down"></span></a>
-                                    <div class="dropdown-menu" role="menu">
-                                        <div class="container">
-                                            <div class="submenu">
-                                                <div class="submenu-body">
-                                                    <div class="row">
-                                                        <div class="col-sm-10 col-sm-offset-1">
-                                                            <div class="row">
-                                                                <div class="col-sm-4"><span class="icon-circle icon-gold"><i class="awesome awesome-video-camera"></i></span>
-                                                                    <div class="title">Webinars</div>
-                                                                    <p>…to learn the basics</p><a class="btn btn-primary-outline" href="/webinar/">Learn More</a>
-                                                                </div>
-                                                                <div class="col-sm-4"><span class="icon-circle icon-gray"><i class="awesome awesome-copy"></i></span>
-                                                                    <div class="title">Blog</div>
-                                                                    <p>…for the latest news and advice</p><a class="btn btn-primary-outline" href="/blog/">Learn More</a>
-                                                                </div>
-                                                                <div class="col-sm-4"><span class="icon-circle icon-red"><i class="awesome awesome-download"></i></span>
-                                                                    <div class="title">Free Downloads</div>
-                                                                    <p>…because everyone likes a freebie</p><a class="btn btn-primary-outline" href="/free-downloads/">Learn More</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    </li>
+                                    <li class="nav-item "><a class="nav-link" href="https://www.mypebble.co.uk/about/">About Us</a>
+                                    </li>
+                                    <li class="nav-item "><a class="nav-link" href="/contact/">Contact Us</a>
+                                    </li>
+                                    <li class="hidden-xs-down nav-item dropdown"><a class="nav-link dropdown-toggle  " type="button" id="dropdown-resources" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                                        <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdown-resources"><a class="dropdown-item" href="https://www.mypebble.co.uk/blog/">Blog</a><a class="dropdown-item" href="https://www.mypebble.co.uk/webinar/">Webinars</a><a class="dropdown-item" href="https://www.mypebble.co.uk/free-downloads/">Free Resources</a><a class="dropdown-item" href="https://www.mypebble.co.uk/about/testimonials/">Testimonials</a><a class="dropdown-item" href="https://www.mypebble.co.uk/about/partners/">Partner with Pebble</a>
                                         </div>
-                                    </div>
-                                </li>
-                                <li class="nav-item "><a class="nav-link" href="https://www.mypebble.co.uk/successes/">Successes</a>
-                                </li>
-                                <li class="nav-item "><a class="nav-link" href="https://www.mypebble.co.uk/about/">About Us</a>
-                                </li>
-                                <li class="nav-item "><a class="btn btn-login" href="https://www.mypebble.co.uk/login/">Login</a>
-                                </li>
-                                <li class="nav-item "><a class="btn btn-support" href="https://www.mypebble.co.uk/supportdocs/Content/support/home.htm">Support</a>
-                                </li>
-                                <li class="nav-item "><a class="btn btn-start" href="https://www.mypebble.co.uk/contact/">Contact Us</a>
-                                </li>
-                            </ul>
+                                    </li>
+                                    <li class="hidden-sm-up nav-item "><a class="nav-link" href="https://www.mypebble.co.uk/support/">Support</a>
+                                    </li>
+                                    <li class="hidden-sm-up nav-item "><a class="nav-link" href="https://www.mypebble.co.uk/login/">Login</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
-        <div id="contentBody" class="container">
+        <div id="contentBody" class="container" style="margin-top: 120px">
             <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/fm-home.htm">Back to Support</a></div></div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -119,60 +92,94 @@
             </div>
         </div>
         <p>&#160;</p>
-        <footer class="text-muted">
+        <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4"><strong>Our Office:</strong>
-                        <ul class="list-unstyled">
-                            <li>Pebble</li>
-                            <li>Media Exchange 3</li>
-                            <li>Coquet Street</li>
-                            <li>Newcastle</li>
-                            <li>Tyne and Wear</li>
-                            <li>NE1 2QB</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4"><strong>We're Available:</strong>
-                        <ul class="list-unstyled">
-                            <li>Mon to Fri 8:30am – 5:30pm</li>
-                            <li>General: <strong>0845 310 1788*</strong></li>
-                            <li>Fax: 0845 310 1777*</li>
-                            <li class="list-divider">
-                            </li>
-                            <li>General: <a href="mailto:info@mypebble.co.uk">info@mypebble.co.uk</a></li>
-                            <li>Support: <a href="mailto:support@mypebble.co.uk">support@mypebble.co.uk</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4"><strong>Follow Us:</strong>
-                        <ul class="list-unstyled">
-                            <li><a href="https://twitter.com/mypebble" target="_blank" class="btn-twitter"><i class="awesome-twitter-square awesome-lg"></i> Twitter</a>
-                            </li>
-                            <li><a href="https://www.facebook.com/pages/Pebble-School-Income-Generation/217743878280547?" target="_blank" class="btn-facebook"><i class="awesome-facebook-square awesome-lg"></i> Facebook</a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/company/1936847?trk=tyah&amp;trkInfo=tarId%3A1406641590126%2Ctas%3Apebble%2Cidx%3A2-1-7" target="_blank" class="btn-linkedin"><i class="awesome-linkedin-square awesome-lg"></i> Linkedin</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-xs-center"><small>*Calls to 0845 numbers are charged at 3p per minute from BT landlines. Charges from other networks may vary so please speak to your phone carrier before calling.</small>
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-sm-3 hidden-xs-down">
+                                <ul class="footer-nav">
+                                    <li class="link-title">Solutions</li>
+                                    <li><a href="https://www.mypebble.co.uk/solutions/">Show All Solutions</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/you-do/">Funding Passport</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/we-do/">Development Service</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/software/">Software</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/software/arro/">Arro</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/software/joinos/">Joinos</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/software/fm/">Fund Manager</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/training/">Training</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/calendar/">Training Calendar</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/consultancy/">Consultancy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 hidden-xs-down">
+                                <ul class="footer-nav">
+                                    <li class="link-title">Resources</li>
+                                    <li><a href="https://www.mypebble.co.uk/blog/">Blog</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/webinar/">Webinars</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/free-downloads/">Free Resources</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 hidden-xs-down">
+                                <ul class="footer-nav">
+                                    <li class="link-title">About</li>
+                                    <li><a href="https://www.mypebble.co.uk/about/">About Us</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/about/team/">Meet the Team</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/about/partners/">Partners</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/about/testimonials/">Testimonials</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/about/careers/">Careers</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/events/">Events</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/policy/">Privacy &amp; Security</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/terms/fm/">Fund Manager Terms</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/terms/joinos/">Joinos Terms</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.uk/environment/">Environmental Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 hidden-xs-down">
+                                <ul class="footer-nav">
+                                    <li class="link-title">Contact</li>
+                                    <li><a href="https://www.mypebble.co.uk/contact/">Contact us</a>
+                                    </li>
+                                    <li><a href="https://www.mypebble.co.ukhttps://twitter.com/mypebble" target="_blank">Follow on Twitter</a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/pages/Pebble-School-Income-Generation/217743878280547?" target="_blank">Like on Facebook</a>
+                                    </li>
+                                    <li><a href="https://www.linkedin.com/company/1936847?trk=tyah&amp;trkInfo=tarId%3A1406641590126%2Ctas%3Apebble%2Cidx%3A2-1-7" target="_blank">Visit on LinkedIn</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="time">Mon to Fri 8:30am – 5:30pm</div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row row-terms">
-                    <div class="col-md-12">
-                        <div class="text-xs-center">
-                            <ul class="nav nav-inline">
-                                <li class="nav-item"><span class="">© SF Software Limited t/a PEBBLE 2015 All Rights Reserved.</span>
-                                </li>
-                                <li class="nav-item"><a href="/policy/">Privacy &amp; Security</a>
-                                </li>
-                                <li class="nav-item"><a href="/terms/">Terms</a>
-                                </li>
-                                <li class="nav-item"><a href="/environment/">Environmental Policy</a>
-                                </li>
-                            </ul>
+                        <div class="row ">
+                            <div class="col-sm-10 col-sm-offset-1 text-xs-center">
+                                <div class="legal"><small>*Calls to 0845 numbers are charged at 3p per minute from BT landlines. Charges from other networks may vary so please speak to your phone carrier before calling.</small>
+                                </div><span class="copywrite">© SF Software Limited t/a PEBBLE 2015 All Rights Reserved.</span>
+                            </div>
                         </div>
                     </div>
                 </div>

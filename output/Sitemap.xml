@@ -193,6 +193,9 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/Stylesheets/MainStyles.css</loc>
     </url>
     <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/Stylesheets/MainStylesOld.css</loc>
+    </url>
+    <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/TableStyles/table-pebble-clear.css</loc>
     </url>
     <url>
@@ -1099,7 +1102,7 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/Images/FMUG44.png</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/SupportHomePage.flmsp</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/SupportHomePageOld.flmsp</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/home.htm</loc>
@@ -1147,6 +1150,18 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/New/Miscellaneous/Tips.htm</loc>
     </url>
     <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/SupportHomePageNew.flmsp</loc>
+    </url>
+    <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/homeNew.htm</loc>
+    </url>
+    <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/ArroHomePage.flmsp</loc>
+    </url>
+    <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/arro/arro-homeNew.htm</loc>
+    </url>
+    <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/ArroTopics.flmsp</loc>
     </url>
     <url>
@@ -1172,6 +1187,12 @@
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/arro/srm.htm</loc>
+    </url>
+    <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/FMHomePage.flmsp</loc>
+    </url>
+    <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/fm-homeNew.htm</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/FMtopics.flmsp</loc>
