@@ -1102,16 +1102,19 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/Images/FMUG44.png</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/SupportHomePageOld.flmsp</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/SupportHomePageNew.flmsp</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/home.htm</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/ProductHomePage.flmsp</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/FMHomePage.flmsp</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/fm-home.htm</loc>
+    </url>
+    <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/ArroHomePage.flmsp</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/arro/arro-home.htm</loc>
@@ -1150,16 +1153,16 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/New/Miscellaneous/Tips.htm</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/SupportHomePageNew.flmsp</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/SupportHomePageOld.flmsp</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/homeNew.htm</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/homeOld.htm</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/ArroHomePage.flmsp</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/ProductHomePage.flmsp</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/arro/arro-homeNew.htm</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/arro/arro-homeOld.htm</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/ArroTopics.flmsp</loc>
@@ -1189,10 +1192,7 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/arro/srm.htm</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/FMHomePage.flmsp</loc>
-    </url>
-    <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/fm-homeNew.htm</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/fm-homeOld.htm</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/Resources/MasterPages/FMtopics.flmsp</loc>
