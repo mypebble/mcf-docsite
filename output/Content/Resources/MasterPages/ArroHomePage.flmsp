@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1496" MadCap:lastWidth="781" MadCap:conditions="Targets.SupportWebsiteNew">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1390" MadCap:lastWidth="815" MadCap:conditions="Targets.SupportWebsiteNew">
     <script src="https://www.mypebble.co.uk/js/jquery.min.js">
     </script>
     <script src="https://www.mypebble.co.uk/bootstrap/js/bootstrap.min.js">
@@ -87,7 +87,6 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <div class="small-title">Support</div>
                             <h1 class="whiteheader">Arro</h1>
                             <p class="whiteheader">
 								Search the Support Library for Arro support.
