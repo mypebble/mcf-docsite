@@ -34,6 +34,7 @@
         <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../../../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
         <link href="https://www.mypebble.co.uk/css/flare-website.css" rel="stylesheet" />
         <link href="https://www.mypebble.co.uk/css/website.css" rel="stylesheet" />
@@ -171,7 +172,7 @@
                                             <li value="5">Dealing with Negative payments</li>
                                         </ol>
                                         <p>It is important to note that this process can only be used for importing ePayment transactions. Although cash and cheque transactions can be recorded in ParentPay they cannot be imported into Fund Manager using this process. If you have any transactions in the file that should not be imported use the guidelines in stage 3 to remove these transactions.</p>
-                                        <p class="note">You can set up ParentPay and Fund Manager to import transactions automatically. If you want to do this, see <a href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/faqs/import-parentpay-automatic.htm" target="_blank">How do I import ParentPay Transactions automatically using the Integration tab?</a></p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>You can set up ParentPay and Fund Manager to import transactions automatically. If you want to do this, see <a href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/faqs/import-parentpay-automatic.htm" target="_blank">How do I import ParentPay Transactions automatically using the Integration tab?</a></p>
                                         <h4>Step 1 -  Understanding what type of account you have for ParentPay settlements</h4>
                                         <p>As a school using ParentPay you will either have monies deposited to your designated bank accounts every fortnight for the periods 1st -15th and 16th – end of the month.  This method of deposit to your designated bank account uses the ParentPay Collection Service.</p>
                                         <p>or</p>
@@ -191,7 +192,7 @@
                                             <p>Go to Reports &gt;&#160;Reports.</p>
                                             <p>Choose report &gt; Collection Service Statements.</p>
                                             <p>Use the filters to check your bank credit against the available statements/dates.</p>
-                                            <p class="note">The difference between your gross and your net settlement should be your Collection Service Invoices which you can enter as a direct debit payment in Fund Manager.</p>
+                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>The difference between your gross and your net settlement should be your Collection Service Invoices which you can enter as a direct debit payment in Fund Manager.</p>
                                             <li value="2">	For a Collection Service Settlement Receipt – record as a Payment (direct debit) your charges from your ParentPay Collection Service Invoice to balance the 2 week period credited to your bank account to a Fund Manager account named e.g. ‘ParentPay Bank Charges’.  Best practice would be to reconcile from the 1st – 15th of the month and then 16th to the end of the month to match ParentPay’s Collection Service Statements/Invoices. By doing the above your receipts and payments will match your gross ePayments taken in ParentPay as per the Collection Service Statement.  You can then go to 3 below.</li>
                                         </ol>
                                         <h4>Direct Settlement Only:</h4>
@@ -200,14 +201,14 @@
                                             <li value="2">Go to <span class="Name">Reports &gt; Reports</span></li>
                                             <p>Choose <span class="Name">report &gt; ParentPay Reconciler</span></p>
                                             <p>Use the filters to check your bank credit against your ParentPay account</p>
-                                            <p class="note">Your Invoices from your merchant supplier/payment gateway can be entered as a direct debit payment in Fund Manager if they are taken directly from your bank account by them.</p>
+                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Your Invoices from your merchant supplier/payment gateway can be entered as a direct debit payment in Fund Manager if they are taken directly from your bank account by them.</p>
                                             <li value="3">For a Direct Settlement Receipt – you will be settled in full to your bank account usually on a daily basis. You can import these transactions daily, weekly, fortnightly or by monthly bank statement.</li>
                                             <li value="4">Record as a Payment (direct debit) your charges from your bank invoice to an account named   e.g. ‘ParentPay Bank Charges’ See Section 5.  You can then go to Section 3.</li>
                                         </ol>
                                         <h4>Step 2 -  Generating a file within ParentPay of all the transactions that you want to import</h4>
                                         <p>Within ParentPay go to <span class="Name">Payment Items &gt; Reports</span>.</p>
                                         <p>You would usually select &gt; <span class="Name">All</span></p>
-                                        <p class="note">In order not to import duplicate transactions always select the date to match your Collection Service Statement i.e. the two week period – 1st to 15th or 16th to the end of the month, or if on Direct Settlement choose and keep a record of which dates you import:</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>In order not to import duplicate transactions always select the date to match your Collection Service Statement i.e. the two week period – 1st to 15th or 16th to the end of the month, or if on Direct Settlement choose and keep a record of which dates you import:</p>
                                         <p>The screen below should appear:</p>
                                         <p>
                                             <img src="../../Images/FM Import PP 01.png" />
@@ -217,14 +218,14 @@
                                         <p>Tick <span class="Name">Bank Account</span></p>
                                         <p>Click <span class="Name">Excel Full Report</span></p>
                                         <p>If you have Paypoint transactions as well you can repeat this process to produce another import file and upload separately  onto Fund Manager.</p>
-                                        <p class="note">In order not to import duplicate transactions always select at least the day before the current date as the “To date”.  Choosing <span class="Name">Processed</span> will ensure only payments that have settled to a bank account will be included in the report.</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>In order not to import duplicate transactions always select at least the day before the current date as the “To date”.  Choosing <span class="Name">Processed</span> will ensure only payments that have settled to a bank account will be included in the report.</p>
                                         <h4>Step 3 -  Adjusting the file so the data is correct</h4>
                                         <p>When you initially open the file in Excel it should appear similar to the image below;</p>
                                         <p>
                                             <img src="../../Images/FM Import PP 02.png" />
                                         </p>
                                         <p>You will need to manually edit the file so only the transactions you want to import remain and the column headers are correctly labelled.</p>
-                                        <p class="note">Cash and cheque transactions should not be on this report, if you have filtered in ParentPay for online only transactions they should not appear- if they do you must delete these lines or start again</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Cash and cheque transactions should not be on this report, if you have filtered in ParentPay for online only transactions they should not appear- if they do you must delete these lines or start again</p>
                                         <p>Remove all Negative transactions before importing - these will need to be entered manually after the import.</p>
                                         <p>Adjust the Excel spreadsheet to have the following headings only:</p>
                                         <ul>
@@ -234,20 +235,20 @@
                                             <li value="4">Amount</li>
                                             <li value="5">Processed date – modify to Date</li>
                                         </ul>
-                                        <p class="warning">VERY IMPORTANT - delete the top blank line so your file will import</p>
+                                        <p class="warning" data-mc-autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; "><span class="autonumber"><span><b><span style="color: Red;" class="mcFormatColor">Warning! </span></b> <![CDATA[ ]]></span></span>VERY IMPORTANT - delete the top blank line so your file will import</p>
                                         <p><span class="Name">File &gt; Save As</span>, save the file to your chosen folder making sure to choose the file type <span class="Name">CSV</span> (comma delimited).</p>
                                         <h4>Step 4 -   Importing the file into Fund Manager</h4>
                                         <p>Within Fund Manager go to the <span class="Name">Transactions</span> menu and select <span class="Name">Import ePayments</span>.  Upload the CSV file you have just saved by choosing the file and clicking the Upload button.  A list of all the transactions that you have imported should appear similar to the screen below.  From this screen you will need to select the Account and the Settlement Account you wish to allocate the transactions against from the drop-down list.  If you do not already have one, create a suitable Settlement Account from within Fund Manager (<span class="Name">Administration &gt; Manage Bank Accounts &gt; Create New Account</span>).  Using a Settlement Account allows individual ePayments to be recorded in Fund Manager and then once imported you can transfer the total amount from the Settlement Account into your desired Bank Account.</p>
                                         <p>Work through each of the transactions selecting and matching Name from the drop-down list. The closest matching name should appear at the top of the names list.</p>
                                         <p><span class="Name">You should only import one page at a time.</span>
                                         </p>
-                                        <p class="note">If the Name or Account does not appear then you may need to create a new Name or Account via Manage Names or Manage Accounts in Fund Manager and return to this screen to complete the import process.</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If the Name or Account does not appear then you may need to create a new Name or Account via Manage Names or Manage Accounts in Fund Manager and return to this screen to complete the import process.</p>
                                         <p>Once you have matched the transactions you can import them by clicking the Import button at the bottom of the screen.</p>
-                                        <p class="note">You will not be allowed to import any transactions that you have not matched or if you have not chosen a Settlement Account to place these into.</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>You will not be allowed to import any transactions that you have not matched or if you have not chosen a Settlement Account to place these into.</p>
                                         <p>
                                             <img src="../../Images/FM Import PP 03.png" />
                                         </p>
-                                        <p class="note">If you have already imported a file and have had to navigate away to another screen within Fund Manager do not re-import the file if you wish to return to the import screen. Click View Pending Import and continue from where you left off.</p>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If you have already imported a file and have had to navigate away to another screen within Fund Manager do not re-import the file if you wish to return to the import screen. Click View Pending Import and continue from where you left off.</p>
                                         <p>
                                             <img src="../../Images/FM Import PP 04.png" />
                                         </p>
