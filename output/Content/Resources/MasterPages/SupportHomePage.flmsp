@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1390" MadCap:lastWidth="815">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1529" MadCap:lastWidth="632">
     <script src="https://www.mypebble.co.uk/js/jquery.min.js">
     </script>
     <script src="https://www.mypebble.co.uk/bootstrap/js/bootstrap.min.js">
@@ -21,7 +21,7 @@
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title></title>
-        <link href="../Stylesheets/StylesForProductHomePage.css" rel="stylesheet" type="text/css" />
+        <link href="../Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://www.mypebble.co.uk/css/flare-website.css">
         </link>
         <link rel="stylesheet" href="https://www.mypebble.co.uk/css/website.css">
@@ -82,14 +82,16 @@
                 </div>
             </nav>
         </header>
-        <section class="section-cover-nav section-subpage section-inverse section-image section-support">
+        <section class="section-subpage section-inverse section-image section-support">
             <div class="content">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h1 class="whiteheader">Arro</h1>
+                            <h1 class="whiteheader">Support</h1>
                             <p class="whiteheader">
-								Search the Support Library for Arro support.
+								Pebble believe the best way to provide support is by empowering our partners
+								and sharing our knowledge base. Pebble support contains a plethora of how-to
+								documentation, useful self help videos, FAQs and community forum topics.
 							</p>
                         </div>
                     </div>
