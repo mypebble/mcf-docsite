@@ -85,7 +85,9 @@ a.MCBreadcrumbsLink:hover
 
 div.example
 {
-	
+	padding: 1px;
+	padding-bottom: 1px;
+	padding-top: 1px;
 }
 
 div.ImagesFloatLeft
@@ -339,7 +341,8 @@ span.SetOffSecondLevel
 
 td
 {
-	
+	padding: 1px;
+	padding-top: 3px;
 }
 
 th
@@ -550,5 +553,10 @@ h2.NotInToc
 h1.NotInToc
 {
 	mc-heading-level: 0;
+}
+
+td.topalign
+{
+	vertical-align: top;
 }
 
