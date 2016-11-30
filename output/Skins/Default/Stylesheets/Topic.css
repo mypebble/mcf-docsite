@@ -528,6 +528,23 @@ a.glossaryTerm
 	padding: 5px;
 }
 
+.xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #c4e3f3;
+}
+
+.img
+{
+	border: 0;
+}
+
 .dropDown
 {
 	margin-bottom: 6px;
@@ -573,52 +590,6 @@ a.glossaryTerm
 {
 	border-bottom: solid 1px # #5bc0de;
 	border-bottom-color: #5bc0de;
-}
-
-.xref
-{
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.xref:hover
-{
-	color: #c4e3f3;
-}
-
-.dropDown.dropDownSecondLevel
-{
-	margin-left: 10px;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
-{
-	background-position: left;
-	background-image: url('DropDownOpenSecondLevelBlue.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
-{
-	background-position: left;
-	background-image: url('DropDownClosedSecondLevel.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.dropDownBody.dropDownBodyFinal
-{
-	border-bottom: 1px;
-	border-bottom-color: #5bc0de;
-	border-bottom-align: center;
-	border: solid 2px #31b0d5;
-}
-
-.img
-{
-	border: 0;
 }
 
 .MCWebHelpFramesetLink a
