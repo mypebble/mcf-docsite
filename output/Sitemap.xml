@@ -1324,12 +1324,6 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/faqs/duplicate-cheque.htm</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/faqs/import-parentpay-automatic.htm</loc>
-    </url>
-    <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/faqs/import-parentpay-manual.htm</loc>
-    </url>
-    <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/faqs/mark-leavers.htm</loc>
     </url>
     <url>
@@ -1450,6 +1444,9 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/user-guides/consolidate-names.htm</loc>
     </url>
     <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/user-guides/export-parentpay-automatic.htm</loc>
+    </url>
+    <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/user-guides/fund-manager-user-guide.htm</loc>
     </url>
     <url>
@@ -1459,7 +1456,10 @@
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/user-guides/import-parentmail.htm</loc>
     </url>
     <url>
-        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/user-guides/import-parentpay.htm</loc>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/user-guides/import-parentpay-automatic.htm</loc>
+    </url>
+    <url>
+        <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/user-guides/import-parentpay-manual.htm</loc>
     </url>
     <url>
         <loc>https://www.mypebble.co.uk/supportdocs/content/support/Content/support/fm/user-guides/import-schoolcomms.htm</loc>
