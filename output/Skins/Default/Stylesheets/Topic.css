@@ -484,14 +484,23 @@ a.glossaryTerm
 
 .glossaryTerm
 {
-	font-weight: bold;
-	color: Olive;
+	font-weight: normal;
+	font-style: normal;
+	color: #8d5a12;
 }
 
 .glossaryTerm:link
 {
-	font-weight: bold;
-	color: Olive;
+	font-weight: normal;
+	font-style: normal;
+	color: #8d5a12;
+}
+
+.glossaryTerm:focus
+{
+	color: #8d5a12;
+	font-weight: normal;
+	font-style: normal;
 }
 
 .MCTextPopup_Open.MCTextPopupHotSpot_
@@ -512,35 +521,62 @@ a.glossaryTerm
 
 .popupBody
 {
-	color: #000000;
-	background-color: #dcdcdc;
+	color: #8d5a12;
+	background-color: #fdf4ec;
 	border: solid 1px #000000;
 	margin: 0px;
 	padding: 5px;
 }
 
+.xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #c4e3f3;
+}
+
+.img
+{
+	border: 0;
+}
+
+.dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
 .dropDownHotspot
 {
+	font-size: 0.9em;
+	font-weight: bold;
 	text-decoration: none;
 }
 
 .dropDownHotspot:link
 {
+	font-size: 0.9em;
+	font-weight: bold;
 	text-decoration: none;
 }
 
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('DropDownOpen.gif');
-	padding-left: 1px;
+	background-image: url('DropDownOpenBlue.png');
+	padding-left: 0px;
 	padding-right: 0;
 }
 
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('DropDownClosed.gif');
+	background-image: url('DropDownClosed.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -548,6 +584,12 @@ a.glossaryTerm
 .dropDownHead
 {
 	text-decoration: none;
+}
+
+.dropDownBody
+{
+	border-bottom: solid 1px # #5bc0de;
+	border-bottom-color: #5bc0de;
 }
 
 .MCWebHelpFramesetLink a
