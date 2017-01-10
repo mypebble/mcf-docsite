@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1390" MadCap:lastWidth="815">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1370" MadCap:lastWidth="1007">
     <script src="https://www.mypebble.co.uk/js/jquery.min.js">
     </script>
     <script src="https://www.mypebble.co.uk/bootstrap/js/bootstrap.min.js">
@@ -44,7 +44,7 @@
                                         </li>
                                         <li class="nav-item "><a class="btn btn-login" href="https://www.mypebble.co.uk/login/">Login</a>
                                         </li>
-                                        <li class="nav-item "><a class="btn btn-support" href="https://www.mypebble.co.uk/support/">Support</a>
+                                        <li class="nav-item "><a class="btn btn-support" href="../../support/home.htm">Support</a>
                                         </li>
                                     </ul>
                                 </div>
