@@ -25,9 +25,9 @@
     Comment=""
     EvaluatedDefinition="Services">Services</Variable>
   <Variable
-    Name="SRM"
+    Name="Campaigns"
     Comment=""
-    EvaluatedDefinition="SRM">SRM</Variable>
+    EvaluatedDefinition="Campaigns">Campaigns</Variable>
   <Variable
     Name="Events"
     Comment=""

@@ -18,7 +18,7 @@
       <Term>Arro</Term>
     </Terms>
     <Definition
-      Link="">Pebble's activity management software, helping you to generate income for your projects. Arro has a number of modules: Clubs, Donations, Events, Grants. Lettings, Projects, Services and SRM.</Definition>
+      Link="">Pebble's activity management software, helping you to generate income for your projects. Arro has a number of modules: Clubs, Donations, Events, Grants. Lettings, Projects, Services and Campaigns.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="PebbleGlossary.Term2"
@@ -68,7 +68,7 @@
       <Term>Campaign</Term>
     </Terms>
     <Definition
-      Link="">This describes how you can perform the activities you need in order to reach a goal. Within Pebble's software, campaigns can help you to perform the activities you need in order to raise money. They often produce reports and so are accessible via the reporting options.</Definition>
+      Link="">This describes how you can perform the activities you need in order to reach a goal. Within Pebble's software, campaigns can help you to perform the activities you need in order to raise money, for example running the campaigns and managing the contacts for the campaigns.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="PebbleGlossary.Term7"
