@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="93" MadCap:lastWidth="1167">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Bank and Balance</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If <span class="Name">Type</span> is <MadCap:conditionalText MadCap:conditions="Snippets.Payment"><span class="Name">Cheque</span>, </MadCap:conditionalText><span class="Name">Direct Credit</span> or <span class="Name">ePayment</span>, select the <span class="Name">Bank</span> <MadCap:conditionalText MadCap:conditions="Snippets.Receipt"> to</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment"> from</MadCap:conditionalText> which <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">the receipt</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">payment</MadCap:conditionalText> has been <MadCap:conditionalText MadCap:conditions="Snippets.Payment">made</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Receipt">given</MadCap:conditionalText> from the <span class="Name">Bank</span> drop-down list. The balance of the bank account is displayed automatically in the <span class="Name">Balance</span> field once you select the bank account.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

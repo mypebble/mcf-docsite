@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="208" MadCap:lastWidth="1149">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>Select the <span class="Name">Account</span> from which the <span class="Name">Amount</span> is being split.</li>
+            <li MadCap:conditions="Snippets.Receipt">Select the <span class="Name">Name</span> the <span class="Name">Amount</span> is to be recorded against.</li>
+            <li>Enter the <span class="Name">Amount</span> you want to split from the original <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">receipt</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">payment</MadCap:conditionalText>.</li>
+            <li>To continue splitting, click <span class="Name">Split </span><span MadCap:conditions="Snippets.Receipt" class="Name">Receipt</span><span MadCap:conditions="Snippets.Payment" class="Name">Payment</span> and repeat steps 1.  <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">to 3.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">and 2.</MadCap:conditionalText> until the <span class="Name">Amount Remaining</span> balance is 0 (zero).</li>
+            <p class="warning" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; ">You must continue to record the split <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">receipt</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">payment</MadCap:conditionalText> until the <strong>Amount Remaining</strong> balance is 0 (zero). If you click <strong>Finished</strong> before then you will need to cancel the transaction and start again.</p>
+            <li>When you have finished splitting, click <span class="Name">Finished</span>.</li>
+        </ol>
+    </body>
+</html>

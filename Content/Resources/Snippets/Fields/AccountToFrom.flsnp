@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="69" MadCap:lastWidth="1141">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Account <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">To</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">From</MadCap:conditionalText></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The account <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">into </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">from </MadCap:conditionalText>which you want to pay a part of the money<MadCap:conditionalText MadCap:conditions="Snippets.Receipt"> received</MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

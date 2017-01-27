@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="sQuid sQuid Offer Wizard"
+    Link="/Content/FMEmbeddedhelp/CreateOffer.htm" />
+  <TocEntry
+    Title="sQuid Active Offers"
+    Link="/Content/FMEmbeddedhelp/ViewOffers.htm" />
+  <TocEntry
+    Title="sQuid Where’s the Money?"
+    Link="/Content/FMEmbeddedhelp/ImportsQuidSales.htm" />
+  <TocEntry
+    Title="sQuid Register Names with sQuid"
+    Link="/Content/FMEmbeddedhelp/RegisterNamesWithsQuid.htm" />
+  <TocEntry
+    Title="sQuid View Registered Names"
+    Link="/Content/FMEmbeddedhelp/ViewRegisteredNames.htm" />
+  <TocEntry
+    Title="sQuid Manual Registration"
+    Link="/Content/FMEmbeddedhelp/ManualRegistration.htm" />
+  <TocEntry
+    Title="sQuid Configure sQuid"
+    Link="/Content/FMEmbeddedhelp/ConfiguresQuid.htm" />
+</CatapultToc>

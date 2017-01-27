@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="94" MadCap:lastWidth="1167">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Account</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The account the cash/cheque or <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">credit</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">debit</MadCap:conditionalText> is being paid <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">into</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">out of</MadCap:conditionalText>. <MadCap:conditionalText MadCap:conditions="Snippets.New">Click the arrow on the <span class="Name">Select Account</span> box <img src="../../../FMEmbeddedhelp/images/dropdown.png" /> to select the account from the drop-down list or enter the <span class="Name">Account Code</span> to the left of this.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Amend">You can’t amend this.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

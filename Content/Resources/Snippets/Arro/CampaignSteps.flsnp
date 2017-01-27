@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="108" MadCap:lastWidth="991">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>Click <span class="Name">Select Campaign</span> for the type of campaign you want.</li>
+            <li MadCap:conditions="Versions.Exclude">Select contacts to email by check box.</li>
+            <li>Review the campaign text.</li>
+            <li>Review&#160;the campaign summary and click <span class="Name">Send</span>.</li>
+        </ol>
+    </body>
+</html>

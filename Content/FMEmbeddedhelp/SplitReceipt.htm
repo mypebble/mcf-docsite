@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1035" MadCap:lastWidth="973" MadCap:searchable="False" MadCap:conditions="Targets.EmbeddedHelp" class="topic" style="mc-master-page: url('..\Resources\MasterPages\EmbeddedTopics.flmsp');" MadCap:conditionTagExpression="include[Snippets.Receipt] exclude[Snippets.Payment] ">
+    <head>
+        <link href="../Resources/MasterPages/EmbeddedTopics.flmsp" rel="masterpage" type="text/css" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="paneltitle">Split Receipt</h4>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>About the fields</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/Fields/SplitPaymentReceipt.flsnp" />
+                <MadCap:snippetBlock src="../Resources/Snippets/Fields/Splits.flsnp" />
+                <MadCap:snippetBlock src="../Resources/Snippets/Fields/AccountToFrom.flsnp" />
+                <MadCap:snippetBlock src="../Resources/Snippets/Fields/NameTo.flsnp" />
+                <MadCap:snippetBlock src="../Resources/Snippets/Fields/Filter.flsnp" />
+                <MadCap:snippetBlock src="../Resources/Snippets/Fields/ReceiptDetails.flsnp" />
+                <MadCap:snippetBlock src="../Resources/Snippets/Fields/Amount.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h4>How do I split a receipt?</h4>
+        <MadCap:snippetBlock src="../Resources/Snippets/Tasks/SplitReceiptPaymentDetail.flsnp" />
+        <ol>
+            <li>Select the <span class="Name">Account</span> from which the <span class="Name">Amount</span> is being split.</li>
+            <li>Select the <span class="Name">Name</span> the <span class="Name">Amount</span> is to be recorded against.</li>
+            <li>Enter the <span class="Name">Amount</span> you want to split from the original receipt.</li>
+            <li>To continue splitting, click <span class="Name">Split Receipt</span> and repeat steps 1. to 3. until the <span class="Name">Amount Remaining</span> balance is 0 (zero).</li>
+            <p class="warning" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; ">You must continue to record the split receipt until the <strong>Amount Remaining</strong> balance is 0 (zero). If you click <strong>Finished</strong> before then you will need to cancel the transaction and start again.</p>
+            <li>When you have finished splitting, click <span class="Name">Finished</span>.</li>
+        </ol>
+    </body>
+</html>

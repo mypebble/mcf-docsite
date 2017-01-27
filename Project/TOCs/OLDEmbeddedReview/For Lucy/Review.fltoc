@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="DashboardReview"
+    Link="/Project/TOCs/OLDEmbeddedReview/For Lucy/DashboardReview.fltoc" />
+  <TocEntry
+    Title="TransactionsReview"
+    Link="/Project/TOCs/OLDEmbeddedReview/For Lucy/TransactionsReview.fltoc" />
+  <TocEntry
+    Title="ReportsReview"
+    Link="/Project/TOCs/OLDEmbeddedReview/For Lucy/ReportsReview.fltoc" />
+  <TocEntry
+    Title="BankAndCashReview"
+    Link="/Project/TOCs/BankAndCashReview.fltoc" />
+  <TocEntry
+    Title="MessagingReview"
+    Link="/Project/TOCs/OLDEmbeddedReview/For Lucy/MessagingReview.fltoc" />
+  <TocEntry
+    Title="ParentPayReview"
+    Link="/Project/TOCs/OLDEmbeddedReview/For Lucy/ParentPayReview.fltoc" />
+  <TocEntry
+    Title="sQuidReview"
+    Link="/Project/TOCs/OLDEmbeddedReview/For Lucy/sQuidReview.fltoc" />
+  <TocEntry
+    Title="JoinosOffersReview"
+    Link="/Project/TOCs/OLDEmbeddedReview/For Lucy/JoinosOffersReview.fltoc" />
+  <TocEntry
+    Title="AdministrationReview"
+    Link="/Project/TOCs/AdministrationReview.fltoc" />
+</CatapultToc>

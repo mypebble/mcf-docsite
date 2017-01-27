@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="Draft"
+    BackgroundColor="#00ff1f" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Exclude"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="CSSTest"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Joinosv1"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Joinosv2"
+    Comment="" />
+</CatapultConditionTagSet>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1828" MadCap:lastWidth="968" style="mc-master-page: url('../../../Resources/MasterPages/FMtopics.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Integrating with PS Financials</h1>
+        <p>The process for integrating with PS&#160;Financials is simple and involves initial setup in Fund Manager and subsequent export of transactions from Fund Manager and import into PS&#160;Financials which is handled automatically. You can also export transactions from Fund&#160;Manager manually and import these into PS&#160;Financials manually, if required.</p>
+        <h2>Initial setup in Fund Manager</h2>
+        <p>In order to integrate Fund Manager with PS Financials, you need to set up Fund Manager so that the bank and ledger codes in Fund Manager match the codes you already have in PS&#160;Financials. </p>
+        <h3>Set up bank account codes</h3>
+        <ol>
+            <li>Open <span class="Name">Fund Manager &gt;&#160;Administration &gt; Manage Bank Accounts</span>.</li>
+            <li>Click <span class="Name">Create Bank Account</span> and create your cash account with the same <span class="Name">Code</span> as the cash account in PS&#160;Financials.</li>
+            <li>Click <span class="Name">Create Bank Account</span> and create your current account with the same <span class="Name">Code</span> as the current account in PS&#160;Financials.</li>
+        </ol>
+        <h3>Set up VAT and cash in hand ledger codes</h3>
+        <ol>
+            <li>Open <span class="Name">Fund Manager &gt;&#160;Administration &gt;&#160;Manage Ledger Codes</span>.</li>
+            <li>Click <span class="Name">VAT</span> to display the <span class="Name">Update Ledger Code</span> screen.</li>
+            <li>Enter the nominal part of the <span class="Name">VAT&#160;Ledger Code</span> in PS&#160;Financials as the Fund Manager <span class="Name">Code</span> and click <span class="Name">Save</span>.</li>
+            <li>Click <span class="Name">Cash in Hand</span> to display the <span class="Name">Update Ledger Code</span> screen.</li>
+            <li>Enter the nominal part of the <span class="Name">Cash in Hand Ledger Code</span> in PS&#160;Financials as the Fund Manager <span class="Name">Code</span> and click <span class="Name">Save</span>.</li>
+        </ol>
+        <h3>Set up account codes </h3>
+        <ol>
+            <li>Open <span class="Name">Fund Manager &gt;&#160;Administration &gt;&#160;Manage Accounts</span>.</li>
+            <li>For each ledger in your PS&#160;Financials Ledger List, create a new account.</li>
+            <ul>
+                <li>Click <span class="Name">Create New Account</span>.</li>
+                <li>Enter the nominal part of the <span class="Name">Ledger code</span> in PS&#160;Financials <span class="Name">Nominal Maintenance</span> as the Fund Manager Account <span class="Name">Code</span> and click <span class="Name">Save</span>.</li>
+            </ul>
+        </ol>
+        <h2>Automatic synchronisation setup</h2>
+        <p>This is set up using the PSF&#160;Integration app and must be done by the school IT administrator. The integration app should be installed on the school IT server which is not switched off. This ensures automatic integration takes place overnight.</p>
+        <p>
+            <img src="../../Images/PSF Integration.png" />
+        </p>
+        <p>The date of automatically imported transactions is set during the import to the date of import. Document Type must be specified for import.</p>
+        <h2>Manual export from Fund Manager and Manual Import into PS&#160;Financials</h2>
+        <h3>Export from Fund Manager</h3>
+        <ol>
+            <li>Open <span class="Name">Fund Manager &gt;&#160;Reports &gt; Account Summary</span>.</li>
+            <li>Click <span class="Name">Export to PS&#160;Financials</span>.</li>
+            <p>This outputs a CSV file which contains:</p>
+            <table style="width: 100%;">
+                <col />
+                <col />
+                <tbody>
+                    <tr>
+                        <td>Nominal Code</td>
+                        <td>This is set in Fund Manager &gt;&#160;Manage Ledger Codes to match the nominal part of the ledger code in PS&#160;Financials.</td>
+                    </tr>
+                    <tr>
+                        <td>Account Code</td>
+                        <td>This is set in Fund Manager &gt;&#160;Manage Accounts to match the nominal part of the ledger code in PS&#160;Financials Nominal Maintenance.</td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td>This is automatically set as the date of export.</td>
+                    </tr>
+                    <tr>
+                        <td>Period</td>
+                        <td>This is calculated from the date on the transaction.</td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                        <td>This comes from the transaction in Fund Manager.</td>
+                    </tr>
+                    <tr>
+                        <td>Amount</td>
+                        <td>This is set in Fund Manager.</td>
+                    </tr>
+                    <tr>
+                        <td>Tax Code</td>
+                        <td>This comes from the transaction in Fund Manager.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </ol>
+        <h3>Import into PS&#160;Financials</h3>
+        <ol>
+            <li>Open <span class="Name">PS&#160;Financials</span>.</li>
+            <li>&#160;</li>
+        </ol>
+    </body>
+</html>

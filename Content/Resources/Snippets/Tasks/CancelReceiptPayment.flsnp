@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="69" MadCap:lastWidth="1141">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Cancel a <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">receipt</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">payment</MadCap:conditionalText></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>Select <span class="Name">Transactions &gt;&#160;Cancel Receipt or Payment Transaction</span> and follow the instructions from there.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

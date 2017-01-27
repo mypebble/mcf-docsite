@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="317" MadCap:lastWidth="999">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Transfer a negative balance and assign names to the transfer</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Instead of transferring a negative amount, with a minus (-) in front from the From account to the To account, you need to transfer a positive amount in the opposite direction. </p>
+                <ol>
+                    <li>Select the user account you want to transfer money TO in the Transfer FROM field.</li>
+                    <li>Select the user name associated with the account you want to transfer money TO in the Name FROM&#160;field.</li>
+                    <li>Select the user account you want to transfer money FROM in the Transfer TO field.</li>
+                    <li>Select the user name associated with the account you want to transfer money FROM&#160;in the Name TO field.</li>
+                    <li>Enter the <span class="Name">Amount</span> to transfer.</li>
+                    <li>Enter the <span class="Name">Date</span> to transfer.</li>
+                    <li>Enter any <span class="Name">Notes</span> to help you identify the reason for the transfer.</li>
+                    <li>Click <span class="Name">Transfer</span>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

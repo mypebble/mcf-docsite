@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="All" Width="7in" Height="9in" Padding="20px" PageSize="A4" PageType="normal" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" BackgroundRepeat="no-repeat" Orientation="portrait" BackgroundImage="none" BackgroundPositionX="10px" BackgroundPositionY="-90px" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame Flow="body" Y="221px" Bottom="309px" X="2px" Right="-2px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="698px" Height="497px">
+        </Frame>
+        <Frame X="544px" Y="974px" Width="151px" Height="59px" Flow="decoration1" Right="3px" Bottom="-6px" BackgroundImage="../Images/Pebble Logo2.png" BackgroundRepeat="no-repeat" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p>
+                            <xhtml:img xhtml:src="../Images/Pebble logo.png" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

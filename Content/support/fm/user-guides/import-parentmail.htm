@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2088" MadCap:lastWidth="901" style="mc-master-page: url('..\..\..\Resources\MasterPages\FMtopics.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Importing ParentMail Transactions</h1>
+        <p>ParentMail is a system where parents can receive information, make payments, complete forms and permissions, book parents evening and see events at every school, club, or nursery their children attend.</p>
+        <p>The principle of this exercise is broken down into 4 stages:</p>
+        <ol>
+            <li>Generating a file within ParentMail +Pay of all the transactions that you want to import</li>
+            <li>Checking the file so the data and column headers are correct</li>
+            <li>Importing the file into Fund Manager</li>
+            <li>Dealing with negative payments</li>
+        </ol>
+        <p>It is important to note that this process can only be used for importing ePayment transactions. Although cash and cheque transactions can be recorded in ParentMail +Pay they cannot be imported into Fund Manager using this process. If you have any transactions in the file that should not be imported use the guidelines in stage 2 to remove these transactions.</p>
+        <h4>Step 1 -	Generating a file within ParentMail +Pay of all the transactions that you want to import</h4>
+        <p>Within ParentMail go to the School Home menu and select the +Pay button. The +Pay Home screen should appear. Now select the button marked "Finance Reports".  Choosing Report 1, define the date range of the transactions you wish to export and click the button "Download CSV" button.</p>
+        <p class="note" MadCap:autonum="Note: ">In order not to import duplicate transactions always select the day before the current date as the “To date”</p>
+        <h4>Step 2 -	Checking the file so the data and column headers are correct</h4>
+        <p>When you initially open the file in Excel you may need to manually edit the file so only the transactions you want to import remain. Cash and Cheque transactions should not be imported via the Import ePayments options in Fund Manager – these should be deleted from the file before saving the file type as a <span class="Name">CSV –comma delimited</span> to somewhere you can easily find it with a file name that reflects the dates you are importing.</p>
+        <p>Remove all Negative transactions before importing - these will need to be entered manually after the import.</p>
+        <p>Adjust the Excel spreadsheet to have the following headings only:</p>
+        <ul>
+            <li>Date</li>
+            <li>Student Forename change to Forename</li>
+            <li>Student Surname change to Surname</li>
+            <li>Item Title</li>
+            <li>Amount</li>
+        </ul>
+        <p class="warning" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; ">VERY IMPORTANT - if necessary, delete the top blank line so your file will import</p>
+        <p><span class="Name">File &gt; Save As</span>, save the file to your chosen folder making sure to choose the file type <span class="Name">CSV</span> (comma delimited).</p>
+        <p class="note" MadCap:autonum="Note: ">To remove rows/columns of data you can use the filter option or by selecting the row(s)/ column(s) and right clicking the mouse to select "delete"</p>
+        <h4>Step 3	- Importing the file into Fund Manager</h4>
+        <p>Within Fund Manager go to Transactions &gt; Import ePayments. Always check any <span class="Name">Pending Uploads</span> by clicking on this button to ensure that you have no transactions still in the file waiting to be imported.  Once satisfied there are no Pending Transactions repeat the process <span class="Name">Transactions &gt; Import ePayments</span>.  Upload the CSV file you have just saved by choosing the file and clicking the <span class="Name">Upload</span> button. A list of all the Transactions that you have Imported should appear. From this screen you will need to select from the drop-down list the Account the matches the first transactions and the Settlement Account (Support will need to set this up for you if you have no Settlement Account) you wish to allocate the Transactions against.</p>
+        <p>Work through each of the Transactions selecting the matching Name to the first Account. The closest matching Name should appear at the top of the Names list. Once you have matched all of the Names (or have reached the end of the page) for the first Account <span class="Name">click on Import</span>.</p>
+        <p class="note" MadCap:autonum="Note: "> You can only import one page at a time</p>
+        <p class="note" MadCap:autonum="Note: ">If the Account does not appear then you may need to Create a New Account via Manage Accounts in Fund Manager and return to this screen to complete the Import process</p>
+        <p>Do each Account (trip/visit/item) at a time, one page at a time, then repeating the process with the different Accounts until you have finished the Import.</p>
+        <p class="note" MadCap:autonum="Note: ">You will not be allowed to import any Transactions that you have not matched or if you have not chosen an Account or Settlement Account to place these against</p>
+        <p class="warning" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; ">IMPORTANT: If you have already imported a file and have had to navigate away to another screen within Fund Manager do not re-import the file if you wish to return to the import screen. Click View Pending Import and continue from where you left off.</p>
+        <p>You can view your imported ePayments via <span class="Name">Transactions &gt; Search Transactions</span>, choosing the ePayment option under ‘Type’</p>
+        <p>Once you have Imported your Transactions you will be able to Transfer the total Transaction amounts you see on your Statements from the Settlement Account to your chosen Bank Account by doing the following;</p>
+        <ol>
+            <li>Bank &amp; Cash &gt; Transfer between Bank Accounts</li>
+            <li>Transfer from Settlement Account</li>
+            <li>Transfer to Chosen Bank Account</li>
+            <li>Enter amount</li>
+            <li>Enter date</li>
+            <li>Transfer</li>
+        </ol>
+        <p>You can then ‘Record a Payment’ for the Transaction fees in the normal way via Transactions&gt;Record a Payment</p>
+        <h4>Step 4 -	Dealing with negative payments</h4>
+        <p>If when checking your imports you find that you have negative payments, either charges or repayments, then you must remove these and enter these manually using <span class="Name">Record a Payment</span>.</p>
+    </body>
+</html>

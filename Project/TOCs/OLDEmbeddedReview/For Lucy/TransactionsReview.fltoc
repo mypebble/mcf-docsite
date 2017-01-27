@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Enter a Receipt"
+    Link="/Content/FMEmbeddedhelp/EnterReceipt.htm" />
+  <TocEntry
+    Title="Split Receipt"
+    Link="/Content/FMEmbeddedhelp/SplitReceipt.htm" />
+  <TocEntry
+    Title="Transfer between Accounts"
+    Link="/Content/FMEmbeddedhelp/TransferBetweenAccounts.htm" />
+  <TocEntry
+    Title="Transfer between Names"
+    Link="/Content/FMEmbeddedhelp/TransferBetweenNames.htm" />
+  <TocEntry
+    Title="Cancel Receipt or Payment Transaction"
+    Link="/Content/FMEmbeddedhelp/CancelReceiptOrPayment.htm" />
+  <TocEntry
+    Title="Amend Receipt or Payment Transaction"
+    Link="/Content/FMEmbeddedhelp/AmendReceiptOrPayment.htm" />
+  <TocEntry
+    Title="Amend Receipt"
+    Link="/Content/FMEmbeddedhelp/AmendReceipt.htm" />
+  <TocEntry
+    Title="Set VAT Status"
+    Link="/Content/FMEmbeddedhelp/SetVATStatus.htm" />
+  <TocEntry
+    Title="Set Ledger Codes"
+    Link="/Content/FMEmbeddedhelp/SetLedgerCodes.htm" />
+  <TocEntry
+    Title="Upload Transactions"
+    Link="/Content/FMEmbeddedhelp/ImportePayments.htm" />
+</CatapultToc>

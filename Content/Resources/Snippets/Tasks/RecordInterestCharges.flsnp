@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="332" MadCap:lastWidth="1142">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Record bank <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">interest</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">charges</MadCap:conditionalText></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Choose the <span class="Name">Account</span> you have created to record <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">interest</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">charges</MadCap:conditionalText>.</li>
+                    <p>You may have separate accounts for bank interest and bank charges or you may record all of these amounts in one account. If you create and use one account, you can see easily whether the account is paying or costing you money.</p>
+                    <li>Enter the <span class="Name">Description</span>, e.g. <i>Bank </i><MadCap:conditionalText MadCap:conditions="Snippets.Receipt"><i>Interest Received</i></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment"><i>Charges</i></MadCap:conditionalText>.</li>
+                    <li>Enter the transaction <span class="Name">Type</span> as <span class="Name">Direct </span><MadCap:conditionalText MadCap:conditions="Snippets.Receipt"><span class="Name">Credit</span></MadCap:conditionalText><span class="Name" MadCap:conditions="Snippets.Payment">Debit</span>.</li>
+                    <li>Enter the <span class="Name">Date</span> as the date on the bank statement.</li>
+                    <li>Enter the <span class="Name">Amount</span> of <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">interest received</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">charges debited</MadCap:conditionalText>.</li>
+                    <li>Choose who the money was <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">received</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">debited</MadCap:conditionalText> from e.g. Bank <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">Interest</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">Charges</MadCap:conditionalText>. </li>
+                    <p class="Tip" MadCap:autonum="Tip: ">If you need to create a new name, click <strong>Manage Names</strong> to add a new name and follow the instructions on the <strong>Manage Names</strong> account.</p>
+                    <li>Click <span class="Name">Save</span> or <span class="Name">Save and Print</span>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

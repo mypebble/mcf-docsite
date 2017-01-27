@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="Publish to Docsite."
+  Host="ftp.myftpserver.com"
+  User="MyAccountId"
+  Password=""
+  Directory="C:\Users\ag\Documents\GitHub\mcf-docsite\output"
+  Port=""
+  ViewUrl="https://github.com/mypebble/mcf-docsite/"
+  Type="scm"
+  ProviderType="Git"
+  Database="file:///C:/Users/ag/Documents/GitHub/mcf-docsite/output/.git"
+  DatabaseRoot="file:///C:/Users/ag/Documents/GitHub/mcf-docsite/output"
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>

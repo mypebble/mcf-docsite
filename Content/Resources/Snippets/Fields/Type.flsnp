@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="98" MadCap:lastWidth="1025">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Type</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The type of <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">receipt</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">payment</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.New"> you are entering</MadCap:conditionalText>. This can be <span class="Name">Cash</span>, <span class="Name">Cheque</span>, <MadCap:conditionalText MadCap:conditions="Snippets.Receipt"><MadCap:glossaryTerm glossTerm="PebbleGlossary.Term16">Direct Credit</MadCap:glossaryTerm> </MadCap:conditionalText><MadCap:glossaryTerm glossTerm="PebbleGlossary.Term78" MadCap:conditions="Snippets.Payment">Direct Debit</MadCap:glossaryTerm> or <MadCap:glossaryTerm glossTerm="PebbleGlossary.Term19">ePayment</MadCap:glossaryTerm> <MadCap:conditionalText MadCap:conditions="Snippets.Receipt"> (receipt)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment"> (payment)</MadCap:conditionalText>.<MadCap:conditionalText MadCap:conditions="Snippets.Amend"> You can’t amend this.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

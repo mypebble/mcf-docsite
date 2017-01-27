@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Joinos Offer"
+    Link="/Content/FMEmbeddedhelp/JoinosCreateOffer.htm" />
+  <TocEntry
+    Title="Joinos Active Offers"
+    Link="/Content/FMEmbeddedhelp/JoinosActiveOffers.htm" />
+  <TocEntry
+    Title="Joinos Pending Offers"
+    Link="/Content/FMEmbeddedhelp/JoinosPendingOffers.htm" />
+  <TocEntry
+    Title="Joinos Expired Offers"
+    Link="/Content/FMEmbeddedhelp/JoinosExpiredOffers.htm" />
+  <TocEntry
+    Title="Joinos Upload Document"
+    Link="/Content/FMEmbeddedhelp/UploadDocument.htm" />
+  <TocEntry
+    Title="Joinos Documents"
+    Link="/Content/FMEmbeddedhelp/Documents.htm" />
+</CatapultToc>

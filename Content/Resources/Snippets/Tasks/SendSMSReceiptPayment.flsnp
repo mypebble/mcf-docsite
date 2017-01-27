@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="108" MadCap:lastWidth="1188">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Send a <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">receipt</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">payment</MadCap:conditionalText> by text message</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Click <span class="Name">Save</span> and <span class="Name">Send SMS</span> when you finish entering the <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">receipt</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">payment</MadCap:conditionalText>.</p>
+                <p class="note" MadCap:autonum="Note: ">The pupil name must have a mobile telephone number entered on the name via <span class="Name">Administration &gt; Manage Names</span>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

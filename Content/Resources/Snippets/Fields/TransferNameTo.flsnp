@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="147" MadCap:lastWidth="1141">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Name To</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The user name associated with the account you want to transfer money to.</p>
+                <p>Enter a character or characters in the name you want to find and the list of displayed names adjusts accordingly to show a shorter list to choose the name from.</p>
+                <p class="note" MadCap:autonum="Note: ">The filter works by displaying all names which contain the character or characters you have entered.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Embedded Help "
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[Audiences.Embedded or Targets.FMEmbeddedHelp] exclude[ArroModules.Donations or ArroModules.Grants or ArroModules.Projects or ArroModules.ServicesAndLettings or ArroModules.Sponsorship or ArroModules.SRM or ArroModules.Volunteers or &quot;Audiences.Audience A&quot; or &quot;Audiences.Audience B&quot; or Audiences.Website or PrintGuides.UserGuideA or PrintGuides.UserGuideB or Products.Arro or Products.Joinos or Products.MISapp or Targets.ArroEmbeddedHelp or Targets.InstallationGuide or Targets.PrintOnly or Targets.SupportWebsite or Targets.Trakt or Versions.CSSTest or Versions.Draft or Versions.Exclude or Versions.Joinosv2] "
+  MasterToc="/Project/TOCs/FMEmbeddedHelp.fltoc"
+  EnableFeedbackService="false"
+  MoveOutputContentToRoot="true"
+  UseCustomTopicFileExtension="false"
+  ExcludeUnreferencedContent="true"
+  EquationsOutputType="SVG"
+  RemoveMadCapStyles="false"
+  Skin="/Project/Skins/EmbeddedHelp.flskn"
+  DefaultUrl="/Content/FMEmbeddedhelp/embedded-home.htm"
+  MasterStylesheet="/Content/Resources/Stylesheets/EmbeddedMainStyles.css"
+  MasterPage="/Content/Resources/MasterPages/EmbeddedTopics.flmsp"
+  MasterStylesheetOverride="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/PebbleGlossary.flglo" />
+  </Glossaries>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/FMEmbeddedHelp.fldes" />
+  </Destinations>
+</CatapultTarget>

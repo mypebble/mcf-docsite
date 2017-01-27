@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="197" MadCap:lastWidth="1175">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>Click <span class="Emphasis">Create Claim</span>.</li>
+            <p>
+                <img src="../../Arro/Images/Create Claim.png" class="Thumbnail" />
+            </p>
+            <ul>
+                <li>If you have received a statement from HMRC telling you that you have previously claimed too much gift aid, enter the excess you have claimed here and this is offset against the current claim.</li>
+            </ul>
+        </ol>
+    </body>
+</html>

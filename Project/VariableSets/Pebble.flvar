@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="Arro"
+    EvaluatedDefinition="Arro">Arro</Variable>
+  <Variable
+    Comment=""
+    Name="Joinos"
+    EvaluatedDefinition="Joinos">Joinos</Variable>
+  <Variable
+    Name="FundManager"
+    Comment=""
+    EvaluatedDefinition="Fund Manager">Fund Manager</Variable>
+  <Variable
+    Name="MISapp"
+    Comment=""
+    EvaluatedDefinition="MISapp">MISapp</Variable>
+  <Variable
+    Name="SFM"
+    Comment=""
+    EvaluatedDefinition="School Fund Manager">School Fund Manager</Variable>
+</CatapultVariableSet>

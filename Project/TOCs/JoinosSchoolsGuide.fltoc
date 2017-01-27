@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Joinos for Schools - Best Practice"
+    Link="/Content/Joinos/Cover.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Cover.flpgl"
+    PageNumberReset="reset"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    PageNumber="1" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/User Guide/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/Copyright.flpgl"
+    PageNumber="1" />
+  <TocEntry
+    Title="Contents"
+    Link="/Content/User Guide/TOC.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/Contents.flpgl"
+    PageNumber="1" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/Joinos/Introduction.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Dealing with queries from parents"
+    Link="/Content/Joinos/Parent Queries.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Joinos Codes"
+    Link="/Content/Joinos/CJC.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" />
+  <TocEntry
+    Title="Joinos Offers"
+    Link="/Content/Joinos/CJO.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" />
+  <TocEntry
+    Title="Joinos Messages"
+    Link="/Content/Joinos/CJM.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" />
+</CatapultToc>

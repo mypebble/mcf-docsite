@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Map Names"
+    Link="/Content/FMEmbeddedhelp/MapNames.htm"></TocEntry>
+  <TocEntry
+    Title="Map Accounts / Payment Items"
+    Link="/Content/FMEmbeddedhelp/MapAccountsPaymentItems.htm" />
+  <TocEntry
+    Title="Map Settlement Accounts"
+    Link="/Content/FMEmbeddedhelp/MapSettlementAccounts.htm" />
+  <TocEntry
+    Title="Unmapped ParentPay Transactions"
+    Link="/Content/FMEmbeddedhelp/UnmappedParentPayTransactions.htm" />
+  <TocEntry
+    Title="Authenticate"
+    Link="/Content/FMEmbeddedhelp/Authenticate.htm" />
+</CatapultToc>

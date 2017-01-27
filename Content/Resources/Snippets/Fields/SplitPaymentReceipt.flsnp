@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="69" MadCap:lastWidth="1141">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Split <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">Receipt</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">Payment</MadCap:conditionalText></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The account the cheque or direct <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">credit</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">debit</MadCap:conditionalText> is being paid <MadCap:conditionalText MadCap:conditions="Snippets.Receipt">into</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Payment">out of</MadCap:conditionalText>. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

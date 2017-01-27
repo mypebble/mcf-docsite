@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment="Change this in the target only."
+    Name="Guide Name"
+    EvaluatedDefinition="The name of the guide">The name of the guide</Variable>
+  <Variable
+    Name="Issue Number"
+    EvaluatedDefinition="The unique document number"
+    Comment="Change this in the target only.">The unique document number</Variable>
+  <Variable
+    Name="Date of publication"
+    EvaluatedDefinition="The date of publication"
+    Comment="Change this in the target only.">The date of publication</Variable>
+  <Variable
+    Name="Type of publication"
+    Comment="Change this in the target only."
+    EvaluatedDefinition="User or installation or getting started">User or installation or getting started</Variable>
+  <Variable
+    Name="Year of publication"
+    Comment="Change this in the target only."
+    EvaluatedDefinition="The year of copyright.">The year of copyright.</Variable>
+</CatapultVariableSet>

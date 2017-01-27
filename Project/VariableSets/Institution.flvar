@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="school"
+    EvaluatedDefinition="school">school</Variable>
+  <Variable
+    Comment=""
+    Name="academy"
+    EvaluatedDefinition="academy">academy</Variable>
+  <Variable
+    Name="college"
+    Comment=""
+    EvaluatedDefinition="college">college</Variable>
+  <Variable
+    Name="university"
+    Comment=""
+    EvaluatedDefinition="university">university</Variable>
+</CatapultVariableSet>
