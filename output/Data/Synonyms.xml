@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="en-gb">
+    <Groups />
+    <Directional>
+        <DirectionalSynonym Stem="true" From="delete" To="remov" FromStem="delet" />
+        <DirectionalSynonym Stem="true" From="edit" To="amend" FromStem="edit" />
+        <DirectionalSynonym Stem="true" From="create" To="add" FromStem="creat" />
+        <DirectionalSynonym Stem="true" From="window" To="screen" FromStem="window" />
+        <DirectionalSynonym Stem="true" From="field" To="box" FromStem="field" />
+        <DirectionalSynonym Stem="true" From="report" To="campaign" FromStem="report" />
+    </Directional>
+</MadCapSynonyms>
