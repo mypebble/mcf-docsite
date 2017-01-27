@@ -621,16 +621,6 @@
       Link="">An ePayment system which allows parents to pay for items using an online portal.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="PebbleGlossary.Term65"
-    Stem="True"
-    IgnoreCase="true">
-    <Terms>
-      <Term>SRM module</Term>
-    </Terms>
-    <Definition
-      Link="">The Stakeholder Relationship Management module within Arro. This module helps you to manage all the details about your stakeholders e.g. contact details and whether they qualify for gift aid. See also Stakeholder and Gift Aid.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
     glossTerm="PebbleGlossary.Term66"
     Stem="True"
     IgnoreCase="true">
