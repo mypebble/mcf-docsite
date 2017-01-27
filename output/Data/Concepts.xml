@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultTargetConcepts>
+    <ConceptEntry Term="Arro">
+        <ConceptLink Title="Campaigns" Link="/Content/support/arro/Campaigns.htm#aanchor2" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Donations" Link="/Content/support/arro/donations.htm#aanchor3" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Sponsors" Link="/Content/support/arro/Sponsors.htm#aanchor5" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Grants" Link="/Content/support/arro/grants.htm#aanchor6" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Notifications" Link="/Content/support/arro/Notifications.htm#aanchor7" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Joinos  - Help for Donors" Link="/Content/support/arro/joinos-donors.htm#aanchor11" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Projects" Link="/Content/support/arro/projects.htm#aanchor14" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Volunteers" Link="/Content/support/arro/Vounteers.htm#aanchor15" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Browsers">
+        <ConceptLink Title="Configuring Browsers" Link="/Content/support/fm/user-guides/browser-setup.htm#aanchor1" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Campaigns">
+        <ConceptLink Title="Campaigns" Link="/Content/support/arro/Campaigns.htm#aanchor2" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Charges">
+        <ConceptLink Title="How can I add interest and charges made by my bank?" Link="/Content/support/fm/faqs/add-interest.htm#aanchor0" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="How can I record Joinos Charges?" Link="/Content/support/fm/faqs/charges-joinos.htm#aanchor10" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Corrections">
+        <ConceptLink Title="How can I correct the value of a cashed cheque?" Link="/Content/support/fm/faqs/correct-value-cheque.htm#aanchor13" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Donations">
+        <ConceptLink Title="Donations" Link="/Content/support/arro/donations.htm#aanchor3" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Joinos  - Help for Donors" Link="/Content/support/arro/joinos-donors.htm#aanchor11" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Edinburgh">
+        <ConceptLink Title="How do I process an Oracle transaction from City of Edinburgh?" Link="/Content/support/fm/faqs/city-of-edinburgh/process-oracle-transaction.htm#aanchor4" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Grants">
+        <ConceptLink Title="Grants" Link="/Content/support/arro/grants.htm#aanchor6" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Interest">
+        <ConceptLink Title="How can I add interest and charges made by my bank?" Link="/Content/support/fm/faqs/add-interest.htm#aanchor0" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Joinoa">
+        <ConceptLink Title="How can I let a parent see what’s left to pay towards a trip in Joinos?" Link="/Content/support/fm/faqs/balance-joinos.htm#aanchor8" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Joinos">
+        <ConceptLink Title="How can I record Joinos Charges?" Link="/Content/support/fm/faqs/charges-joinos.htm#aanchor10" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="notifications">
+        <ConceptLink Title="Notifications" Link="/Content/support/arro/Notifications.htm#aanchor7" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Oracle">
+        <ConceptLink Title="How do I process an Oracle transaction from City of Edinburgh?" Link="/Content/support/fm/faqs/city-of-edinburgh/process-oracle-transaction.htm#aanchor4" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Payments">
+        <ConceptLink Title="How can I let a parent see what’s left to pay towards a trip in Joinos?" Link="/Content/support/fm/faqs/balance-joinos.htm#aanchor8" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Period End">
+        <ConceptLink Title="How can I see information from a previous closed year?" Link="/Content/support/fm/faqs/previous-year.htm#aanchor9" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="How can I see what transactions are owed at period end" Link="/Content/support/fm/faqs/period-end-transaction-owed.htm#aanchor12" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Printing">
+        <ConceptLink Title="Configuring Browsers" Link="/Content/support/fm/user-guides/browser-setup.htm#aanchor1" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Projects">
+        <ConceptLink Title="Projects" Link="/Content/support/arro/projects.htm#aanchor14" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Sponsorship">
+        <ConceptLink Title="Sponsors" Link="/Content/support/arro/Sponsors.htm#aanchor5" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Transaction">
+        <ConceptLink Title="How do I process an Oracle transaction from City of Edinburgh?" Link="/Content/support/fm/faqs/city-of-edinburgh/process-oracle-transaction.htm#aanchor4" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Trips">
+        <ConceptLink Title="How can I let a parent see what’s left to pay towards a trip in Joinos?" Link="/Content/support/fm/faqs/balance-joinos.htm#aanchor8" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry Term="Volunteers">
+        <ConceptLink Title="Volunteers" Link="/Content/support/arro/Vounteers.htm#aanchor15" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+</CatapultTargetConcepts>

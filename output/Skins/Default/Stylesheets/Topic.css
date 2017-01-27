@@ -482,6 +482,18 @@ a.glossaryTerm
 	text-decoration: underline;
 }
 
+.xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #c4e3f3;
+}
+
 .glossaryTerm
 {
 	font-weight: normal;
@@ -526,18 +538,6 @@ a.glossaryTerm
 	border: solid 1px #000000;
 	margin: 0px;
 	padding: 5px;
-}
-
-.xref
-{
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.xref:hover
-{
-	color: #c4e3f3;
 }
 
 .img
