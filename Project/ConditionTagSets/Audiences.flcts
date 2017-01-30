@@ -2,12 +2,12 @@
 <CatapultConditionTagSet>
   <ConditionTag
     Comment=""
-    Name="Audience A"
+    Name="Development Service"
     BackgroundColor="#90ee90" />
   <ConditionTag
     Comment=""
-    Name="Audience B"
-    BackgroundColor="Red" />
+    Name="Funding Passport"
+    BackgroundColor="#e6e6fa" />
   <ConditionTag
     BackgroundColor="#0000ff"
     Name="Embedded"
