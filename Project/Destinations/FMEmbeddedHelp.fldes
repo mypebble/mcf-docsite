@@ -5,7 +5,7 @@
   Host=""
   User="MyAccountId"
   Password=""
-  Directory="C:\Users\ag\Documents\GitHub\fm_embedded_support\output"
+  Directory="C:\Users\ag\Documents\GitHub\arro_embedded_staging\output"
   Port=""
   ViewUrl="https://github.com/mypebble/fm_embedded_support"
   Type="file"
