@@ -103,6 +103,7 @@
 #define compose-joinos-message 1550
 #define joinos-message-history 1555
 #define joinos-create-offer 1560
+#define joinos-create-offer-v2beta 1561
 #define joinos-active-offers 1565
 #define joinos-expired-offers 1570
 #define manage-ledger-codes 1575

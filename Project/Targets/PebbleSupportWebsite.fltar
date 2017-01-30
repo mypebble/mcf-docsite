@@ -10,7 +10,7 @@
   EnableResponsiveOutput="true"
   ResultsPerPage="10"
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
-  ConditionTagExpression="include[Audiences.Website or Targets.SupportWebsite]exclude[ArroModules.ServicesAndLettings or &quot;Audiences.Development Service&quot; or &quot;Audiences.Funding Passport&quot; or Audiences.Embedded or InDevelopment.Flyers or PrintGuides.UserGuideA or PrintGuides.UserGuideB or Products.Joinos or Products.MISapp or Products.Trakt or Targets.ArroEmbeddedHelp or Targets.FMEmbeddedHelp or Targets.InstallationGuide or Targets.PrintOnly or Versions.CSSTest or Versions.Draft or Versions.Exclude]"
+  ConditionTagExpression="include[Audiences.Website or Targets.SupportWebsite]exclude[ArroModules.ServicesAndLettings or Audiences.Embedded or InDevelopment.WIP or Products.Joinos or Products.MISapp or Products.Trakt or Targets.ArroEmbeddedHelp or Targets.FMEmbeddedHelp or Targets.InstallationGuide or Targets.PrintOnly or Versions.CSSTest or Versions.Draft or Versions.Exclude]"
   DefaultUrl="/content/support/home.htm"
   MasterToc="/Project/TOCs/SupportWebsite.fltoc"
   EnableFeedbackService="false"
