@@ -121,4 +121,5 @@
     <Map Name="take-guid" Link="/Content/FMEmbeddedhelp/TakeGUID.htm" />
     <Map Name="joinos-permissions" Link="/Content/FMEmbeddedhelp/JoinosPermissions.htm" />
     <Map Name="manage-connections2" Link="/Content/FMEmbeddedhelp/ManageConnections.htm" />
+    <Map Name="joinos-create-offer-v2beta" Link="/Content/FMEmbeddedhelp/JoinosCreateOfferV2Beta.htm" />
 </CatapultAliasFile>
