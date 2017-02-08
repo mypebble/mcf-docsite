@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="Publish to Docsite."
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="C:\Users\ag\Documents\GitHub\fm_embedded_support\output"
+  Port=""
+  ViewUrl="https://github.com/mypebble/fm_embedded_support"
+  Type="file"
+  ProviderType="Git"
+  Database="file:///C:/Users/ag/Documents/GitHub/fm_embedded_support/.git"
+  DatabaseRoot="file:///C:/Users/ag/Documents/GitHub/fm_embedded_support/output"
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>
