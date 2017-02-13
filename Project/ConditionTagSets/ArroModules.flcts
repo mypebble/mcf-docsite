@@ -27,6 +27,10 @@
     Comment="" />
   <ConditionTag
     BackgroundColor="#00ffff"
-    Name="ServicesAndLettings"
+    Name="Services"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#7fffd4"
+    Name="Lettings"
     Comment="" />
 </CatapultConditionTagSet>

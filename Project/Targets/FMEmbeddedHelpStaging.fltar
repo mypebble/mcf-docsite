@@ -5,8 +5,8 @@
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
-  ConditionTagExpression="include[Audiences.Embedded or Targets.ArroEmbeddedHelp] exclude[ArroModules.Campaigns or ArroModules.Donations or ArroModules.Grants or ArroModules.Lettings or ArroModules.Projects or ArroModules.Services or ArroModules.Sponsorship or ArroModules.Volunteers or &quot;Audiences.Development Service&quot; or &quot;Audiences.Funding Passport&quot; or Audiences.Website or Products.Arro or Products.Joinos or Products.MISapp or Targets.FMEmbeddedHelp or Targets.InstallationGuide or Targets.PrintOnly or Targets.SupportWebsite or Targets.Trakt or Versions.CSSTest or Versions.Draft or Versions.Exclude or Versions.Joinosv2] "
-  MasterToc="/Project/TOCs/ArroEmbeddedHelp.fltoc"
+  ConditionTagExpression="include[Audiences.Embedded or Targets.FMEmbeddedHelp] exclude[ArroModules.Campaigns or ArroModules.Donations or ArroModules.Grants or ArroModules.Lettings or ArroModules.Projects or ArroModules.Services or ArroModules.Sponsorship or ArroModules.Volunteers or &quot;Audiences.Development Service&quot; or &quot;Audiences.Funding Passport&quot; or Audiences.Website or InDevelopment.WIP or Products.Arro or Products.Joinos or Products.MISapp or Targets.ArroEmbeddedHelp or Targets.InstallationGuide or Targets.PrintOnly or Targets.SupportWebsite or Targets.Trakt or Versions.CSSTest or Versions.Draft or Versions.Exclude] "
+  MasterToc="/Project/TOCs/FMEmbeddedHelp.fltoc"
   EnableFeedbackService="false"
   MoveOutputContentToRoot="true"
   UseCustomTopicFileExtension="false"
@@ -14,7 +14,7 @@
   EquationsOutputType="SVG"
   RemoveMadCapStyles="false"
   Skin="/Project/Skins/EmbeddedHelp.flskn"
-  DefaultUrl="/Content/ArroEmbeddedhelp/embedded-home.htm"
+  DefaultUrl="/Content/FMEmbeddedhelp/embedded-home.htm"
   MasterStylesheet="/Content/Resources/Stylesheets/EmbeddedMainStyles.css"
   MasterPage="/Content/Resources/MasterPages/EmbeddedTopics.flmsp"
   MasterStylesheetOverride="false">
@@ -29,6 +29,6 @@
   </Glossaries>
   <Destinations>
     <Destination
-      Link="/Project/Destinations/ArroEmbeddedHelp.fldes" />
+      Link="/Project/Destinations/ArroEmbeddedHelpStaging.fldes" />
   </Destinations>
 </CatapultTarget>

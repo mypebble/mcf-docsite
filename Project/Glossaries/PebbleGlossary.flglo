@@ -575,10 +575,10 @@
     Stem="True"
     IgnoreCase="true">
     <Terms>
-      <Term>Services and Lettings module</Term>
+      <Term>Services module</Term>
     </Terms>
     <Definition
-      Link="">A module within Arro. This module helps you to manage the hiring out of services the school provides (e.g. catering) and the hiring out of premises (e.g. sports pitch) to outside organisations.</Definition>
+      Link="">A module within Arro. This module helps you to manage the hiring out of services the school provides (e.g. catering) to outside organisations.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="PebbleGlossary.Term61"
@@ -871,5 +871,15 @@
     </Terms>
     <Definition
       Link="">A module within Arro. This module helps you to manage all the volunteers you have collected for your school projects.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="PebbleGlossary.Term20"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Lettings module</Term>
+    </Terms>
+    <Definition
+      Link="">A module within Arro. This module helps you to manage the hiring out of premises (e.g. sports pitch) to outside organisations.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

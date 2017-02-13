@@ -8,4 +8,9 @@
   Directory="C:\Users\ag\Documents\GitHub\arro_embedded_staging\output"
   Port=""
   ViewUrl="http://www.madcapsoftware.com/"
-  Type="file"></CatapultDestination>
+  Type="scm"
+  ProviderType="Git"
+  Database="C:\Users\ag\Documents\GitHub\arro_embedded_staging\output\.git"
+  DatabaseRoot="C:\Users\ag\Documents\GitHub\arro_embedded_staging\output"
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>
