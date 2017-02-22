@@ -1,1 +1,1 @@
-define({numchunks:1,prefix:'Index_Chunk',terms:[]});
+define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'Linked To This',c:0,$:0},{t:'Other Term',c:0,$:0}]});
