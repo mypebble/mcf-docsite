@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="113" MadCap:lastWidth="1115">
-    <head>
-    </head>
-    <body>
-        <p>The code can be <MadCap:glossaryTerm glossTerm="PebbleGlossary.Term41">alphanumeric</MadCap:glossaryTerm>, up to 20 characters. If you integrate with an external accounting package for reporting purposes,  set up the codes in Fund Manager that match the same codes in the external system you are integrating with. This ensures that the transaction appears in the external ledger that you want it to, making it easy for you to identify and track the transactions<MadCap:conditionalText MadCap:conditions="Snippets.BankLedgerCode"> or if a bank ledger code that the transactions are posted to the expected banks in both systems</MadCap:conditionalText>.</p>
-    </body>
-</html>
