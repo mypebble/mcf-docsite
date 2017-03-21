@@ -529,6 +529,18 @@ a.glossaryTerm
 	border-bottom-color: #5bc0de;
 }
 
+.xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #c4e3f3;
+}
+
 .glossaryTerm
 {
 	font-weight: normal;
@@ -578,18 +590,6 @@ a.glossaryTerm
 .img
 {
 	border: 0;
-}
-
-.xref
-{
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.xref:hover
-{
-	color: #c4e3f3;
 }
 
 .MCWebHelpFramesetLink a

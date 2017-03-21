@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1529" MadCap:lastWidth="632">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="1395" MadCap:lastWidth="1077">
     <script src="https://www.mypebble.co.uk/js/jquery.min.js">
     </script>
     <script src="https://www.mypebble.co.uk/bootstrap/js/bootstrap.min.js">
@@ -117,7 +117,7 @@
                                     </li>
                                     <li><a href="https://www.mypebble.co.uk/software/">Software</a>
                                     </li>
-                                    <li><a href="https://www.mypebble.co.uk/software/arro/">Arro</a>
+                                    <li><a href="https://www.mypebble.co.uk/software/arro/"><MadCap:variable name="Pebble.Arro" /></a>
                                     </li>
                                     <li><a href="https://www.mypebble.co.uk/software/joinos/">Joinos</a>
                                     </li>
