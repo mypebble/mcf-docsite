@@ -488,6 +488,45 @@ h6
 		max-height: auto;
 		max-width: 500px;
 	}
+
+	h3
+	{
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-word: 20;
+	}
+
+	h1
+	{
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-word: 20;
+	}
+
+	h2
+	{
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-word: 20;
+	}
+
+	p
+	{
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-word: 20;
+	}
+
+	img.print
+	{
+		mc-float: center;
+	}
+
+	table
+	{
+		margin-bottom: 1rem;
+	}
+
+	_generic_.table
+	{
+		margin-bottom: 1rem;
+	}
 }
 
 li.bullet
@@ -564,4 +603,3 @@ p.web
 {
 	
 }
-
