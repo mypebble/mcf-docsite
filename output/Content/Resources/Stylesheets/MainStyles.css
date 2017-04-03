@@ -170,7 +170,7 @@ img.ReduceButtonSize
 
 li
 {
-	
+	mc-hyphenate-shortest-prefix: 20;
 }
 
 MadCap|breadcrumbsProxy
@@ -277,7 +277,7 @@ ol ol ol
 
 p
 {
-	
+	mc-hyphenate-shortest-prefix: 20;
 }
 
 p.CompanyInformation1
@@ -520,7 +520,7 @@ h6
 
 	table
 	{
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 
 	_generic_.table
@@ -536,7 +536,7 @@ li.bullet
 
 p.bullet
 {
-	
+	mc-hyphenate-shortest-prefix: 20;
 }
 
 h4.RelatedTopicHeading
@@ -585,8 +585,8 @@ h5.panelmoreinfo
 
 h2.NotInToc
 {
-	text-align: center;
 	mc-heading-level: 0;
+	text-align: left;
 }
 
 h1.NotInToc
@@ -603,3 +603,9 @@ p.web
 {
 	
 }
+
+p.aftertable
+{
+	line-height: 0.5px;
+}
+
