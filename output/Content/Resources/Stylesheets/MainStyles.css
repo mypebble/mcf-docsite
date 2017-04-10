@@ -141,6 +141,11 @@ h1
 	
 }
 
+h1.nobreakbefore
+{
+	mc-heading-level: 0;
+}
+
 h2
 {
 	
@@ -607,5 +612,17 @@ p.web
 p.aftertable
 {
 	line-height: 0.5px;
+}
+
+h1.nobreakbefore
+{
+	page-break-before: avoid;
+	mc-float: center;
+}
+
+p.pagebreak
+{
+	mc-hyphenate-shortest-prefix: 20;
+	page-break-before: always;
 }
 

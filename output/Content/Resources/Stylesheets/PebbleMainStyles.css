@@ -277,7 +277,7 @@ ol ol ol
 
 p
 {
-	
+	mc-hyphenate: never;
 }
 
 p.CompanyInformation1
