@@ -658,3 +658,12 @@ p.pagebreak
 	page-break-before: always;
 }
 
+p.quotation
+{
+	mc-hyphenate-shortest-prefix: 20;
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 30pt;
+	margin-right: 30px;
+}
+
