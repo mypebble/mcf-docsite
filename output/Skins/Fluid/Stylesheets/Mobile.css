@@ -2,14 +2,14 @@
 
 @media only screen and (max-width: 767px)
 {
-	nav.tab-bar
+	nav.title-bar
 	{
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-color: #ffffff;
 	}
 
-	.tab-bar-section a.logo
+	.title-bar-section a.logo
 	{
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -19,14 +19,13 @@
 		background: none;
 	}
 
-	.search-submit
+	.search-bar .search-submit
 	{
 		background-repeat: no-repeat;
 		background-position: center center;
-		background: transparent url('Images/SearchIcon.png') no-repeat center center;
 	}
 
-	.search-filter
+	.search-bar .search-filter
 	{
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -39,47 +38,43 @@
 		background-position: center center;
 	}
 
-	.right-off-canvas-menu
+	.off-canvas.position-right
 	{
 		background-position: top center;
-		background-color: #333333;
 	}
 
-	.right-off-canvas-menu ul ul
+	.off-canvas.position-right ul ul
 	{
 		background-position: top center;
-		background-color: #333333;
 	}
 
-	.left-off-canvas-menu
+	.off-canvas.position-left
 	{
 		background-position: top center;
-		background-color: #333333;
 	}
 
-	.left-off-canvas-menu ul ul
+	.off-canvas.position-left ul ul
 	{
 		background-position: top center;
-		background-color: #333333;
 	}
 
-	.tab-bar-section.middle > div
+	.title-bar-section.middle > div
 	{
 		min-height: 40px;
 	}
 
-	.inner-wrap nav.tab-bar .outer-row
+	.off-canvas-wrapper-inner nav.title-bar .outer-row
 	{
 		
 	}
 
-	.tab-bar .menu-icon span
+	.title-bar .menu-icon span
 	{
 		top: 10px;
 		background: transparent url('Images/Menu.png') no-repeat center center;
 	}
 
-	.inner-wrap .outer-row
+	.off-canvas-wrapper-inner .outer-row
 	{
 		
 	}
@@ -89,12 +84,42 @@
 		
 	}
 
+	.off-canvas
+	{
+		background-color: #333333;
+	}
+
+	.off-canvas ul ul
+	{
+		background-color: #333333;
+	}
+
 	ul.off-canvas-list li a
 	{
 		
 	}
 
-	ul.off-canvas-list li.back > a
+	ul.off-canvas-list ul > li > a
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul > li > a
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul ul > li > a
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul ul ul > li > a
+	{
+		
+	}
+
+	ul.off-canvas-list li.js-drilldown-back > a
 	{
 		
 	}
@@ -104,12 +129,32 @@
 		background-color: #242424;
 	}
 
-	ul.off-canvas-list li.back > a:hover
+	ul.off-canvas-list ul > li > a:hover
 	{
 		background-color: #242424;
 	}
 
-	nav.tab-bar .menu-icon
+	ul.off-canvas-list ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list ul ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list ul ul ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list li.js-drilldown-back > a:hover
+	{
+		background-color: #242424;
+	}
+
+	nav.title-bar .menu-icon
 	{
 		right: -13px;
 	}
@@ -124,7 +169,7 @@
 		
 	}
 
-	.search-field
+	.search-bar .search-field
 	{
 		padding-right: 106px;
 		background-color: #ffffff;
@@ -136,12 +181,17 @@
 		background-color: #ffffff;
 	}
 
-	.search-filter.open
+	.search-bar .search-filter.open
 	{
 		background-color: #ffffff;
 	}
 
-	.search-filter.selected
+	.search-bar .search-filter:hover
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-filter.selected
 	{
 		background: transparent url('Images/Filter.png') no-repeat center center;
 	}
@@ -151,29 +201,39 @@
 		background-color: #ffffff;
 	}
 
-	.search-field::-webkit-input-placeholder
+	.search-bar .search-field::-webkit-input-placeholder
 	{
 		
 	}
 
-	.search-field::-moz-placeholder
+	.search-bar .search-field::-moz-placeholder
 	{
 		
 	}
 
-	.search-field:-moz-placeholder
+	.search-bar .search-field:-moz-placeholder
 	{
 		
 	}
 
-	.search-field:-ms-input-placeholder
+	.search-bar .search-field:-ms-input-placeholder
 	{
 		
 	}
 
-	.search-filter-wrapper
+	.search-bar.search-bar-container .search-submit
+	{
+		background: transparent url('Images/SearchIcon.png') no-repeat center center;
+	}
+
+	.search-bar .search-filter-wrapper
 	{
 		right: 56px;
+	}
+
+	.search-bar.search-bar-container .search-submit:hover
+	{
+		background-color: transparent;
 	}
 }
 
