@@ -574,6 +574,13 @@ h6
 		font-style: normal;
 	}
 
+	span.bigblue
+	{
+    color: #1e90ff;
+	font-size: normal;
+	font-weight: bold;
+	}
+	
 	p.pagebreak
 	{
 		page-break-after: always;
@@ -731,5 +738,10 @@ MadCap|xref.textinchapter
 MadCap|xref.textinsidechapter
 {
 	mc-format: '{h2} on page {page}.';
+}
+
+p.red
+{
+	color: #ff0000;
 }
 
