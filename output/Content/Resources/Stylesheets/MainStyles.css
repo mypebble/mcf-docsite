@@ -576,11 +576,11 @@ h6
 
 	span.bigblue
 	{
-    color: #1e90ff;
-	font-size: normal;
-	font-weight: bold;
+		color: #1e90ff;
+		font-size: normal;
+		font-weight: bold;
 	}
-	
+
 	p.pagebreak
 	{
 		page-break-after: always;
@@ -615,6 +615,11 @@ h6
 	MadCap|xref
 	{
 		mc-format: '{h1} on page {page}.';
+	}
+
+	div.GlossaryPageTerm
+	{
+		mc-hyphenate-shortest-word: 20;
 	}
 }
 
