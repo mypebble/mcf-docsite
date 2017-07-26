@@ -179,6 +179,7 @@ li
 	mc-hyphenate-shortest-prefix: 20;
 	margin-bottom: 3px;
 	margin-top: 3px;
+	mc-hyphenate: never;
 }
 
 MadCap|breadcrumbsProxy
@@ -463,6 +464,11 @@ h5
 h6
 {
 	mc-heading-level: 0;
+}
+
+small
+{
+	font-size: small;
 }
 
 @media print
