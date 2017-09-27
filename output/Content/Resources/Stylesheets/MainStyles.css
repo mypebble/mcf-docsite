@@ -627,6 +627,23 @@ small
 	{
 		mc-hyphenate-shortest-word: 20;
 	}
+
+	MadCap|xref.TOCPageNumber
+	{
+		mc-format: '{h1} on page {page}';
+		color: #000000;
+		text-decoration: none;
+	}
+
+	MadCap|xref.textinsidechapter
+	{
+		mc-format: '{h2} on page {page}';
+	}
+
+	MadCap|xref.textinchapter
+	{
+		mc-format: '{h1} on page {page}';
+	}
 }
 
 li.bullet
@@ -743,12 +760,12 @@ p.pagebreakafter
 
 MadCap|xref.textinchapter
 {
-	mc-format: '{pageref}';
+	mc-format: '{h1} on page {page}';
 }
 
 MadCap|xref.textinsidechapter
 {
-	mc-format: '{h2} on page {page}.';
+	mc-format: '{paraxml} on page {page}';
 }
 
 p.red
