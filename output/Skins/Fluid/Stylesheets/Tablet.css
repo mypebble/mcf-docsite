@@ -52,7 +52,7 @@
 	{
 		background-repeat: no-repeat;
 		background-position: center top;
-		background-color: #ffffff;
+		background: #ffffff url('Images/Pebble Logo2.png') no-repeat center top;
 	}
 
 	/* Topbar Menu Styles */
