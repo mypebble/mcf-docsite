@@ -46,7 +46,7 @@ img
 
 .title-bar-section.middle > div
 {
-	
+	min-height: 151px;
 }
 
 /* Topbar (Navigation) Dropdown Styles*/
@@ -61,6 +61,7 @@ ul.navigation
 	position: relative;
 	margin-top: 0;
 	margin-bottom: 0;
+	margin-left: 685px;
 	background-repeat: repeat;
 	background-position: center center;
 	color: transparent;
@@ -342,8 +343,7 @@ nav.title-bar
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background: #ffffff url('Images/Pebble Logo2.png') no-repeat center top;
-	-pie-background: #ffffff url('Skins/Fluid/Stylesheets/Images/Pebble Logo2.png') no-repeat center top;
+	background-color: #ffffff;
 }
 
 nav.title-bar .menu-icon
@@ -367,24 +367,24 @@ nav.title-bar .menu-icon
 
 .title-bar-section a.logo
 {
-	width: 182px;
-	height: 42px;
 	border: none;
 	padding: 0;
 	margin: 0;
 	position: absolute;
-	background-repeat: no-repeat;
-	background-position: center center;
-	display: none;
+	display: block;
+	width: 685px;
+	height: 151px;
 	top: 50%;
 	bottom: auto;
+	margin-top: -75.5px;
 	left: 0;
-	background: none;
+	background: transparent url('Images/pebble_logo_support2.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/pebble_logo_support2.png') no-repeat center center;
 }
 
 .title-bar-container
 {
-	z-index: 2;
+	z-index: 1000;
 }
 
 /* Topbar Menu Functionality Styles */
@@ -542,6 +542,14 @@ html.pulseTopic .main-section .row.outer-row
 .gsc-results
 {
 	line-height: normal;
+}
+
+@media print
+{
+	.off-canvas-content
+	{
+		box-shadow: none;
+	}
 }
 
 .off-canvas-wrapper-inner nav.title-bar .outer-row
