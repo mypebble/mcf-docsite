@@ -644,6 +644,14 @@ small
 	{
 		mc-format: '{h1} on page {page}';
 	}
+
+	h4.RelatedTopicHeading
+	{
+		margin-bottom: 1rem;
+		font-weight: bold;
+		font-style: normal;
+		margin-top: 0;
+	}
 }
 
 li.bullet

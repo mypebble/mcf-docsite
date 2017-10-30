@@ -169,15 +169,8 @@
                                         <p>There is a 6% fee for donations made through the Joinos Community which covers the cost of processing the transaction through Stripe and all the work we do to maintain your Community Page. When your donors make a payment, they can choose to cover the fee as part of their transaction so the school, in effect, pays nothing. There is also a fee for Services and Lettings bookings. </p>
                                         <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>When you make refunds, everything that has been paid is refunded, including the transaction charge.</p>
                                         <h2>Accessing the payments module</h2>
-                                        <p>You can access the payments module in one of the following ways:</p>
-                                        <p>Either:</p>
                                         <ul>
-                                            <li value="1">Open and log on to <span class="PebbleArro">Arro</span>.</li>
-                                            <li value="2">Select <span class="Name">Payment Portal</span> from the drop-down menu under your logon name.</li>
-                                        </ul>
-                                        <p>Or:</p>
-                                        <ul>
-                                            <li value="1">Go to www.pay.joinos.com and click <span class="Name">Login with <span class="PebbleArro">Arro</span></span>.</li>
+                                            <li value="1">Go to <a href="https://payments.joinos.com/merchant/" target="_blank">https://payments.joinos.com/merchant/</a> and click <span class="Name">Login with <span class="PebbleArro">Arro</span></span>.</li>
                                         </ul>
                                         <p>Your <span class="Name">Account List</span> is displayed and will show a list of the accounts we have set up for you according to your requirements.</p>
                                         <p>From the <span class="Name">Account List</span> you can view transactions, invoices and subscriptions that have been set up.</p>
@@ -262,6 +255,7 @@
                                             <p>The transactions are automatically downloaded to a file named transactions.csv.</p>
                                         </ol>
                                         <h2>Subscriptions</h2>
+                                        <p>Subscriptions can be raised by creating recurring invoices or payment requests. </p>
                                         <h3>To view subscription details</h3>
                                         <ol>
                                             <li value="1">From the <span class="Name">Account List</span>, click <span class="Name">Subscriptions</span> for the account you want to view subscriptions for.</li>
@@ -269,7 +263,7 @@
                                             <li value="2">From the <span class="Name">Subscription List</span>, click <span class="Name">Details</span>.</li>
                                         </ol>
                                         <h3>To cancel a subscription</h3>
-                                        <p>You can cancel a subscription for your customer or the customer can cancel it using the link in the subscription receipt that they receive when they first pay the subscription.</p>
+                                        <p>You can cancel a subscription for your customer or the customer can cancel it using the link in the  receipt that they receive when they first pay the subscription invoice or payment request.</p>
                                         <h4>How do you cancel a subscription for the customer?</h4>
                                         <ol>
                                             <li value="1">From the <span class="Name">Account List</span>, click <span class="Name">Subscriptions</span> for the account you want to cancel a subscription for.</li>
@@ -285,7 +279,45 @@
                                         <ol>
                                             <li value="1">In the email receipt, click the link manage your subscription here.</li>
                                             <li value="2">In the <span class="Name">Manage your subscription</span> window, click <span class="Name">Cancel subscription</span>.</li>
-                                        </ol><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
+                                        </ol>
+                                        <h2>Payment Requests</h2>
+                                        <h3>To raise a payment request</h3>
+                                        <ol>
+                                            <li value="1">From the <span class="Name">Account List</span>, click <span class="Name">Payment Requests</span> for the account you want to raise a payment request for.</li>
+                                            <li value="2">Click <span class="Name">Add New</span>.</li>
+                                            <p>The <span class="Name">New Payment Request</span> screen appears.</p>
+                                            <li value="3">Enter the <span class="Name">Title</span> for the payment request.</li>
+                                            <li value="4">Enter the <span class="Name">Description</span> for the payment request. </li>
+                                            <li value="5">Enter the <span class="Name">Amount</span> you are requesting.</li>
+                                            <li value="6">If the payment request is for a subscription, select <span class="Name">Recurring Payment</span>.</li>
+                                            <ul>
+                                                <li value="1">Enter the details for when the payment should recur e.g. every 1 month on the 25 means that every month the payment will be on the 25th of the month. </li>
+                                            </ul>
+                                            <li value="7">Click <span class="Name">Save</span>.</li>
+                                            <p>The payment request is raised and a link inserted at the top of the request which you can send to the customer to enable them to make the payment.</p>
+                                        </ol>
+                                        <h3>To request payment</h3>
+                                        <p>Create an email, using your email provider and send the payment request link to the customer to pay.</p>
+                                        <p>When the customer receives the email from you they:</p>
+                                        <ol>
+                                            <li value="1">Click the link provided which then displays the invoice for payment.</li>
+                                            <li value="2">Click <span class="Name">Pay</span> if a one-off payment, or click <span class="Name">Subscribe</span> if a recurring payment or subscription.</li>
+                                            <li value="3">Enter the <span class="Name">Email</span> address, <span class="Name">Card number</span>, <span class="Name">MM/YY</span> expiry date, card <span class="Name">CVC</span> code.</li>
+                                            <li value="4">If the customer wants the payment gateway to retain this information, they select <span class="Name">Remember me</span>.</li>
+                                            <li value="5">If the invoice is a recurring invoice, click <span class="Name">Subscribe for [amount]</span>, otherwise click <span class="Name">Pay [amount]</span>.</li>
+                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>When a customer pays a subscription they receive a receipt email outlining what they have paid for and containing a link which lets them manage their own subscription.</p>
+                                        </ol>
+                                        <h3>To check if a payment request has been paid</h3>
+                                        <ul>
+                                            <li value="1">From the <span class="Name">Account List</span>, click <span class="Name">Transactions</span> for the account you want to view  details for. </li>
+                                            <li value="2">The one-off or recurring payment transaction will show up in this list if it has been paid.</li>
+                                        </ul>
+                                        <h3>To check if a recurring payment request has been subscribed</h3>
+                                        <ol>
+                                            <li value="1">From the <span class="Name">Account List</span>, click <span class="Name">Subscriptions</span> for the account you want to view details for. </li>
+                                            <li value="2">In the <span class="Name">Subscription List</span>, locate the transaction you want to view details for and click <span class="Name">Details</span></li>
+                                        </ol>
+                                        <p>&#160;</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
 					</a>
                                     </div>
                                 </div>

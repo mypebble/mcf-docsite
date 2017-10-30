@@ -516,7 +516,9 @@ p.bullet
 
 h4.RelatedTopicHeading
 {
-	
+	margin-bottom: 1rem;
+	font-weight: bold;
+	font-style: normal;
 }
 
 p.RelatedTopic
