@@ -502,6 +502,11 @@ MadCap|glossaryTerm:focus
 	{
 		
 	}
+
+	MadCap|xref
+	{
+		mc-format: '{h1} on page {page}';
+	}
 }
 
 li.bullet
@@ -604,10 +609,5 @@ p.spacing
 p.important
 {
 	mc-auto-number-format: '{b}{color red}Important! {/color}{/b} ';
-}
-
-MadCap|xref.printed
-{
-	mc-format: ;
 }
 

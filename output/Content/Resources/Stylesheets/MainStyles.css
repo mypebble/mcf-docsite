@@ -620,7 +620,7 @@ small
 
 	MadCap|xref
 	{
-		mc-format: '{h1} on page {page}.';
+		mc-format: '{h1} on page {page}';
 	}
 
 	div.GlossaryPageTerm
@@ -768,12 +768,12 @@ p.pagebreakafter
 
 MadCap|xref.textinchapter
 {
-	mc-format: '{h1} on page {page}';
+	mc-format: '{para}';
 }
 
 MadCap|xref.textinsidechapter
 {
-	mc-format: '{paraxml} on page {page}';
+	mc-format: '{para}';
 }
 
 p.red
