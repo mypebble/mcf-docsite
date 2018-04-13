@@ -483,6 +483,11 @@ a.glossaryTerm
 	text-decoration: underline;
 }
 
+.img
+{
+	border: 0;
+}
+
 .xref
 {
 	color: #2D8DCC;
