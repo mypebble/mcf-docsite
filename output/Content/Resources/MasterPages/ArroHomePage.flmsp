@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="675" MadCap:lastWidth="856">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="699" MadCap:lastWidth="1030">
     <head>
         <link href="../TableStyles/table-pebble-grid.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
@@ -99,7 +99,7 @@
                 </table>
                 <p class="spacing">&#160;</p>
                 <p style="text-align: center;">For response times see the <span class="Name">Service Level Commitments</span> for <a href="../../PDFs/Pebble Arro SLC - October 2017.pdf" target="_blank">Arro</a> and <a href="../../PDFs/Pebble Fund Manager SLC - March 2017.pdf" target="_blank">Fund Manager</a>.</p>
-                <p style="text-align: center;">© SF Software Limited t/a PEBBLE 2017 All Rights Reserved.</p>
+                <p style="text-align: center;">© SF Software Limited t/a PEBBLE 2018 All Rights Reserved.</p>
             </div>
         </footer>
     </body>
