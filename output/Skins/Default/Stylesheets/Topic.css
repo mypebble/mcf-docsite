@@ -483,11 +483,6 @@ a.glossaryTerm
 	text-decoration: underline;
 }
 
-.img
-{
-	border: 0;
-}
-
 .xref
 {
 	color: #2D8DCC;
@@ -498,6 +493,11 @@ a.glossaryTerm
 .xref:hover
 {
 	color: #c4e3f3;
+}
+
+.img
+{
+	border: 0;
 }
 
 .glossaryTerm
