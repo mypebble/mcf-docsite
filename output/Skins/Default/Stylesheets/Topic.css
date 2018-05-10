@@ -593,6 +593,13 @@ a.glossaryTerm
 	border-bottom-color: #5bc0de;
 }
 
+.xref
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #6ca7cd;
+}
+
 .MCWebHelpFramesetLink a
 {
 	
