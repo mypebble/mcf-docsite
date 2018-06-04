@@ -234,6 +234,7 @@
 
 	.sidenav-layout
 	{
+		display: block;
 		height: inherit;
 	}
 
