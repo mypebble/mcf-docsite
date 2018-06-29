@@ -71,7 +71,7 @@
                                 </p>
                             </td>
                             <td class="TableStyle-table-pebble-grid-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 6px;padding-right: 6px;padding-top: 6px;padding-bottom: 6px;border-left-style: solid;border-left-width: 1px;border-left-color: #6aa8cf;border-right-style: solid;border-right-width: 1px;border-right-color: #6aa8cf;border-top-style: solid;border-top-width: 1px;border-top-color: #6aa8cf;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #6aa8cf;text-align: center;">
-                                <p style="text-align: center;">Open a chat with us from within <a href="../../NewSupportSite/Arro/Getting started/Getting help.htm#Chat" target="_blank"><MadCap:variable name="Pebble.Arro" /></a> or <a href="../../NewSupportSite/Fund Manager/Getting started/Getting Help.htm#Chat" target="_blank"><MadCap:variable name="Pebble.FundManager" />.</a></p>
+                                <p style="text-align: center;">Open a chat with us from within <MadCap:variable name="Pebble.Arro" /> or <MadCap:variable name="Pebble.FundManager" />.</p>
                             </td>
                         </tr>
                         <tr class="TableStyle-table-pebble-grid-Body-Row1">
