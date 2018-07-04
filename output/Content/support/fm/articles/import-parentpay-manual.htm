@@ -4,7 +4,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>Importing ParentPay transactions manually</title>
@@ -20,9 +19,6 @@
         <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../../../Resources/TableStyles/table-pebble-grid.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/website.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/flare-website.css" rel="stylesheet" />
         <script src="../../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../../Resources/Scripts/jquery.min.js">
@@ -46,8 +42,8 @@
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
@@ -67,7 +63,7 @@
                                     <div class="nav-search row">
                                         <form class="search" action="#">
                                             <div class="search-bar search-bar-container needs-pie">
-                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ,,," />
                                                 <div class="search-filter-wrapper">
                                                     <div class="search-filter">
                                                         <div class="search-filter-content">
@@ -97,76 +93,94 @@
                                 </div>
                             </div>
                             <div class="body-container" data-mc-content-body="True">
-                                <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-                                    <div class="container">
-                                        <img src="../../../Resources/Images/pebble_logo_support2.png" />
-                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                                        <div class="navbar-xs hidden-xs-down">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="pull-sm-right">
-                                                        <ul class="nav navbar-nav navbar-nav-sm">
-                                                            <li class="nav-item " value="1"><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                                            </li>
-                                                        </ul>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                                        <div class="container">
+                                                            <img src="../../../Resources/Images/pebble_logo_support2.png" />
+                                                            <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../../../Resources/Images/GotoMainPebbleWebsite.png" /></a>
+                                                            </p>
+                                                        </div>
+                                                    </nav>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <div id="contentBody" class="container" style="margin-top: 120px">
+                                                        <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
+                                                        <div class="row">
+                                                            <div class="col-md-10 col-md-offset-1">
+                                                                <h1>Importing ParentPay transactions manually</h1>
+                                                                <p><span class="Name">Issue</span>: I want to import my online payments from ParentPay using the <span class="Name">Import Transactions</span> tab.</p>
+                                                                <p><span class="Emphasis">Solution:</span> Create an import file in ParentPay and upload to Fund Manger.</p>
+                                                                <p>Within ParentPay, go to <span class="Name">Reports&gt;Payments</span>.</p>
+                                                                <ol>
+                                                                    <li value="1">Choose service or all.</li>
+                                                                    <li value="2">Select dates.</li>
+                                                                    <li value="3">Click <span class="Name">advanced options</span>.</li>
+                                                                    <li value="4">Select Payment status: <span class="Name">Processed</span>.</li>
+                                                                    <li value="5">Select Payment method: <span class="Name">ParentPay online or Paypoint</span>.</li>
+                                                                    <li value="6">Open in Excel.</li>
+                                                                </ol>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>In order not to import duplicate transactions always select at least the day before the current date as the <span class="Name">To date</span>.  Choosing <span class="Name">Processed</span> will ensure only payments that have settled to a bank account will be included in the report.</p>
+                                                                <h2>Method:</h2>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Cash and cheque transactions can be created on a separate report and brought into <span class="PebbleFundManager">Fund Manager</span> if you wish; if you have filtered in ParentPay for online only transactions they should not appear- you will need to create a separate file for these and either join the reports together or Import them one at a time. Please ensure you then change <span class="Name">Means</span> to <span class="Name">Type</span> on the csv and re-save in order to upload successfully, cash and cheque transactions.</p>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Delete the top blank line so your file will import and filter out any unwanted transactions before you save your Report.</p>
+                                                                <ul>
+                                                                    <li value="1">Save the file to your chosen folder making sure to choose the file type CSV.</li>
+                                                                </ul>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>It is your responsibility to handle personal data in accordance with GDPR law.</p>
+                                                                <p>Within <span class="PebbleFundManager">Fund Manager</span> go to <span class="Name">Transactions&gt; Import Transactions</span>.</p>
+                                                                <ol>
+                                                                    <li value="1">Browse and choose file.</li>
+                                                                    <li value="2">Upload file.</li>
+                                                                    <li value="3">Filter in the middle box for <span class="Name">Type</span> of transaction and which <span class="Name">Description</span> you wish to import first&gt;Filter</li>
+                                                                    <li value="4">By using the <span class="Name">Filter</span> button your <span class="Name">Pupil Names</span> should appear against the <span class="Name">Transactions</span></li>
+                                                                    <li value="5">Check that the <span class="Name">Account Code</span> is correct and you are using the <span class="Name">Settlement Account</span> on the right.</li>
+                                                                    <li value="6">Once you are satisfied that everything matches you can click import on the first page and repeat as necessary.</li>
+                                                                </ol>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If the name or account does not appear then you may need to create a new name or account via <span class="Name">Manage Names</span> or <span class="Name">Manage Accounts</span> in <span class="PebbleFundManager">Fund Manager</span> and return to this screen to complete the import process, <span class="PebbleFundManager">Fund Manager</span> will remember what you haven’t imported when you return to this page</p>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>You will not be allowed to import any transactions that you have not matched or if you have not chosen a <span class="Name">Settlement Account</span> to place these in, nor will <span class="PebbleFundManager">Fund Manager</span> let you import transactions already imported or out of the <span class="Name">Period Date</span> range</p>
+                                                                <p>Once you have imported your transactions you will be able to transfer the total <span class="Name">Transaction amount</span> from your <span class="Name">Statement</span> from the <span class="Name">Settlement Account</span> to your chosen <span class="Name">Bank Account</span> by doing the following:</p>
+                                                                <ol>
+                                                                    <li value="1">Go to <span class="Name">Bank &amp; Cash</span>.</li>
+                                                                    <li value="2">Transfer between Bank Accounts.</li>
+                                                                    <li value="3">Transfer from <span class="Name">Settlement Account</span>.</li>
+                                                                    <li value="4">Transfer to chosen <span class="Name">Bank Account</span>.</li>
+                                                                    <li value="5">Enter <span class="Name">Amount</span>.</li>
+                                                                    <li value="6">Enter <span class="Name">Date</span>.</li>
+                                                                    <li value="7">Click <span class="Name">Transfer</span>.</li>
+                                                                </ol>
+                                                                <p>You can then ‘Record a Payment’ for the debited fees (invoices on ParentPay) on your bank account statement to balance.</p>
+                                                                <p>&#160;</p>
+                                                                <p>&#160;</p><a href="javascript:window.print()"><img src="../../../Resources/Images/PrintTopic.png" /></a>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div id="contentBody" class="container" style="margin-top: 120px">
-                                    <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <h1>Importing ParentPay transactions manually</h1>
-                                            <p><span class="Name">Issue</span>: I want to import my online payments from ParentPay using the <span class="Name">Import Transactions</span> tab.</p>
-                                            <p><span class="Emphasis">Solution:</span> Create an import file in ParentPay and upload to Fund Manger.</p>
-                                            <p>Within ParentPay, go to <span class="Name">Reports&gt;Payments</span>.</p>
-                                            <ol>
-                                                <li value="1">Choose service or all.</li>
-                                                <li value="2">Select dates.</li>
-                                                <li value="3">Click <span class="Name">advanced options</span>.</li>
-                                                <li value="4">Select Payment status: <span class="Name">Processed</span>.</li>
-                                                <li value="5">Select Payment method: <span class="Name">ParentPay online or Paypoint</span>.</li>
-                                                <li value="6">Open in Excel.</li>
-                                            </ol>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>In order not to import duplicate transactions always select at least the day before the current date as the <span class="Name">To date</span>.  Choosing <span class="Name">Processed</span> will ensure only payments that have settled to a bank account will be included in the report.</p>
-                                            <h2>Method:</h2>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Cash and cheque transactions can be created on a separate report and brought into <span class="PebbleFundManager">Fund Manager</span> if you wish; if you have filtered in ParentPay for online only transactions they should not appear- you will need to create a separate file for these and either join the reports together or Import them one at a time. Please ensure you then change <span class="Name">Means</span> to <span class="Name">Type</span> on the csv and re-save in order to upload successfully, cash and cheque transactions.</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Delete the top blank line so your file will import and filter out any unwanted transactions before you save your Report.</p>
-                                            <ul>
-                                                <li value="1">Save the file to your chosen folder making sure to choose the file type CSV.</li>
-                                            </ul>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>It is your responsibility to handle personal data in accordance with GDPR law.</p>
-                                            <p>Within <span class="PebbleFundManager">Fund Manager</span> go to <span class="Name">Transactions&gt; Import Transactions</span>.</p>
-                                            <ol>
-                                                <li value="1">Browse and choose file.</li>
-                                                <li value="2">Upload file.</li>
-                                                <li value="3">Filter in the middle box for <span class="Name">Type</span> of transaction and which <span class="Name">Description</span> you wish to import first&gt;Filter</li>
-                                                <li value="4">By using the <span class="Name">Filter</span> button your <span class="Name">Pupil Names</span> should appear against the <span class="Name">Transactions</span></li>
-                                                <li value="5">Check that the <span class="Name">Account Code</span> is correct and you are using the <span class="Name">Settlement Account</span> on the right.</li>
-                                                <li value="6">Once you are satisfied that everything matches you can click import on the first page and repeat as necessary.</li>
-                                            </ol>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If the name or account does not appear then you may need to create a new name or account via <span class="Name">Manage Names</span> or <span class="Name">Manage Accounts</span> in <span class="PebbleFundManager">Fund Manager</span> and return to this screen to complete the import process, <span class="PebbleFundManager">Fund Manager</span> will remember what you haven’t imported when you return to this page</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>You will not be allowed to import any transactions that you have not matched or if you have not chosen a <span class="Name">Settlement Account</span> to place these in, nor will <span class="PebbleFundManager">Fund Manager</span> let you import transactions already imported or out of the <span class="Name">Period Date</span> range</p>
-                                            <p>Once you have imported your transactions you will be able to transfer the total <span class="Name">Transaction amount</span> from your <span class="Name">Statement</span> from the <span class="Name">Settlement Account</span> to your chosen <span class="Name">Bank Account</span> by doing the following:</p>
-                                            <ol>
-                                                <li value="1">Go to <span class="Name">Bank &amp; Cash</span>.</li>
-                                                <li value="2">Transfer between Bank Accounts.</li>
-                                                <li value="3">Transfer from <span class="Name">Settlement Account</span>.</li>
-                                                <li value="4">Transfer to chosen <span class="Name">Bank Account</span>.</li>
-                                                <li value="5">Enter <span class="Name">Amount</span>.</li>
-                                                <li value="6">Enter <span class="Name">Date</span>.</li>
-                                                <li value="7">Click <span class="Name">Transfer</span>.</li>
-                                            </ol>
-                                            <p>You can then ‘Record a Payment’ for the debited fees (invoices on ParentPay) on your bank account statement to balance.</p>
-                                            <p>&#160;</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p>&#160;</p>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <footer>
                                     <div class="container">
                                         <div class="row">

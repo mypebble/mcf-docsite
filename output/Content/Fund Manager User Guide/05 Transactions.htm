@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Recording receipts and payments, entering VAT on transactions. Splitting payments and receipts across accounts and splitting receipts across names. Transferring amounts (including negative balance)  between accounts or names. Cancelling and amending transactions. Importing transactions." />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>Transactions</title>
@@ -21,10 +20,7 @@
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../Resources/TableStyles/table-pebble-grid.css" rel="stylesheet" />
-        <link href="../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
-        <link href="../Resources/Stylesheets/website.css" rel="stylesheet" />
         <link href="../Resources/TableStyles/table-pebble.css" rel="stylesheet" />
-        <link href="../Resources/Stylesheets/flare-website.css" rel="stylesheet" />
         <link href="../Resources/TableStyles/table-pebble-clear.css" rel="stylesheet" />
         <script src="../../Resources/Scripts/custom.modernizr.js">
         </script>
@@ -49,8 +45,8 @@
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
@@ -70,7 +66,7 @@
                                     <div class="nav-search row">
                                         <form class="search" action="#">
                                             <div class="search-bar search-bar-container needs-pie">
-                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ,,," />
                                                 <div class="search-filter-wrapper">
                                                     <div class="search-filter">
                                                         <div class="search-filter-content">
@@ -100,551 +96,569 @@
                                 </div>
                             </div>
                             <div class="body-container" data-mc-content-body="True">
-                                <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-                                    <div class="container">
-                                        <img src="../Resources/Images/pebble_logo_support2.png" />
-                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                                        <div class="navbar-xs hidden-xs-down">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="pull-sm-right">
-                                                        <ul class="nav navbar-nav navbar-nav-sm">
-                                                            <li class="nav-item " value="1"><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div id="contentBody" class="container" style="margin-top: 120px">
-                                    <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../support/fm/fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <h1>Transactions</h1>
-                                            <p>Transactions represent the flow of money through <span class="PebbleFundManager">Fund Manager</span>. These are either Receipts (money is received) or Payments (money is paid out). </p>
-                                            <p><a name="kanchor19"></a>Transactions are processed as follows within <span class="PebbleFundManager">Fund Manager</span>. </p>
-                                            <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/table-pebble.css');" class="TableStyle-PebbleStandard" cellspacing="0">
-                                                <col style="width: 35%;" class="TableStyle-PebbleStandard-Column-Regular" />
-                                                <col class="TableStyle-PebbleStandard-Column-Regular" />
-                                                <col style="width: 60%;" class="TableStyle-PebbleStandard-Column-Regular" />
-                                                <thead>
-                                                    <tr class="TableStyle-PebbleStandard-Head-Header1">
-                                                        <th style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;text-align: left;" class="TableStyle-PebbleStandard-HeadE-Regular-Header1">Activity</th>
-                                                        <th style="text-align: left;" class="TableStyle-PebbleStandard-HeadE-Regular-Header1">&#160;</th>
-                                                        <th style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;text-align: left;" class="TableStyle-PebbleStandard-HeadD-Regular-Header1">Where in <span class="PebbleFundManager">Fund Manager</span></th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr class="TableStyle-PebbleStandard-Body-Row1">
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyE-Regular-Row1">
-                                                            <p>Recording transactions</p>
-                                                        </td>
-                                                        <td class="TableStyle-PebbleStandard-BodyE-Regular-Row1">&#160;</td>
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyD-Regular-Row1">
-                                                            <p><span class="Name">Transactions &gt; Enter a Receipt</span>
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-PebbleStandard-Body-Row1">
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyE-Regular-Row1">
-                                                            <p>&#160;</p>
-                                                        </td>
-                                                        <td class="TableStyle-PebbleStandard-BodyE-Regular-Row1">&#160;</td>
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyD-Regular-Row1">
-                                                            <p><span class="Name">Transactions &gt;&#160;Record a Payment</span>
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-PebbleStandard-Body-Row1">
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyE-Regular-Row1">
-                                                            <p>Recording money received as paid into the bank</p>
-                                                        </td>
-                                                        <td class="TableStyle-PebbleStandard-BodyE-Regular-Row1">&#160;</td>
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyD-Regular-Row1">
-                                                            <p><span class="Name">Bank &amp;&#160;Cash &gt; Pay Receipts to Bank</span>
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-PebbleStandard-Body-Row1">
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyE-Regular-Row1">
-                                                            <p>Reconciling transactions</p>
-                                                        </td>
-                                                        <td class="TableStyle-PebbleStandard-BodyE-Regular-Row1">&#160;</td>
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyD-Regular-Row1">
-                                                            <p><span class="Name">Bank &amp;&#160;Cash &gt; Reconcile a Bank Statement</span>
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-PebbleStandard-Body-Row1">
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyB-Regular-Row1">
-                                                            <p>Closing the financial year</p>
-                                                        </td>
-                                                        <td class="TableStyle-PebbleStandard-BodyB-Regular-Row1">&#160;</td>
-                                                        <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyA-Regular-Row1">
-                                                            <p><span class="Name">Administration &gt; Period End Closedown</span>
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <p>Some of the processing activities cross into the other menus and those will be covered in the relevant chapters. This chapter focuses on the options on the Transactions menu:</p>
-                                            <ul>
-                                                <li value="1">Recording transactions (receipts in and payments out).</li>
-                                                <li value="2">Making transfers (between accounts or names).</li>
-                                                <li value="3">Cancelling and amending unreconciled transactions.</li>
-                                                <li value="4">Importing transactions.</li>
-                                            </ul>
-                                            <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>Remember you can get more help on anything you read in this chapter by checking the help on the <span class="PebbleFundManager">Fund Manager</span> screens. For more information, see <a href="01 How to access Fund Manager.htm" class="MCXref xref">How to access Fund Manager</a>.</p>
-                                            <h2><a name="kanchor20"></a>Recording transactions</h2>
-                                            <p>By default receipts are displayed on a green background and payments on a red background.</p>
-                                            <p style="text-align: center;">
-                                                <img src="../Resources/Images/FM common/New Starter/Transactions1_1148x654.png" style="width: 1148;height: 654;" />
-                                            </p>
-                                            <div class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>
-                                            </div>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>To be able to save receipts and payments you must select an <span class="Name">Account</span>, enter a <span class="Name">Description</span> and <span class="Name">Amount</span> and select a <span class="Name">Name</span>.</p>
-                                            <h3 data-mc-conditions="Snippets.FM&#160;User Guide"><a name="kanchor21"></a>Receipts</h3>
-                                            <p style="text-align: center;">
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
                                                 <p>
-                                                    <img src="../Resources/Images/FM common/New Starter/TransactionsReceipt.png" />
+                                                    <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                                        <div class="container">
+                                                            <img src="../Resources/Images/pebble_logo_support2.png" />
+                                                            <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../Resources/Images/GotoMainPebbleWebsite.png" /></a>
+                                                            </p>
+                                                        </div>
+                                                    </nav>
                                                 </p>
-                                            </p>
-                                            <p>Use the field descriptions to help you complete the transaction entry.</p>
-                                            <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/table-pebble-clear.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
-                                                <col class="TableStyle-SimpleWithPadding-Column-Column1" style="width: 20%;" />
-                                                <col class="TableStyle-SimpleWithPadding-Column-Column1" style="width: 80%;" />
-                                                <thead>
-                                                    <tr class="TableStyle-SimpleWithPadding-Head-Header1">
-                                                        <th class="TableStyle-SimpleWithPadding-HeadE-Column1-Header1">
-                                                            <p style="text-align: left;">Receipt Field</p>
-                                                        </th>
-                                                        <th class="TableStyle-SimpleWithPadding-HeadD-Column1-Header1">
-                                                            <p style="text-align: left;">Description</p>
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Account</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The account the cash/cheque or credit is being paid into. Click the arrow on the <span class="Name">Select Account</span> box <img src="../Resources/Images/FM common/New Starter/selectionarrow.png" /> to select the account from the drop-down list or enter the <span class="Name">Account Code</span> to the left of this.</p>
-                                                            <p class="Tip" data-mc-autonum="Tip: " data-mc-conditions="Snippets.FM&#160;User Guide"><span class="autonumber"><span class="Emphasis">Tip: </span></span>When you select an account, the <a name="kanchor22"></a>View Transactions tab appears for the account and you can click that to view all the transactions that have been posted for the account to date.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Ledger</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The <a name="kanchor23"></a><span class="Name">Ledger</span> code (if required) you want to assign the transaction to. You can select the code from the drop-down list of available codes.
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <div id="contentBody" class="container" style="margin-top: 120px">
+                                                        <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../support/fm/fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
+                                                        <div class="row">
+                                                            <div class="col-md-10 col-md-offset-1">
+                                                                <h1>Transactions</h1>
+                                                                <p>Transactions represent the flow of money through <span class="PebbleFundManager">Fund Manager</span>. These are either Receipts (money is received) or Payments (money is paid out). </p>
+                                                                <p><a name="kanchor19"></a>Transactions are processed as follows within <span class="PebbleFundManager">Fund Manager</span>. </p>
+                                                                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/table-pebble.css');" class="TableStyle-PebbleStandard" cellspacing="0">
+                                                                    <col style="width: 35%;" class="TableStyle-PebbleStandard-Column-Regular" />
+                                                                    <col class="TableStyle-PebbleStandard-Column-Regular" />
+                                                                    <col style="width: 60%;" class="TableStyle-PebbleStandard-Column-Regular" />
+                                                                    <thead>
+                                                                        <tr class="TableStyle-PebbleStandard-Head-Header1">
+                                                                            <th style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;text-align: left;" class="TableStyle-PebbleStandard-HeadE-Regular-Header1">Activity</th>
+                                                                            <th style="text-align: left;" class="TableStyle-PebbleStandard-HeadE-Regular-Header1">&#160;</th>
+                                                                            <th style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;text-align: left;" class="TableStyle-PebbleStandard-HeadD-Regular-Header1">Where in <span class="PebbleFundManager">Fund Manager</span></th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr class="TableStyle-PebbleStandard-Body-Row1">
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyE-Regular-Row1">
+                                                                                <p>Recording transactions</p>
+                                                                            </td>
+                                                                            <td class="TableStyle-PebbleStandard-BodyE-Regular-Row1">&#160;</td>
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyD-Regular-Row1">
+                                                                                <p><span class="Name">Transactions &gt; Enter a Receipt</span>
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-PebbleStandard-Body-Row1">
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyE-Regular-Row1">
+                                                                                <p>&#160;</p>
+                                                                            </td>
+                                                                            <td class="TableStyle-PebbleStandard-BodyE-Regular-Row1">&#160;</td>
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyD-Regular-Row1">
+                                                                                <p><span class="Name">Transactions &gt;&#160;Record a Payment</span>
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-PebbleStandard-Body-Row1">
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyE-Regular-Row1">
+                                                                                <p>Recording money received as paid into the bank</p>
+                                                                            </td>
+                                                                            <td class="TableStyle-PebbleStandard-BodyE-Regular-Row1">&#160;</td>
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyD-Regular-Row1">
+                                                                                <p><span class="Name">Bank &amp;&#160;Cash &gt; Pay Receipts to Bank</span>
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-PebbleStandard-Body-Row1">
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyE-Regular-Row1">
+                                                                                <p>Reconciling transactions</p>
+                                                                            </td>
+                                                                            <td class="TableStyle-PebbleStandard-BodyE-Regular-Row1">&#160;</td>
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyD-Regular-Row1">
+                                                                                <p><span class="Name">Bank &amp;&#160;Cash &gt; Reconcile a Bank Statement</span>
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-PebbleStandard-Body-Row1">
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyB-Regular-Row1">
+                                                                                <p>Closing the financial year</p>
+                                                                            </td>
+                                                                            <td class="TableStyle-PebbleStandard-BodyB-Regular-Row1">&#160;</td>
+                                                                            <td style="vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" class="TableStyle-PebbleStandard-BodyA-Regular-Row1">
+                                                                                <p><span class="Name">Administration &gt; Period End Closedown</span>
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <p>Some of the processing activities cross into the other menus and those will be covered in the relevant chapters. This chapter focuses on the options on the Transactions menu:</p>
+                                                                <ul>
+                                                                    <li value="1">Recording transactions (receipts in and payments out).</li>
+                                                                    <li value="2">Making transfers (between accounts or names).</li>
+                                                                    <li value="3">Cancelling and amending unreconciled transactions.</li>
+                                                                    <li value="4">Importing transactions.</li>
+                                                                </ul>
+                                                                <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>Remember you can get more help on anything you read in this chapter by checking the help on the <span class="PebbleFundManager">Fund Manager</span> screens. For more information, see <a href="01 How to access Fund Manager.htm" class="MCXref xref">How to access Fund Manager</a>.</p>
+                                                                <h2><a name="kanchor20"></a>Recording transactions</h2>
+                                                                <p>By default receipts are displayed on a green background and payments on a red background.</p>
+                                                                <p style="text-align: center;">
+                                                                    <img src="../Resources/Images/FM common/New Starter/Transactions1_1148x654.png" style="width: 1148;height: 654;" />
+                                                                </p>
+                                                                <div class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>
+                                                                </div>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>To be able to save receipts and payments you must select an <span class="Name">Account</span>, enter a <span class="Name">Description</span> and <span class="Name">Amount</span> and select a <span class="Name">Name</span>.</p>
+                                                                <h3 data-mc-conditions="Snippets.FM&#160;User Guide"><a name="kanchor21"></a>Receipts</h3>
+                                                                <p style="text-align: center;">
+                                                                    <p>
+                                                                        <img src="../Resources/Images/FM common/New Starter/TransactionsReceipt.png" />
+                                                                    </p>
+                                                                </p>
+                                                                <p>Use the field descriptions to help you complete the transaction entry.</p>
+                                                                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/table-pebble-clear.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
+                                                                    <col class="TableStyle-SimpleWithPadding-Column-Column1" style="width: 20%;" />
+                                                                    <col class="TableStyle-SimpleWithPadding-Column-Column1" style="width: 80%;" />
+                                                                    <thead>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Head-Header1">
+                                                                            <th class="TableStyle-SimpleWithPadding-HeadE-Column1-Header1">
+                                                                                <p style="text-align: left;">Receipt Field</p>
+                                                                            </th>
+                                                                            <th class="TableStyle-SimpleWithPadding-HeadD-Column1-Header1">
+                                                                                <p style="text-align: left;">Description</p>
+                                                                            </th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Account</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The account the cash/cheque or credit is being paid into. Click the arrow on the <span class="Name">Select Account</span> box <img src="../Resources/Images/FM common/New Starter/selectionarrow.png" /> to select the account from the drop-down list or enter the <span class="Name">Account Code</span> to the left of this.</p>
+                                                                                <p class="Tip" data-mc-autonum="Tip: " data-mc-conditions="Snippets.FM&#160;User Guide"><span class="autonumber"><span class="Emphasis">Tip: </span></span>When you select an account, the <a name="kanchor22"></a>View Transactions tab appears for the account and you can click that to view all the transactions that have been posted for the account to date.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Ledger</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The <a name="kanchor23"></a><span class="Name">Ledger</span> code (if required) you want to assign the transaction to. You can select the code from the drop-down list of available codes.
 Ledger codes are set up within <span class="Name">Administration</span>. These codes allow you to continue providing unified reports (e.g. VAT reporting) when you integrate with external financial systems. Setting up and assigning the ledger code which matches the ledger code in your external system ensures that your transactions will fall in the correct ledger for reporting.
 </p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Manage Accounts</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>A short-cut to the <span class="Name">Administration &gt; Manage Accounts</span> screen.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Description</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>A description (up to 81 characters) for the receipt. This should be something which makes it easy to identify, for example <i>Trip to Isle of Man</i>, <i>Donation from Alumni Joe Bloggs</i>, <i>Unreconciled transaction receipt from previous system</i>, etc.</p>
-                                                            <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>If required, enter more information about the receipt in the Notes box.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Type</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The type of <a name="kanchor24"></a>receipt you are entering. This can be <span class="Name">Cash</span>, <span class="Name">Cheque</span>, <span class="Name">Direct Credit</span> or <span class="Name">ePayment</span> (receipt).</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Bank and Balance</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>If <span class="Name">Type</span> is <span class="Name">Direct Credit</span> or <span class="Name">ePayment</span>, select the <span class="Name">Bank</span> to which the receipt has been given from the <span class="Name">Bank</span> drop-down list. The balance of the bank account is displayed automatically in the <span class="Name">Balance</span> field once you select the bank account.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Gift Aid</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Indicates whether the receipt is eligible for gift aid. Selected means that it is eligible. Clear indicates it is not.</p>
-                                                            <p>Note: To be eligible, your organisation must be a charity, or have charitable status and the person making the payment must be a UK taxpayer. For more information, see <a href="https://www.gov.uk/claim-gift-aid" target="_blank">HMRC requirements for claiming gift aid</a>.</p>
-                                                            <p class="Tip" data-mc-autonum="Tip: " data-mc-conditions="Snippets.FM&#160;User Guide"><span class="autonumber"><span class="Emphasis">Tip: </span></span>If you update <a name="kanchor25"></a>Gift Aid Donor details for a transaction that falls in a closed period it is automatically included in the next submission.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Notes</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Notes (up to 81 characters)about the receipt. This is an optional field and can be used in addition to the <span class="Name">Description</span> if more information needs to be recorded.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">VAT Code</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The <a name="kanchor26"></a>VAT rate for the transaction. You can select from a number of pre-defined VAT rates as follows: <span class="Name">Zero</span>(0%), <span class="Name">Standard</span> (20%), <span class="Name">Reduced</span> (5%), <span class="Name">Exempt</span> (0%), <span class="Name">Outside scope</span> (0%), or <span class="Name">Custom</span> (which you define yourself).</p>
-                                                            <p>For guidance on VAT rates, see the <a href="https://www.gov.uk/guidance/rates-of-vat-on-different-goods-and-services" target="_blank">HMRC guidance - VAT rates on different goods and services</a>.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">VAT Rate</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Only applicable if you select <span class="Name">Custom</span> for the <span class="Name">VAT Code</span>. Enter the % VAT rate to apply.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Reference</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>A reference you enter which helps you to identify or trace the receipt.</p>
-                                                            <p>The reference is optional as you will always be given an automatically generated <span class="Name">Receipt No</span> when you save the transaction.</p>
-                                                            <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>This is a useful place to record an invoice number.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Date</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The date the transaction takes place for VAT purposes.</p>
-                                                            <p>The transaction date defaults to today’s date but you can amend this, if required. For example, you can enter the date of receipt as the date on a cheque, or the date of the direct credit.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Amount</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The gross amount of the transaction or the individual <span class="Name">Amount</span> to bulk input.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Receipt No</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The number which is automatically generated within <span class="PebbleFundManager">Fund Manager</span> for the receipt you are entering. You can’t change this number when you create the receipt, although you can change it later if you amend the receipt.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Names</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Pupil and other names i.e. suppliers and/or staff, are displayed for you to record your receipt against.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Name Filter</span> </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Enter a character or characters in the name/class/year/group you want to find and the list of displayed names adjusts accordingly to show a shorter list to choose the name from.
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Manage Accounts</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>A short-cut to the <span class="Name">Administration &gt; Manage Accounts</span> screen.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Description</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>A description (up to 81 characters) for the receipt. This should be something which makes it easy to identify, for example <i>Trip to Isle of Man</i>, <i>Donation from Alumni Joe Bloggs</i>, <i>Unreconciled transaction receipt from previous system</i>, etc.</p>
+                                                                                <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>If required, enter more information about the receipt in the Notes box.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Type</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The type of <a name="kanchor24"></a>receipt you are entering. This can be <span class="Name">Cash</span>, <span class="Name">Cheque</span>, <span class="Name">Direct Credit</span> or <span class="Name">ePayment</span> (receipt).</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Bank and Balance</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>If <span class="Name">Type</span> is <span class="Name">Direct Credit</span> or <span class="Name">ePayment</span>, select the <span class="Name">Bank</span> to which the receipt has been given from the <span class="Name">Bank</span> drop-down list. The balance of the bank account is displayed automatically in the <span class="Name">Balance</span> field once you select the bank account.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Gift Aid</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Indicates whether the receipt is eligible for gift aid. Selected means that it is eligible. Clear indicates it is not.</p>
+                                                                                <p>Note: To be eligible, your organisation must be a charity, or have charitable status and the person making the payment must be a UK taxpayer. For more information, see <a href="https://www.gov.uk/claim-gift-aid" target="_blank">HMRC requirements for claiming gift aid</a>.</p>
+                                                                                <p class="Tip" data-mc-autonum="Tip: " data-mc-conditions="Snippets.FM&#160;User Guide"><span class="autonumber"><span class="Emphasis">Tip: </span></span>If you update <a name="kanchor25"></a>Gift Aid Donor details for a transaction that falls in a closed period it is automatically included in the next submission.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Notes</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Notes (up to 81 characters)about the receipt. This is an optional field and can be used in addition to the <span class="Name">Description</span> if more information needs to be recorded.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">VAT Code</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The <a name="kanchor26"></a>VAT rate for the transaction. You can select from a number of pre-defined VAT rates as follows: <span class="Name">Zero</span>(0%), <span class="Name">Standard</span> (20%), <span class="Name">Reduced</span> (5%), <span class="Name">Exempt</span> (0%), <span class="Name">Outside scope</span> (0%), or <span class="Name">Custom</span> (which you define yourself).</p>
+                                                                                <p>For guidance on VAT rates, see the <a href="https://www.gov.uk/guidance/rates-of-vat-on-different-goods-and-services" target="_blank">HMRC guidance - VAT rates on different goods and services</a>.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">VAT Rate</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Only applicable if you select <span class="Name">Custom</span> for the <span class="Name">VAT Code</span>. Enter the % VAT rate to apply.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Reference</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>A reference you enter which helps you to identify or trace the receipt.</p>
+                                                                                <p>The reference is optional as you will always be given an automatically generated <span class="Name">Receipt No</span> when you save the transaction.</p>
+                                                                                <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>This is a useful place to record an invoice number.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Date</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The date the transaction takes place for VAT purposes.</p>
+                                                                                <p>The transaction date defaults to today’s date but you can amend this, if required. For example, you can enter the date of receipt as the date on a cheque, or the date of the direct credit.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Amount</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The gross amount of the transaction or the individual <span class="Name">Amount</span> to bulk input.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Receipt No</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The number which is automatically generated within <span class="PebbleFundManager">Fund Manager</span> for the receipt you are entering. You can’t change this number when you create the receipt, although you can change it later if you amend the receipt.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Names</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Pupil and other names i.e. suppliers and/or staff, are displayed for you to record your receipt against.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Name Filter</span> </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Enter a character or characters in the name/class/year/group you want to find and the list of displayed names adjusts accordingly to show a shorter list to choose the name from.
 </p>
-                                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>
+                                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>
 The filter works by displaying all names which contain the character or characters you have entered.
 </p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Manage Names</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyA-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>A short-cut to the <span class="Name">Administration &gt; Manage Names</span> screen.</p>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <h3 data-mc-conditions="Snippets.FM&#160;User Guide"><a name="kanchor27"></a>Payments</h3>
-                                            <p style="text-align: center;">
-                                                <img src="../Resources/Images/FM common/New Starter/Transactions2.png" />
-                                            </p>
-                                            <p>Use the field descriptions to help you complete the transaction entry.</p>
-                                            <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/table-pebble-clear.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
-                                                <col class="TableStyle-SimpleWithPadding-Column-Column1" style="width: 20%;" />
-                                                <col class="TableStyle-SimpleWithPadding-Column-Column1" style="width: 80%;" />
-                                                <thead>
-                                                    <tr class="TableStyle-SimpleWithPadding-Head-Header1">
-                                                        <th class="TableStyle-SimpleWithPadding-HeadE-Column1-Header1">
-                                                            <p style="text-align: left;">Payment Field</p>
-                                                        </th>
-                                                        <th class="TableStyle-SimpleWithPadding-HeadD-Column1-Header1">
-                                                            <p style="text-align: left;">Description</p>
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Account</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The account the cash/cheque or debit is being paid out of. Click the arrow on the <span class="Name">Select Account</span> box  <img src="../Resources/Images/FM common/New Starter/selectionarrow.png" />to select the account from the drop-down list or enter the <span class="Name">Account Code</span> to the left of this.</p>
-                                                            <p class="Tip" data-mc-autonum="Tip: " data-mc-conditions="Snippets.FM&#160;User Guide"><span class="autonumber"><span class="Emphasis">Tip: </span></span>When you select an account, the <a name="kanchor28"></a>View Transactions tab appears for the account and you can click that to view all the transactions that have been posted for the account to date.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Ledger</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The <a name="kanchor29"></a><span class="Name">Ledger</span> code (if required) you want to assign the transaction to. You can select the code from the drop-down list of available codes.
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Manage Names</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyA-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>A short-cut to the <span class="Name">Administration &gt; Manage Names</span> screen.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <h3 data-mc-conditions="Snippets.FM&#160;User Guide"><a name="kanchor27"></a>Payments</h3>
+                                                                <p style="text-align: center;">
+                                                                    <img src="../Resources/Images/FM common/New Starter/Transactions2.png" />
+                                                                </p>
+                                                                <p>Use the field descriptions to help you complete the transaction entry.</p>
+                                                                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/table-pebble-clear.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
+                                                                    <col class="TableStyle-SimpleWithPadding-Column-Column1" style="width: 20%;" />
+                                                                    <col class="TableStyle-SimpleWithPadding-Column-Column1" style="width: 80%;" />
+                                                                    <thead>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Head-Header1">
+                                                                            <th class="TableStyle-SimpleWithPadding-HeadE-Column1-Header1">
+                                                                                <p style="text-align: left;">Payment Field</p>
+                                                                            </th>
+                                                                            <th class="TableStyle-SimpleWithPadding-HeadD-Column1-Header1">
+                                                                                <p style="text-align: left;">Description</p>
+                                                                            </th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Account</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The account the cash/cheque or debit is being paid out of. Click the arrow on the <span class="Name">Select Account</span> box  <img src="../Resources/Images/FM common/New Starter/selectionarrow.png" />to select the account from the drop-down list or enter the <span class="Name">Account Code</span> to the left of this.</p>
+                                                                                <p class="Tip" data-mc-autonum="Tip: " data-mc-conditions="Snippets.FM&#160;User Guide"><span class="autonumber"><span class="Emphasis">Tip: </span></span>When you select an account, the <a name="kanchor28"></a>View Transactions tab appears for the account and you can click that to view all the transactions that have been posted for the account to date.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Ledger</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The <a name="kanchor29"></a><span class="Name">Ledger</span> code (if required) you want to assign the transaction to. You can select the code from the drop-down list of available codes.
 Ledger codes are set up within <span class="Name">Administration</span>. These codes allow you to continue providing unified reports (e.g. VAT reporting) when you integrate with external financial systems. Setting up and assigning the ledger code which matches the ledger code in your external system ensures that your transactions will fall in the correct ledger for reporting.
 </p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Manage Accounts</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>A short-cut to the <span class="Name">Administration &gt; Manage Accounts</span> screen.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Description</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>A description (up to 81 characters) for the receipt. This should be something which makes it easy to identify, for example <i>Trip to Isle of Man</i>, <i>Unreconciled transaction receipt from previous system</i>, etc.</p>
-                                                            <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>If required, enter more information about the receipt in the Notes box.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Type</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The <a name="kanchor30"></a>type of payment you are recording. This can be <span class="Name">Cash</span>, <span class="Name">Cheque</span>, <span class="Name">Direct Debit</span> or <span class="Name">ePayment</span> (payment).</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Bank and Balance</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>If <span class="Name">Type</span> is <span class="Name">Cheque</span>, <span class="Name">Direct Debit</span>  or <span class="Name">ePayment</span>, select the <span class="Name">Bank</span> from which payment has been made from the <span class="Name">Bank</span> drop-down list. The balance of the bank account is displayed automatically in the <span class="Name">Balance</span> field once you select the bank account.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Notes</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Notes (up to 81 characters)about the payment. This is an optional field and can be used in addition to the <span class="Name">Description</span> if more information needs to be recorded.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">VAT Code</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The <a name="kanchor31"></a>VAT rate for the transaction. You can select from a number of pre-defined VAT rates as follows: <span class="Name">Zero</span>(0%), <span class="Name">Standard</span> (20%), <span class="Name">Reduced</span> (5%), <span class="Name">Exempt</span> (0%), <span class="Name">Outside scope</span> (0%), or <span class="Name">Custom</span> (which you define yourself).</p>
-                                                            <p>For guidance on VAT rates, see the <a href="https://www.gov.uk/guidance/rates-of-vat-on-different-goods-and-services" target="_blank">HMRC guidance - VAT rates on different goods and services</a>.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">VAT Rate</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Only applicable if you select <span class="Name">Custom</span> for the <span class="Name">VAT Code</span>. Enter the % VAT rate to apply.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Reference</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>A reference you enter which helps you to identify or trace the payment.</p>
-                                                            <p>The reference is optional as you will always be given an automatically generated <span class="Name">Chq/Vouch No</span> when you save the transaction.</p>
-                                                            <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>This is a useful place to record an invoice number.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Date</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The date the transaction takes place for VAT purposes.</p>
-                                                            <p>The transaction date defaults to today’s date but you can amend this, if required. For example, you can enter the date of payment as the date on a cheque, or the date of the direct debit.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Amount</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The gross amount of the transaction or the individual <span class="Name">Amount</span> to bulk input.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Chq/Vouch No</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>The number which is automatically generated within Fund Manager for the payment you are entering against a particular <span class="Name">Bank Account</span> or <span class="Name">Cash Transaction</span>. You can change this number when you create the payment and you can change it later if you amend the payment.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Names</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Pupil and other names i.e. suppliers and/or staff, are displayed for you to record your payment against.</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Name Filter</span> </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>Enter a character or characters in the name/class/year/group you want to find and the list of displayed names adjusts accordingly to show a shorter list to choose the name from.
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Manage Accounts</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>A short-cut to the <span class="Name">Administration &gt; Manage Accounts</span> screen.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Description</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>A description (up to 81 characters) for the receipt. This should be something which makes it easy to identify, for example <i>Trip to Isle of Man</i>, <i>Unreconciled transaction receipt from previous system</i>, etc.</p>
+                                                                                <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>If required, enter more information about the receipt in the Notes box.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Type</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The <a name="kanchor30"></a>type of payment you are recording. This can be <span class="Name">Cash</span>, <span class="Name">Cheque</span>, <span class="Name">Direct Debit</span> or <span class="Name">ePayment</span> (payment).</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Bank and Balance</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>If <span class="Name">Type</span> is <span class="Name">Cheque</span>, <span class="Name">Direct Debit</span>  or <span class="Name">ePayment</span>, select the <span class="Name">Bank</span> from which payment has been made from the <span class="Name">Bank</span> drop-down list. The balance of the bank account is displayed automatically in the <span class="Name">Balance</span> field once you select the bank account.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Notes</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Notes (up to 81 characters)about the payment. This is an optional field and can be used in addition to the <span class="Name">Description</span> if more information needs to be recorded.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">VAT Code</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The <a name="kanchor31"></a>VAT rate for the transaction. You can select from a number of pre-defined VAT rates as follows: <span class="Name">Zero</span>(0%), <span class="Name">Standard</span> (20%), <span class="Name">Reduced</span> (5%), <span class="Name">Exempt</span> (0%), <span class="Name">Outside scope</span> (0%), or <span class="Name">Custom</span> (which you define yourself).</p>
+                                                                                <p>For guidance on VAT rates, see the <a href="https://www.gov.uk/guidance/rates-of-vat-on-different-goods-and-services" target="_blank">HMRC guidance - VAT rates on different goods and services</a>.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">VAT Rate</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Only applicable if you select <span class="Name">Custom</span> for the <span class="Name">VAT Code</span>. Enter the % VAT rate to apply.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Reference</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>A reference you enter which helps you to identify or trace the payment.</p>
+                                                                                <p>The reference is optional as you will always be given an automatically generated <span class="Name">Chq/Vouch No</span> when you save the transaction.</p>
+                                                                                <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>This is a useful place to record an invoice number.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Date</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The date the transaction takes place for VAT purposes.</p>
+                                                                                <p>The transaction date defaults to today’s date but you can amend this, if required. For example, you can enter the date of payment as the date on a cheque, or the date of the direct debit.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Amount</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The gross amount of the transaction or the individual <span class="Name">Amount</span> to bulk input.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Chq/Vouch No</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>The number which is automatically generated within Fund Manager for the payment you are entering against a particular <span class="Name">Bank Account</span> or <span class="Name">Cash Transaction</span>. You can change this number when you create the payment and you can change it later if you amend the payment.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Names</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Pupil and other names i.e. suppliers and/or staff, are displayed for you to record your payment against.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Name Filter</span> </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>Enter a character or characters in the name/class/year/group you want to find and the list of displayed names adjusts accordingly to show a shorter list to choose the name from.
 </p>
-                                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>
+                                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>
 The filter works by displaying all names which contain the character or characters you have entered.
 </p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="TableStyle-SimpleWithPadding-Body-Row1">
-                                                        <td class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p><span class="Name">Manage Names</span>
-                                                            </p>
-                                                        </td>
-                                                        <td class="TableStyle-SimpleWithPadding-BodyA-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
-                                                            <p>A short-cut to the <span class="Name">Administration &gt; Manage Names</span> screen.</p>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <h3><a name="kanchor32"></a>Splitting receipts and payments</h3>
-                                            <p>You can split a receipt or payment across any number of accounts and a receipt across any number of names. This is useful, for example, if you have received money from a parent for two children at the same school who are going on different trips.</p>
-                                            <p>When you click <span class="Name">Save</span> on the transaction, if the transaction <span class="Name">Type</span> is <span class="Name">Cheque</span> or <span class="Name">Direct Credit</span> for Receipts or <span class="Name">Cheque</span> or <span class="Name">Direct Debit</span> for Payments, then a yellow bar appears at the top of the window. For example:</p>
-                                            <p>
-                                                <img src="../Resources/Images/FMFAQsplit01.png" />
-                                            </p>
-                                            <ol>
-                                                <li value="1">Click <span class="Name">split this Receipt</span> or <span class="Name">split this Payment</span>.</li>
-                                                <li value="2">Select the <span class="Name">Account </span>over which the Amount is being split.</li>
-                                                <li value="3">If a Receipt, select the <span class="Name">Name</span> the Amount is to be recorded against.</li>
-                                                <li value="4">Enter the <span class="Name">Amount</span> you want to split from the original Receipt or Payment.</li>
-                                                <li value="5">Click <span class="Name">Split Receipt</span> or <span class="Name">Split Payment</span> - to split further if required.</li>
-                                                <li value="6">Continue splitting until the <span class="Name">Balance</span> is shown as Zero.</li>
-                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>You must always Split Receipt or Split Payment before you click Finished.</p>
-                                                <li value="7">Click <span class="Name">Finished</span> to complete the split.</li>
-                                            </ol>
-                                            <h2>Making transfers</h2>
-                                            <p>You can transfer amounts between accounts or between names. </p>
-                                            <h3><a name="kanchor33"></a>Between accounts</h3>
-                                            <p>The most common transfer is between accounts without reference to names. For example, if you have a general or miscellaneous account, you might want to transfer underspend from a visit or trip to this account.</p>
-                                            <ol>
-                                                <li value="1">Open <span class="Name">Transactions &gt;&#160;Transfer Between User Accounts</span>.</li>
-                                                <li value="2">Select the <span class="Name">Transfer From</span> account. </li>
-                                                <li value="3">Select the <span class="Name">Transfer To</span> account.</li>
-                                                <li value="4">Enter the <span class="Name">Amount</span> that you want to transfer.</li>
-                                                <li value="5">Enter the <span class="Name">Date</span> of the transfer.</li>
-                                                <li value="6">Enter the reason for the transfer in the <span class="Name">Notes</span> field.</li>
-                                                <li value="7">Click <span class="Name">Transfer</span>.</li>
-                                            </ol>
-                                            <h4>Transferring a <a name="kanchor34"></a>negative balance</h4>
-                                            <p>You can only transfer positive balances, so if you want to transfer the negative amount in one account to another, do it the other way around, as follows:. </p>
-                                            <ol>
-                                                <li value="1">Select the account you want to transfer the negative balance to in the <span class="Name">Transfer From</span> field. </li>
-                                                <li value="2">Select the account you want to transfer the negative amount from, in the <span class="Name">Transfer To</span> field. </li>
-                                                <li value="3">Enter the amount you want to transfer as a positive amount.</li>
-                                            </ol>
-                                            <h3><a name="kanchor35"></a>Between names</h3>
-                                            <p>Transfer between accounts and/or two different names.</p>
-                                            <ol>
-                                                <li value="1">Open <span class="Name">Transactions &gt;&#160;Transfer Between Names</span>.</li>
-                                                <li value="2">Select the <span class="Name">Account From</span>.</li>
-                                                <li value="3">Select the <span class="Name">Name From</span>.</li>
-                                                <li value="4">Select the <span class="Name">Account To</span>.</li>
-                                                <li value="5">Select the <span class="Name">Name To</span>.</li>
-                                                <li value="6">Enter the <span class="Name">Amount</span>  that you want to transfer.</li>
-                                                <li value="7">Enter the <span class="Name">Date</span> of the transfer.</li>
-                                                <li value="8">Enter the reason for the transfer in the <span class="Name">Notes</span> field.</li>
-                                                <li value="9">Click <span class="Name">Transfer</span>.</li>
-                                            </ol>
-                                            <h2><a name="kanchor36"></a>Cancelling and amending transactions</h2>
-                                            <p>You can’t amend transactions using <span class="Name">Transactions &gt; Amend Receipt or Payment Transaction</span> or cancel transactions using <span class="Name">Transactions &gt; Cancel Receipt or Payment Transaction</span> if the transactions have been:</p>
-                                            <ul>
-                                                <li value="1">Included in a VAT&#160;100 Report</li>
-                                                <li value="2">Included in a reconciled or part-reconciled statement</li>
-                                                <li value="3">Left unreconciled from a previous closed period</li>
-                                            </ul>
-                                            <p>If you need to cancel a transaction that falls in one of these categories, you can do this by entering a contra-entry transaction which has the effect of cancelling the original transaction. You can then net these transactions off your next reconciliation.</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If you are cancelling, do not cancel the original cheque receipt or alter the original paying-in slip. </p>
-                                            <ol>
-                                                <li value="1">Select the relevant <span class="Name">Receipts</span> or <span class="Name">Payments</span>.</li>
-                                                <li value="2">Click <span class="Name">Continue</span>.</li>
-                                                <li value="3">Type in a <span class="Name">Reason for Cancellation</span>.</li>
-                                                <li value="4">Click <span class="Name">Cancel Transactions</span>.</li>
-                                            </ol>
-                                            <h2>Importing transactions</h2>
-                                            <p><a name="kanchor37"></a>You can import transactions from CSV files using <span class="Name">Transactions &gt;&#160;Import Transactions</span>.</p>
-                                            <p>This is a manual way of bringing in transactions and particularly useful if you use <span class="PebbleFundManager">Fund Manager</span> alongside <a name="kanchor38"></a><a href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/articles/import-schoolcomms.htm" target="_blank">SchoolComms</a>, <a name="kanchor39"></a><a href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/articles/import-schoolmoney.htm" target="_blank">SchoolMoney</a> or <a name="kanchor40"></a><a href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/articles/import-parentmail.htm" target="_blank">ParentMail</a>. Create the CSV&#160;file from within those programs and then import it into <span class="PebbleFundManager">Fund Manager</span>, using <span class="Name">Transactions &gt;&#160;Import Transactions</span>.</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>It is your responsibility to handle personal data in accordance with GDPR law.</p>
-                                            <p>If you use ParentPay, sQuid or Joinos alongside <span class="PebbleFundManager">Fund Manager</span> you can set up an automatic import of transactions, using the integrated SIMs menu options for each platform. For more information, see <a href="10 Integrated SIMs.htm" class="MCXref xref"> SIMs Software Integrations</a></p>
-                                            <p>&#160;</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p>&#160;</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p><span class="Name">Manage Names</span>
+                                                                                </p>
+                                                                            </td>
+                                                                            <td class="TableStyle-SimpleWithPadding-BodyA-Column1-Row1" style="vertical-align: top;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">
+                                                                                <p>A short-cut to the <span class="Name">Administration &gt; Manage Names</span> screen.</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <h3><a name="kanchor32"></a>Splitting receipts and payments</h3>
+                                                                <p>You can split a receipt or payment across any number of accounts and a receipt across any number of names. This is useful, for example, if you have received money from a parent for two children at the same school who are going on different trips.</p>
+                                                                <p>When you click <span class="Name">Save</span> on the transaction, if the transaction <span class="Name">Type</span> is <span class="Name">Cheque</span> or <span class="Name">Direct Credit</span> for Receipts or <span class="Name">Cheque</span> or <span class="Name">Direct Debit</span> for Payments, then a yellow bar appears at the top of the window. For example:</p>
+                                                                <p>
+                                                                    <img src="../Resources/Images/FMFAQsplit01.png" />
+                                                                </p>
+                                                                <ol>
+                                                                    <li value="1">Click <span class="Name">split this Receipt</span> or <span class="Name">split this Payment</span>.</li>
+                                                                    <li value="2">Select the <span class="Name">Account </span>over which the Amount is being split.</li>
+                                                                    <li value="3">If a Receipt, select the <span class="Name">Name</span> the Amount is to be recorded against.</li>
+                                                                    <li value="4">Enter the <span class="Name">Amount</span> you want to split from the original Receipt or Payment.</li>
+                                                                    <li value="5">Click <span class="Name">Split Receipt</span> or <span class="Name">Split Payment</span> - to split further if required.</li>
+                                                                    <li value="6">Continue splitting until the <span class="Name">Balance</span> is shown as Zero.</li>
+                                                                    <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>You must always Split Receipt or Split Payment before you click Finished.</p>
+                                                                    <li value="7">Click <span class="Name">Finished</span> to complete the split.</li>
+                                                                </ol>
+                                                                <h2>Making transfers</h2>
+                                                                <p>You can transfer amounts between accounts or between names. </p>
+                                                                <h3><a name="kanchor33"></a>Between accounts</h3>
+                                                                <p>The most common transfer is between accounts without reference to names. For example, if you have a general or miscellaneous account, you might want to transfer underspend from a visit or trip to this account.</p>
+                                                                <ol>
+                                                                    <li value="1">Open <span class="Name">Transactions &gt;&#160;Transfer Between User Accounts</span>.</li>
+                                                                    <li value="2">Select the <span class="Name">Transfer From</span> account. </li>
+                                                                    <li value="3">Select the <span class="Name">Transfer To</span> account.</li>
+                                                                    <li value="4">Enter the <span class="Name">Amount</span> that you want to transfer.</li>
+                                                                    <li value="5">Enter the <span class="Name">Date</span> of the transfer.</li>
+                                                                    <li value="6">Enter the reason for the transfer in the <span class="Name">Notes</span> field.</li>
+                                                                    <li value="7">Click <span class="Name">Transfer</span>.</li>
+                                                                </ol>
+                                                                <h4>Transferring a <a name="kanchor34"></a>negative balance</h4>
+                                                                <p>You can only transfer positive balances, so if you want to transfer the negative amount in one account to another, do it the other way around, as follows:. </p>
+                                                                <ol>
+                                                                    <li value="1">Select the account you want to transfer the negative balance to in the <span class="Name">Transfer From</span> field. </li>
+                                                                    <li value="2">Select the account you want to transfer the negative amount from, in the <span class="Name">Transfer To</span> field. </li>
+                                                                    <li value="3">Enter the amount you want to transfer as a positive amount.</li>
+                                                                </ol>
+                                                                <h3><a name="kanchor35"></a>Between names</h3>
+                                                                <p>Transfer between accounts and/or two different names.</p>
+                                                                <ol>
+                                                                    <li value="1">Open <span class="Name">Transactions &gt;&#160;Transfer Between Names</span>.</li>
+                                                                    <li value="2">Select the <span class="Name">Account From</span>.</li>
+                                                                    <li value="3">Select the <span class="Name">Name From</span>.</li>
+                                                                    <li value="4">Select the <span class="Name">Account To</span>.</li>
+                                                                    <li value="5">Select the <span class="Name">Name To</span>.</li>
+                                                                    <li value="6">Enter the <span class="Name">Amount</span>  that you want to transfer.</li>
+                                                                    <li value="7">Enter the <span class="Name">Date</span> of the transfer.</li>
+                                                                    <li value="8">Enter the reason for the transfer in the <span class="Name">Notes</span> field.</li>
+                                                                    <li value="9">Click <span class="Name">Transfer</span>.</li>
+                                                                </ol>
+                                                                <h2><a name="kanchor36"></a>Cancelling and amending transactions</h2>
+                                                                <p>You can’t amend transactions using <span class="Name">Transactions &gt; Amend Receipt or Payment Transaction</span> or cancel transactions using <span class="Name">Transactions &gt; Cancel Receipt or Payment Transaction</span> if the transactions have been:</p>
+                                                                <ul>
+                                                                    <li value="1">Included in a VAT&#160;100 Report</li>
+                                                                    <li value="2">Included in a reconciled or part-reconciled statement</li>
+                                                                    <li value="3">Left unreconciled from a previous closed period</li>
+                                                                </ul>
+                                                                <p>If you need to cancel a transaction that falls in one of these categories, you can do this by entering a contra-entry transaction which has the effect of cancelling the original transaction. You can then net these transactions off your next reconciliation.</p>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If you are cancelling, do not cancel the original cheque receipt or alter the original paying-in slip. </p>
+                                                                <ol>
+                                                                    <li value="1">Select the relevant <span class="Name">Receipts</span> or <span class="Name">Payments</span>.</li>
+                                                                    <li value="2">Click <span class="Name">Continue</span>.</li>
+                                                                    <li value="3">Type in a <span class="Name">Reason for Cancellation</span>.</li>
+                                                                    <li value="4">Click <span class="Name">Cancel Transactions</span>.</li>
+                                                                </ol>
+                                                                <h2>Importing transactions</h2>
+                                                                <p><a name="kanchor37"></a>You can import transactions from CSV files using <span class="Name">Transactions &gt;&#160;Import Transactions</span>.</p>
+                                                                <p>This is a manual way of bringing in transactions and particularly useful if you use <span class="PebbleFundManager">Fund Manager</span> alongside <a name="kanchor38"></a><a href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/articles/import-schoolcomms.htm" target="_blank">SchoolComms</a>, <a name="kanchor39"></a><a href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/articles/import-schoolmoney.htm" target="_blank">SchoolMoney</a> or <a name="kanchor40"></a><a href="https://www.mypebble.co.uk/supportdocs/Content/support/fm/articles/import-parentmail.htm" target="_blank">ParentMail</a>. Create the CSV&#160;file from within those programs and then import it into <span class="PebbleFundManager">Fund Manager</span>, using <span class="Name">Transactions &gt;&#160;Import Transactions</span>.</p>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>It is your responsibility to handle personal data in accordance with GDPR law.</p>
+                                                                <p>If you use ParentPay, sQuid or Joinos alongside <span class="PebbleFundManager">Fund Manager</span> you can set up an automatic import of transactions, using the integrated SIMs menu options for each platform. For more information, see <a href="10 Integrated SIMs.htm" class="MCXref xref"> SIMs Software Integrations</a></p>
+                                                                <p>&#160;</p>
+                                                                <p>&#160;</p><a href="javascript:window.print()"><img src="../Resources/Images/PrintTopic.png" /></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <footer>
                                     <div class="container">
                                         <div class="row">

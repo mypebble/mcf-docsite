@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Manage new and existing names within Fund Manager. Includes consolidating or merging names." />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>Manage Names</title>
@@ -21,9 +20,6 @@
         <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../../../Resources/TableStyles/table-pebble-grid.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/website.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/flare-website.css" rel="stylesheet" />
         <script src="../../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../../Resources/Scripts/jquery.min.js">
@@ -47,8 +43,8 @@
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
@@ -68,7 +64,7 @@
                                     <div class="nav-search row">
                                         <form class="search" action="#">
                                             <div class="search-bar search-bar-container needs-pie">
-                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ,,," />
                                                 <div class="search-filter-wrapper">
                                                     <div class="search-filter">
                                                         <div class="search-filter-content">
@@ -98,84 +94,102 @@
                                 </div>
                             </div>
                             <div class="body-container" data-mc-content-body="True">
-                                <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-                                    <div class="container">
-                                        <img src="../../../Resources/Images/pebble_logo_support2.png" />
-                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                                        <div class="navbar-xs hidden-xs-down">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="pull-sm-right">
-                                                        <ul class="nav navbar-nav navbar-nav-sm">
-                                                            <li class="nav-item " value="1"><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                                            </li>
-                                                        </ul>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                                        <div class="container">
+                                                            <img src="../../../Resources/Images/pebble_logo_support2.png" />
+                                                            <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../../../Resources/Images/GotoMainPebbleWebsite.png" /></a>
+                                                            </p>
+                                                        </div>
+                                                    </nav>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <div id="contentBody" class="container" style="margin-top: 120px">
+                                                        <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
+                                                        <div class="row">
+                                                            <div class="col-md-10 col-md-offset-1">
+                                                                <h1>Manage Names</h1>
+                                                                <p>You can import pupil <span class="Name">Names</span> from your school administration database. <MadCap:conditionalText data-mc-conditions="Snippets.FM&#160;User Guide">The <a name="kanchor123"></a>*MISAPP SIMS only feature is the automatic way to add an up-to-date file of pupil names with their year and registration group details and import them quickly into Fund Manager. If you have an integration with <span class="PebbleFundManager">Fund Manager</span> e.g. ParentPay or sQuid then we can import your names within the integration. More help and information on this can be found by contacting the Support Team.</MadCap:conditionalText></p>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Pebble Support generally does this for you as part of your initial setup.</p>
+                                                                <p>Each <span class="Name">Pupil</span> has their own entry within Fund Manager so you can register individual transactions against them. More options are available such as <span class="Name">Staff</span>, <span class="Name">Contact details</span> and <span class="Name">Groups</span>. Other names, including organisations etc., can be added as required using the <span class="Name">Manage Names/Organisation</span> option.</p>
+                                                                <p>You will need to refresh your pupil and staff information e.g. at the start of a new year or term or when pupils move from class to class or year to year. If you use MISapp or have an integration, pupils will automatically move from class to class, year to year once you refresh the data. New names for pupils or staff will appear ready for you to import into Fund Manager - don’t forget to <a name="kanchor124"></a>archive old pupils and staff when they leave school via <span class="Name">Administration &gt; Manage Names &gt; Batch Actions</span>. If you are not using MISapp or a third party integration, you will need to update names manually, with an imported CSV file.</p>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>It is your responsibility to handle personal data in accordance with GDPR law.</p>
+                                                                <p>In <span class="Name">Administration &gt; Manage Names</span>, use the <span class="Name">Filter</span> box at the top of the <span class="Name">Manage Names</span> screen to find quickly the <span class="Name">Name/Group/Year/Class</span> etc. you are looking for.</p>
+                                                                <p style="text-align: center;">
+                                                                    <img src="../../../Resources/Images/FM common/Edinburgh FM Guide/Names1.png" />
+                                                                </p>
+                                                                <h3><a name="kanchor125"></a>Batch Actions</h3>
+                                                                <p>The options in these sections can be applied to more than one name at a time.</p>
+                                                                <p>Once a name is no longer required you can mark <a name="kanchor126"></a>it <span class="Name">Out of Use</span>. Select the box next to the name and then select <span class="Name">Out of Use</span>. </p>
+                                                                <p>You can return a name to ‘in use’ by clicking<a name="kanchor127"></a> <span class="Name">Show out of use</span>. You will now see ‘out of use’ names; they will appear in grey. Select the name(s) and then select <a name="kanchor128"></a><span class="Name">In Use</span> in <span class="Name">Batch Actions</span>. Refresh the page by clicking <span class="Name">Administration &gt; Manage Names</span> for the Name(s) to be returned to ‘In Use’.</p>
+                                                                <h3><a name="kanchor129"></a>Group Actions</h3>
+                                                                <p>Pupils are already usually imported by <a name="kanchor130"></a><span class="Name">Class</span>, <a name="kanchor131"></a><span class="Name">Year</span> or <a name="kanchor132"></a><span class="Name">Reg</span>istration group  or create your own pupil group <a name="kanchor133"></a>(User Defined) for your Fund Manager names, e.g. trips, off site, overseas, sixth form, etc. You can also set up groups for different groups of pupils e.g. universal infant free school meals, pupil premium, etc. Together with the filter options throughout Fund Manager, groups assist you in selecting names quickly when you want to assign transactions to the names in the group or include the names in the group within reports, such as the <span class="Name">Who’s Not Paid</span> report.</p>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Names can be assigned to more than one group, so you can design the groups to make your workday easier.</p>
+                                                                <p>Once you have created the groups you want to use, <a name="kanchor134"></a>you assign names to the groups. This includes the names in the group and you can then apply various actions to the groups.</p>
+                                                                <ul>
+                                                                    <li value="1">Open <span class="Name">Administration &gt;&#160;Manage Names</span>.</li>
+                                                                </ul>
+                                                                <p style="text-align: center;">
+                                                                    <img src="../../../Resources/Images/FM common/Edinburgh FM Guide/creategroup.png" />
+                                                                </p>
+                                                                <h3><a name="kanchor135"></a>Create New Names/Organisations</h3>
+                                                                <p>We would always suggest that you Import your pupil names from your administration database; this should avoid duplication.  <MadCap:conditionalText data-mc-conditions="Snippets.FM&#160;User Guide">The *MISAPP feature is the automatic way to add an up to date file of pupil names with their year and registration group details and import them quickly into Fund Manager more help and information on this can be found by contacting the Support Team.</MadCap:conditionalText></p>
+                                                                <p>
+                                                                    <MadCap:conditionalText data-mc-conditions="Snippets.FM&#160;User Guide">Names can be added on an ad-hoc basis for pupils, staff and parents. </MadCap:conditionalText>Choose the entry (Create New Pupil) and enter the correct Title/Name and complete the fields below with any additional information you require.</p>
+                                                                <ul data-mc-conditions="Snippets.FM&#160;User Guide">
+                                                                    <li value="1"><a name="kanchor136"></a><span class="Name">In Use</span> means that the record is on roll and actively in use.</li>
+                                                                    <li value="2"><span class="Name">Gift Aid</span> means that the parent or other adult is a tax payer. If you select this check box you can search on all donations made by Gift Aid donors and the detials can be used to complete the tax refund form for Registered Charities.</li>
+                                                                    <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If you update Gift Aid Donor details for a transaction that falls in a closed period it is automatically included in the next submission.</p>
+                                                                </ul>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span> Don’t forget to <a name="kanchor137"></a>archive old pupils and staff when they leave school via <span class="Name">Administration &gt; Manage Names &gt; Batch Actions</span>.</p>
+                                                                <p>New organisations can be created and only need creating once, using <span class="Name">Create New Organisation</span>.  Input the organisation’s name, you do not have to enter any other details unless you want to. Once you have filled in all the information you require click <span class="Name">Save</span>.</p>
+                                                                <h3><a name="kanchor138"></a>Consolidating pupil names</h3>
+                                                                <p>If you have duplicate pupil names you can consolidate these into one and merge the associated contact details, transactions and taken items. </p>
+                                                                <ol>
+                                                                    <li value="1">On the <span class="Name">Manage Names</span> screen, click the pupil <span class="Name">Name</span> you want to use as the <span class="Name">Primary Record</span>. This opens the pupil <span class="Name">Details</span> screen.</li>
+                                                                    <li value="2">On the <span class="Name">Details</span> screen, select the <span class="Name">Consolidate Pupil</span> tab.</li>
+                                                                    <li value="3">Select the pupil in the list of names as the <span class="Name">Secondary Record</span> which you     want to merge in with the <span class="Name">Primary Record</span>.</li>
+                                                                    <li value="4">Click <span class="Name">Preview Consolidation</span>.</li>
+                                                                    <ul>
+                                                                        <li value="1">Check the details of the consolidation.</li>
+                                                                        <p>These include Receipts, Payments, Transfers, Taken Items, Phone Numbers, Addresses, Email Addresses, Joinos Codes and sQuid Cards depending on what information is associated to each contact.</p>
+                                                                    </ul>
+                                                                    <li value="5">If you are sure you are merging the correct records, click <span class="Name">Confirm</span>.</li>
+                                                                    <li value="6">Because you can’t retrieve the two separate records once you complete this process, you must click <span class="Name">Consolidate Names</span> at the prompt to confirm that this is really what you want to do.</li>
+                                                                    <p>After clicking <span class="Name">Consolidate Names</span>, receipts, payments, transfers and taken items transferred from the<span class="Name"> Secondary Records</span> will now be reported as belonging to the consolidated <span class="Name">Primary Record</span> and the <span class="Name">Secondary Record</span> will be marked <span class="Name">Out of Use</span>.</p>
+                                                                </ol>
+                                                                <p>&#160;</p>
+                                                                <p>&#160;</p><a href="javascript:window.print()"><img src="../../../Resources/Images/PrintTopic.png" /></a>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div id="contentBody" class="container" style="margin-top: 120px">
-                                    <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <h1>Manage Names</h1>
-                                            <p>You can import pupil <span class="Name">Names</span> from your school administration database. <MadCap:conditionalText data-mc-conditions="Snippets.FM&#160;User Guide">The <a name="kanchor123"></a>*MISAPP SIMS only feature is the automatic way to add an up-to-date file of pupil names with their year and registration group details and import them quickly into Fund Manager. If you have an integration with <span class="PebbleFundManager">Fund Manager</span> e.g. ParentPay or sQuid then we can import your names within the integration. More help and information on this can be found by contacting the Support Team.</MadCap:conditionalText></p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Pebble Support generally does this for you as part of your initial setup.</p>
-                                            <p>Each <span class="Name">Pupil</span> has their own entry within Fund Manager so you can register individual transactions against them. More options are available such as <span class="Name">Staff</span>, <span class="Name">Contact details</span> and <span class="Name">Groups</span>. Other names, including organisations etc., can be added as required using the <span class="Name">Manage Names/Organisation</span> option.</p>
-                                            <p>You will need to refresh your pupil and staff information e.g. at the start of a new year or term or when pupils move from class to class or year to year. If you use MISapp or have an integration, pupils will automatically move from class to class, year to year once you refresh the data. New names for pupils or staff will appear ready for you to import into Fund Manager - don’t forget to <a name="kanchor124"></a>archive old pupils and staff when they leave school via <span class="Name">Administration &gt; Manage Names &gt; Batch Actions</span>. If you are not using MISapp or a third party integration, you will need to update names manually, with an imported CSV file.</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>It is your responsibility to handle personal data in accordance with GDPR law.</p>
-                                            <p>In <span class="Name">Administration &gt; Manage Names</span>, use the <span class="Name">Filter</span> box at the top of the <span class="Name">Manage Names</span> screen to find quickly the <span class="Name">Name/Group/Year/Class</span> etc. you are looking for.</p>
-                                            <p style="text-align: center;">
-                                                <img src="../../../Resources/Images/FM common/Edinburgh FM Guide/Names1.png" />
-                                            </p>
-                                            <h3><a name="kanchor125"></a>Batch Actions</h3>
-                                            <p>The options in these sections can be applied to more than one name at a time.</p>
-                                            <p>Once a name is no longer required you can mark <a name="kanchor126"></a>it <span class="Name">Out of Use</span>. Select the box next to the name and then select <span class="Name">Out of Use</span>. </p>
-                                            <p>You can return a name to ‘in use’ by clicking<a name="kanchor127"></a> <span class="Name">Show out of use</span>. You will now see ‘out of use’ names; they will appear in grey. Select the name(s) and then select <a name="kanchor128"></a><span class="Name">In Use</span> in <span class="Name">Batch Actions</span>. Refresh the page by clicking <span class="Name">Administration &gt; Manage Names</span> for the Name(s) to be returned to ‘In Use’.</p>
-                                            <h3><a name="kanchor129"></a>Group Actions</h3>
-                                            <p>Pupils are already usually imported by <a name="kanchor130"></a><span class="Name">Class</span>, <a name="kanchor131"></a><span class="Name">Year</span> or <a name="kanchor132"></a><span class="Name">Reg</span>istration group  or create your own pupil group <a name="kanchor133"></a>(User Defined) for your Fund Manager names, e.g. trips, off site, overseas, sixth form, etc. You can also set up groups for different groups of pupils e.g. universal infant free school meals, pupil premium, etc. Together with the filter options throughout Fund Manager, groups assist you in selecting names quickly when you want to assign transactions to the names in the group or include the names in the group within reports, such as the <span class="Name">Who’s Not Paid</span> report.</p>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Names can be assigned to more than one group, so you can design the groups to make your workday easier.</p>
-                                            <p>Once you have created the groups you want to use, <a name="kanchor134"></a>you assign names to the groups. This includes the names in the group and you can then apply various actions to the groups.</p>
-                                            <ul>
-                                                <li value="1">Open <span class="Name">Administration &gt;&#160;Manage Names</span>.</li>
-                                            </ul>
-                                            <p style="text-align: center;">
-                                                <img src="../../../Resources/Images/FM common/Edinburgh FM Guide/creategroup.png" />
-                                            </p>
-                                            <h3><a name="kanchor135"></a>Create New Names/Organisations</h3>
-                                            <p>We would always suggest that you Import your pupil names from your administration database; this should avoid duplication.  <MadCap:conditionalText data-mc-conditions="Snippets.FM&#160;User Guide">The *MISAPP feature is the automatic way to add an up to date file of pupil names with their year and registration group details and import them quickly into Fund Manager more help and information on this can be found by contacting the Support Team.</MadCap:conditionalText></p>
-                                            <p>
-                                                <MadCap:conditionalText data-mc-conditions="Snippets.FM&#160;User Guide">Names can be added on an ad-hoc basis for pupils, staff and parents. </MadCap:conditionalText>Choose the entry (Create New Pupil) and enter the correct Title/Name and complete the fields below with any additional information you require.</p>
-                                            <ul data-mc-conditions="Snippets.FM&#160;User Guide">
-                                                <li value="1"><a name="kanchor136"></a><span class="Name">In Use</span> means that the record is on roll and actively in use.</li>
-                                                <li value="2"><span class="Name">Gift Aid</span> means that the parent or other adult is a tax payer. If you select this check box you can search on all donations made by Gift Aid donors and the detials can be used to complete the tax refund form for Registered Charities.</li>
-                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>If you update Gift Aid Donor details for a transaction that falls in a closed period it is automatically included in the next submission.</p>
-                                            </ul>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span> Don’t forget to <a name="kanchor137"></a>archive old pupils and staff when they leave school via <span class="Name">Administration &gt; Manage Names &gt; Batch Actions</span>.</p>
-                                            <p>New organisations can be created and only need creating once, using <span class="Name">Create New Organisation</span>.  Input the organisation’s name, you do not have to enter any other details unless you want to. Once you have filled in all the information you require click <span class="Name">Save</span>.</p>
-                                            <h3><a name="kanchor138"></a>Consolidating pupil names</h3>
-                                            <p>If you have duplicate pupil names you can consolidate these into one and merge the associated contact details, transactions and taken items. </p>
-                                            <ol>
-                                                <li value="1">On the <span class="Name">Manage Names</span> screen, click the pupil <span class="Name">Name</span> you want to use as the <span class="Name">Primary Record</span>. This opens the pupil <span class="Name">Details</span> screen.</li>
-                                                <li value="2">On the <span class="Name">Details</span> screen, select the <span class="Name">Consolidate Pupil</span> tab.</li>
-                                                <li value="3">Select the pupil in the list of names as the <span class="Name">Secondary Record</span> which you     want to merge in with the <span class="Name">Primary Record</span>.</li>
-                                                <li value="4">Click <span class="Name">Preview Consolidation</span>.</li>
-                                                <ul>
-                                                    <li value="1">Check the details of the consolidation.</li>
-                                                    <p>These include Receipts, Payments, Transfers, Taken Items, Phone Numbers, Addresses, Email Addresses, Joinos Codes and sQuid Cards depending on what information is associated to each contact.</p>
-                                                </ul>
-                                                <li value="5">If you are sure you are merging the correct records, click <span class="Name">Confirm</span>.</li>
-                                                <li value="6">Because you can’t retrieve the two separate records once you complete this process, you must click <span class="Name">Consolidate Names</span> at the prompt to confirm that this is really what you want to do.</li>
-                                                <p>After clicking <span class="Name">Consolidate Names</span>, receipts, payments, transfers and taken items transferred from the<span class="Name"> Secondary Records</span> will now be reported as belonging to the consolidated <span class="Name">Primary Record</span> and the <span class="Name">Secondary Record</span> will be marked <span class="Name">Out of Use</span>.</p>
-                                            </ol>
-                                            <p>&#160;</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p>&#160;</p>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <footer>
                                     <div class="container">
                                         <div class="row">

@@ -1,44 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="17" MadCap:lastHeight="902" MadCap:lastWidth="939">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../TableStyles/table-pebble-grid.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title></title>
-        <link href="../Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" type="text/css" />
-        <link href="../Stylesheets/flare-website.css" rel="stylesheet" type="text/css" />
-        <link href="../Stylesheets/website.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-            <div class="container">
-                <img src="../Images/pebble_logo_support2.png" />
-                <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                <div class="navbar-xs hidden-xs-down">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="pull-sm-right">
-                                <ul class="nav navbar-nav navbar-nav-sm">
-                                    <li class="nav-item "><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                    </li>
-                                </ul>
+        <table style="width: 100%;">
+            <col style="width: 15%;" />
+            <col style="width: 70%;" />
+            <col style="width: 15%;" />
+            <tbody>
+                <tr>
+                    <td>&#160;</td>
+                    <td>
+                        <p>
+                            <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                <div class="container">
+                                    <img src="../Images/pebble_logo_support2.png" />
+                                    <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../Images/GotoMainPebbleWebsite.png" /></a>
+                                    </p>
+                                </div>
+                            </nav>
+                        </p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;">
+            <col style="width: 15%;" />
+            <col style="width: 70%;" />
+            <col style="width: 15%;" />
+            <tbody>
+                <tr>
+                    <td>&#160;</td>
+                    <td>
+                        <p>
+                            <div id="contentBody" class="container" style="margin-top: 120px">
+                                <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../../support/home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p><p><a class="btn btn-default" href="https://docs.google.com/a/talktopebble.co.uk/forms/d/e/1FAIpQLSd1TRiH9VUi0j7yun8x_72m0yn1pHT497QM0mgGyPiCPWCpOQ/viewform">How likely are you to recommend our INCOME GENERATION SUPPORT to other schools?</a></p></div></div>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <MadCap:bodyProxy />
+                                        <p>&#160;</p>
+                                        <p><a href="javascript:window.print()"><img src="../Images/PrintTopic.png" /></a>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div id="contentBody" class="container" style="margin-top: 120px">
-            <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../../support/fm/fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p><p><a class="btn btn-default" href="https://docs.google.com/a/talktopebble.co.uk/forms/d/e/1FAIpQLSd1TRiH9VUi0j7yun8x_72m0yn1pHT497QM0mgGyPiCPWCpOQ/viewform">How likely are you to recommend our INCOME GENERATION SUPPORT to other schools?</a></p></div></div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <MadCap:bodyProxy /><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                </div>
-            </div>
-        </div>
-        <p>&#160;</p>
+                        </p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
         <footer>
             <div class="container">
                 <div class="row">

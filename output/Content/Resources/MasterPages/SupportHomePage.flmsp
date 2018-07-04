@@ -1,59 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="749" MadCap:lastWidth="1030">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
-        <link href="../TableStyles/table-pebble-grid.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title></title>
-        <link href="../Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" type="text/css" />
-        <link href="../Stylesheets/flare-website.css" rel="stylesheet" type="text/css" />
-        <link href="../Stylesheets/website.css" rel="stylesheet" type="text/css" />
+        <link href="" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-            <div class="container">
-                <img src="../Images/pebble_logo_support2.png" />
-                <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                <div class="navbar-xs hidden-xs-down">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="pull-sm-right">
-                                <ul class="nav navbar-nav navbar-nav-sm">
-                                    <li class="nav-item "><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <p>
-            <section class="section-subpage section-inverse section-image section-support">
-                <div class="content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <h2>Mission Statement </h2>
-                                <p class="whiteheader">
-								Pebble Support is where you will find support on using Pebble’s products - Fund Manager and Arro. We provide a mix of 			User Guide PDFs and support article FAQs and you can use the Search facility to search the Support library for what you need. We want you to find the information that helps you so if you      can't find what you are looking for here, please let us know.
-</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </p>
-        <div id="contentBody" class="off-canvas-main">
-            <MadCap:bodyProxy />
-        </div>
+        <table style="width: 100%;">
+            <col style="width: 15%;" />
+            <col style="width: 70%;" />
+            <col style="width: 15%;" />
+            <tbody>
+                <tr>
+                    <td>&#160;</td>
+                    <td>
+                        <p>
+                            <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                <div class="container">
+                                    <img src="../Images/pebble_logo_support2.png" />
+                                    <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../Images/GotoMainPebbleWebsite.png" /></a>
+                                    </p>
+                                </div>
+                            </nav>
+                        </p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:bodyProxy />
         <footer>
             <div class="container">
                 <div class="row">
                     <p class="spacing">&#160;</p>
-                    <h3 style="text-align: center;">How to contact us</h3>
-                    <p style="text-align: center;">If you can’t find the answer you need, you can contact us in the following ways:</p>
+                    <h1 class="ProductName" style="text-align: center;">How to contact us</h1>
+                    <p class="spacing">&#160;</p>
+                    <p class="HomePage" style="text-align: center;">If you can’t find the answer you need, you can contact us in the following ways:</p>
+                    <p class="spacing">&#160;</p>
                 </div>
                 <table class="TableStyle-table-pebble-grid" style="mc-table-style: url('../TableStyles/table-pebble-grid.css');border-spacing: 4px 4px;border-left-style: solid;border-left-width: 1px;border-left-color: #6aa8cf;border-right-style: solid;border-right-width: 1px;border-right-color: #6aa8cf;border-top-style: solid;border-top-width: 1px;border-top-color: #6aa8cf;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #6aa8cf;margin-left: auto;margin-right: auto;" cellspacing="0">
                     <col class="TableStyle-table-pebble-grid-Column-Column1" />

@@ -4,7 +4,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>Getting help</title>
@@ -20,9 +19,6 @@
         <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../../Resources/TableStyles/table-pebble-grid.css" rel="stylesheet" />
-        <link href="../../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
-        <link href="../../Resources/Stylesheets/website.css" rel="stylesheet" />
-        <link href="../../Resources/Stylesheets/flare-website.css" rel="stylesheet" />
         <script src="../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../Resources/Scripts/jquery.min.js">
@@ -46,8 +42,8 @@
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
@@ -67,7 +63,7 @@
                                     <div class="nav-search row">
                                         <form class="search" action="#">
                                             <div class="search-bar search-bar-container needs-pie">
-                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ,,," />
                                                 <div class="search-filter-wrapper">
                                                     <div class="search-filter">
                                                         <div class="search-filter-content">
@@ -97,64 +93,84 @@
                                 </div>
                             </div>
                             <div class="body-container" data-mc-content-body="True">
-                                <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-                                    <div class="container">
-                                        <img src="../../Resources/Images/pebble_logo_support2.png" />
-                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                                        <div class="navbar-xs hidden-xs-down">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="pull-sm-right">
-                                                        <ul class="nav navbar-nav navbar-nav-sm">
-                                                            <li class="nav-item " value="1"><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                                            </li>
-                                                        </ul>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                                        <div class="container">
+                                                            <img src="../../Resources/Images/pebble_logo_support2.png" />
+                                                            <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../../Resources/Images/GotoMainPebbleWebsite.png" /></a>
+                                                            </p>
+                                                        </div>
+                                                    </nav>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <div id="contentBody" class="container" style="margin-top: 120px">
+                                                        <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="arro-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/a/talktopebble.co.uk/forms/d/e/1FAIpQLSd1TRiH9VUi0j7yun8x_72m0yn1pHT497QM0mgGyPiCPWCpOQ/viewform">How likely are you to recommend our INCOME GENERATION SUPPORT to other schools?</a></p></div></div>
+                                                        <div class="row">
+                                                            <div class="col-md-10 col-md-offset-1">
+                                                                <h1>Getting help</h1>
+                                                                <p>There are two ways of getting help:</p>
+                                                                <ul>
+                                                                    <li value="1">Using the Support website.</li>
+                                                                    <li value="2">Talking to us.</li>
+                                                                </ul>
+                                                                <h2 class="NotInToc">Using the Support website</h2>
+                                                                <p>You’re already reading the help on the support website and this is where you can get more detailed information about using <MadCap:conditionalText data-mc-conditions="Snippets.Arro"><span class="PebbleArro">Arro</span></MadCap:conditionalText>.</p>
+                                                                <ul>
+                                                                    <li value="1">To open the support website from <MadCap:conditionalText data-mc-conditions="Snippets.Arro"> <span class="PebbleArro">Arro</span>, click <span class="Name">Help &amp;&#160;Support</span> on <span class="PebbleArro">Arro</span>‘s <span class="Name">Navigation Bar</span>.</MadCap:conditionalText><![CDATA[  ]]></li>
+                                                                    <div class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>
+                                                                        <p>Screens may be shown in thumbnail size on the help centre website. Clicking an image works to toggle between full size and thumbnail.  Try this out now:</p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="Images/Help window.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="1480" data-mc-height="1344" src="Images/Help window_thumb_0_48.png" tabindex="" /></a>
+                                                                        <ul>
+                                                                            <li value="1">Click on the thumbnail image to expand it to full size.</li>
+                                                                            <li value="2">Click on the full size image to contract it to thumbnail size.</li>
+                                                                        </ul>
+                                                                        <div class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>You can only expand and contract one image at a time.</div>
+                                                                    </div>
+                                                                    <li value="2">To search help, enter what you want to find in the <span class="Name">Search</span> box. </li> A list of help topics is displayed. For example, searching for <span class="Name">Grant</span> will give you a list of all support topics which contain the word <span class="Name">Grant</span>. The results are shown ranked so the first topic in the list has most references to <span class="Name">Grant</span>. <br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="Images/HelpSearchResuts.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="984" data-mc-height="805" src="Images/HelpSearchResuts_thumb_0_48.png" tabindex="" /></a><ul><li value="1">To select a topic to read, click the hyperlinked text.</li><li value="2">To search again, click <span class="Name">Back to Support</span> and then enter a new search term or terms in the <span class="Name">Search</span> box.</li></ul><p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>The Search box will search every document on the Support website and may include documents that relate to other Pebble products if these include the search term or terms you have entered.</p><li value="3">To open and display a help topic, click on the hyperlinked text. For example, to open <span class="ArroModulesServices">Services</span> and <span class="ArroModulesLettings">Lettings</span>, click under <span class="Name">Modules &gt;&#160;Hire</span>.</li><p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="Images/servicesandlettingstopicimage.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="1457" data-mc-height="985" src="Images/servicesandlettingstopicimage_thumb_0_48.png" tabindex="" /></a></p><ul><li value="1">To return to the index of support topics for <span class="PebbleArro">Arro</span>, click <span class="Name">Back to Support</span>.</li><li value="2">To give us feedback on the support, click <span class="Name">How likely are you to recommend our INCOME&#160;GENERATION&#160;SUPPORT to other schools?</span></li><li value="3">To find other related information, scroll to the foot of the topic and click any of the hyperlinked topics under <span class="Name">More Information</span>.</li><li value="4">To print the help topic, scroll to the foot of the topic and click <span class="Name">Print</span>.</li></ul></ul>
+                                                                <h2>Talking to us</h2>
+                                                                <p>If you can’t find out what you need in the help centre website, you can ask us the query, using <span class="PebbleArro">Arro</span>‘s <span class="Name">Conversations</span> feature.</p>
+                                                                <ul>
+                                                                    <li value="1">Click <img src="Images/conversationsfeature.png" /> (bottom right of the <span class="PebbleArro">Arro</span> screen) to open the <span class="Name">Conversations</span> window.</li>
+                                                                    <li value="2">Enter your message in the message box and click <img src="Images/conversationsend.png" /> to send the message to Pebble.</li>
+                                                                </ul>
+                                                                <h4 class="RelatedTopicHeading">More information</h4>
+                                                                <p class="RelatedTopic"><a href="../../PDFs/Pebble Arro SLC - October 2017.pdf" target="_blank">Pebble Arro SLA - October 2017</a>
+                                                                </p>
+                                                                <p class="RelatedTopic"><a href="../../PDFs/Support Fair Use Policy - March 2017.pdf" target="_blank">Support Fair Use Policy - March 2017</a>
+                                                                </p>
+                                                                <p class="spacing">&#160;</p>
+                                                                <p>&#160;</p>
+                                                                <p><a href="javascript:window.print()"><img src="../../Resources/Images/PrintTopic.png" /></a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div id="contentBody" class="container" style="margin-top: 120px">
-                                    <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="arro-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/a/talktopebble.co.uk/forms/d/e/1FAIpQLSd1TRiH9VUi0j7yun8x_72m0yn1pHT497QM0mgGyPiCPWCpOQ/viewform">How likely are you to recommend our INCOME GENERATION SUPPORT to other schools?</a></p></div></div>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <h1>Getting help</h1>
-                                            <p>There are two ways of getting help:</p>
-                                            <ul>
-                                                <li value="1">Using the Support website.</li>
-                                                <li value="2">Talking to us.</li>
-                                            </ul>
-                                            <h2 class="NotInToc">Using the Support website</h2>
-                                            <p>You’re already reading the help on the support website and this is where you can get more detailed information about using <MadCap:conditionalText data-mc-conditions="Snippets.Arro"><span class="PebbleArro">Arro</span></MadCap:conditionalText>.</p>
-                                            <ul>
-                                                <li value="1">To open the support website from <MadCap:conditionalText data-mc-conditions="Snippets.Arro"> <span class="PebbleArro">Arro</span>, click <span class="Name">Help &amp;&#160;Support</span> on <span class="PebbleArro">Arro</span>‘s <span class="Name">Navigation Bar</span>.</MadCap:conditionalText><![CDATA[  ]]></li>
-                                                <div class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>
-                                                    <p>Screens may be shown in thumbnail size on the help centre website. Clicking an image works to toggle between full size and thumbnail.  Try this out now:</p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="Images/Help window.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="1480" data-mc-height="1344" src="Images/Help window_thumb_0_48.png" tabindex="" /></a>
-                                                    <ul>
-                                                        <li value="1">Click on the thumbnail image to expand it to full size.</li>
-                                                        <li value="2">Click on the full size image to contract it to thumbnail size.</li>
-                                                    </ul>
-                                                    <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>You can only expand and contract one image at a time.</p>
-                                                </div>
-                                                <li value="2">To search help, enter what you want to find in the <span class="Name">Search</span> box. </li> A list of help topics is displayed. For example, searching for <span class="Name">Grant</span> will give you a list of all support topics which contain the word <span class="Name">Grant</span>. The results are shown ranked so the first topic in the list has most references to <span class="Name">Grant</span>. <br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="Images/HelpSearchResuts.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="984" data-mc-height="805" src="Images/HelpSearchResuts_thumb_0_48.png" tabindex="" /></a><ul><li value="1">To select a topic to read, click the hyperlinked text.</li><li value="2">To search again, click <span class="Name">Back to Support</span> and then enter a new search term or terms in the <span class="Name">Search</span> box.</li></ul><p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>The Search box will search every document on the Support website and may include documents that relate to other Pebble products if these include the search term or terms you have entered.</p><li value="3">To open and display a help topic, click on the hyperlinked text. For example, to open <span class="ArroModulesServices">Services</span> and <span class="ArroModulesLettings">Lettings</span>, click under <span class="Name">Modules &gt;&#160;Hire</span>.</li><p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="Images/servicesandlettingstopicimage.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="1457" data-mc-height="985" src="Images/servicesandlettingstopicimage_thumb_0_48.png" tabindex="" /></a></p><ul><li value="1">To return to the index of support topics for <span class="PebbleArro">Arro</span>, click <span class="Name">Back to Support</span>.</li><li value="2">To give us feedback on the support, click <span class="Name">How likely are you to recommend our INCOME&#160;GENERATION&#160;SUPPORT to other schools?</span></li><li value="3">To find other related information, scroll to the foot of the topic and click any of the hyperlinked topics under <span class="Name">More Information</span>.</li><li value="4">To print the help topic, scroll to the foot of the topic and click <span class="Name">Print</span>.</li></ul></ul>
-                                            <h2>Talking to us</h2>
-                                            <p>If you can’t find out what you need in the help centre website, you can ask us the query, using <span class="PebbleArro">Arro</span>‘s <span class="Name">Conversations</span> feature.</p>
-                                            <ul>
-                                                <li value="1">Click <img src="Images/conversationsfeature.png" /> (bottom right of the <span class="PebbleArro">Arro</span> screen) to open the <span class="Name">Conversations</span> window.</li>
-                                                <li value="2">Enter your message in the message box and click <img src="Images/conversationsend.png" /> to send the message to Pebble.</li>
-                                            </ul>
-                                            <h4 class="RelatedTopicHeading">More information</h4>
-                                            <p class="RelatedTopic"><a href="../../PDFs/Pebble Arro SLC - October 2017.pdf" target="_blank">Pebble Arro SLA - October 2017</a>
-                                            </p>
-                                            <p class="RelatedTopic"><a href="../../PDFs/Support Fair Use Policy - March 2017.pdf" target="_blank">Support Fair Use Policy - March 2017</a>
-                                            </p>
-                                            <p class="spacing">&#160;</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p>&#160;</p>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <footer>
                                     <div class="container">
                                         <div class="row">

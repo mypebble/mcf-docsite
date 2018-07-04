@@ -1,69 +1,12 @@
-/*<meta conditions="" />*/
+/*<meta />*/
 
-@import url('https://staticdemo.pebblecloud.net/css/flare-website.css');
 @namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
-
-.foundation-wrap .off-canvas-wrap .inner-wrap section
-{
-	padding: 20px 0px !important;
-}
-
-.wrapper-footer
-{
-	margin-top: 20px;
-}
-
-.wrapper-footer .line
-{
-	height: 1px;
-	background: #2577aa;
-	margin-bottom: 10px;
-}
-
-.section-search
-{
-	margin-bottom: 50px !important;
-}
-
-.tab-bar
-{
-	margin-top: 50px !important;
-}
 
 body
 {
-	
-}
-
-nav.tab-bar,
-.tab-bar-section
-{
-	display: none !important;
-}
-
-.inner-wrap
-{
-	padding: 0px !important;
-}
-
-a
-{
-	
-}
-
-a:link
-{
-	
-}
-
-a:visited
-{
-	
-}
-
-a:hover
-{
-	
+	color: #404040;
+	font-family: Arial, Avenir, Myriad;
+	line-height: 1.7em;
 }
 
 a.MCBreadcrumbsLink
@@ -74,30 +17,19 @@ a.MCBreadcrumbsLink
 
 a.MCBreadcrumbsLink:visited
 {
-	color: #2d82dc;
-	text-decoration: none;
+	color: #000000;
 }
 
 a.MCBreadcrumbsLink:hover
 {
-	color: #c4e3f3;
+	color: #5bc0de;
 }
 
-div.example
+div.TopicContent
 {
-	padding: 1px;
-	padding-bottom: 1px;
-	padding-top: 1px;
-}
-
-div.ImagesFloatLeft
-{
-	
-}
-
-div.ImagesFloatRight
-{
-	
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
 }
 
 div.note
@@ -105,71 +37,93 @@ div.note
 	mc-auto-number-class: Emphasis;
 	mc-auto-number-format: 'Note: ';
 	mc-auto-number-position: inside-head;
+	background-color: #eceeef;
+	font-style: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-.noteInDiv
+p.note
 {
-	mc-auto-number-format: '{b}{color #bed230}Note: {/color}{/b}';
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Note: ';
+	background-color: #eceeef;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-div.quotation
+p.Tip
 {
-	
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Tip: ';
+	background-color: #5bc0de;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-div.sideContent
+div.Tip
 {
-	float: right;
-	margin-left: 10px;
-	margin-bottom: 10px;
-	width: 33.33%;
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Tip: ';
+	background-color: #5bc0de;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-div.TightContent
+p.warning
 {
-	margin: 0;
-	padding: 0;
+	mc-auto-number-format: '{b}{color red}Warning! {/color}{/b} ';
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-Title
+div.warning
 {
-	
+	mc-auto-number-format: '{b}{color red}Warning! {/color}{/b} ';
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h1
 {
-	
-}
-
-h1.nobreakbefore
-{
-	mc-heading-level: 0;
+	font-size: 1.75em;
+	font-weight: bold;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	color: #575756;
 }
 
 h2
 {
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 4px;
 	margin-top: 0.75rem;
+	color: #575756;
 }
 
 h3
 {
-	mc-heading-level: 3;
-	margin-top: 0.75rem;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
 }
 
-img
-{
-	
-}
-
-img.Thumbnail
-{
-	mc-thumbnail: popup;
-	mc-thumbnail-max-height: 48px;
-	mc-thumbnail-max-width: auto;
-}
-
-img.ReduceButtonSize
+h4
 {
 	
 }
@@ -190,72 +144,6 @@ MadCap|breadcrumbsProxy
 	mc-breadcrumbs-prefix: 'You are here: ';
 }
 
-MadCap|dropDown
-{
-	margin-bottom: 6px;
-	margin-top: 6px;
-	mc-closed-image: url('../Images/DropDownClosed.png');
-	mc-open-image: url('../Images/DropDownOpenBlue.png');
-}
-
-MadCap|dropDown.SecondLevel
-{
-	margin-left: 10px;
-	mc-closed-image: url('../Images/DropDownClosedSecondLevel.png');
-	mc-open-image: url('../Images/DropDownOpenSecondLevelBlue.png');
-}
-
-MadCap|dropDownBody
-{
-	border-bottom: solid 1px # #5bc0de;
-	border-bottom-color: #5bc0de;
-}
-
-MadCap|dropDownBody.Final
-{
-	border-bottom: 1px;
-	border-bottom-color: #5bc0de;
-	border-bottom-align: center;
-	border: solid 2px #31b0d5;
-}
-
-MadCap|dropDownHead
-{
-	
-}
-
-MadCap|dropDownHotspot
-{
-	font-size: 0.9em;
-	font-weight: bold;
-}
-
-MadCap|dropDownHotspot:hover
-{
-	
-}
-
-MadCap|popup
-{
-	color: #2d82dc;
-}
-
-MadCap|popup:focus
-{
-	color: #2D8DCC;
-}
-
-MadCap|popup:hover
-{
-	color: #2D8DCC;
-}
-
-MadCap|popupHead
-{
-	color: #2D8DCC;
-	font-weight: bold;
-}
-
 MadCap|xref
 {
 	color: #2D8DCC;
@@ -266,98 +154,21 @@ MadCap|xref
 
 MadCap|xref:hover
 {
-	color: #c4e3f3;
-}
-
-ol
-{
-	
-}
-
-ol ol
-{
-	
-}
-
-ol ol ol
-{
-	
+	color: #5bc0de;
 }
 
 p
 {
-	mc-hyphenate-shortest-prefix: 20;
-	margin-bottom: 3px;
+	margin-bottom: 8px;
+	margin-top: 8px;
 }
 
-p.CompanyInformation1
+div.sideContent
 {
-	margin-bottom: 4px;
-	margin-top: 14px;
-	font-weight: bold;
-}
-
-p.CompanyInformation2
-{
-	color: #6d6d6d;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-p.ExampleHeadText
-{
-	font-weight: bold;
-	page-break-after: avoid;
-	letter-spacing: 5px;
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-
-p.quotationname
-{
-	text-align: right;
-}
-
-p.TableTextCenterDark
-{
-	
-}
-
-p.TableTextDark
-{
-	
-}
-
-p.TableTextDarkEmphasis
-{
-	
-}
-
-span.Emphasis
-{
-	
-}
-
-span.SetOffFirstLevel
-{
-	
-}
-
-span.SetOffSecondLevel
-{
-	
-}
-
-td
-{
-	padding: 1px;
-	padding-top: 3px;
-}
-
-th
-{
-	
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
 }
 
 html.templateTopic div.sideContent
@@ -365,110 +176,287 @@ html.templateTopic div.sideContent
 	display: none;
 }
 
-p.FooterRight
+div.ContentRow	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
 {
-	text-align: right;
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-p.HeaderLeft
+div.ContentRow::before
 {
-	
+	content: ' ';
+	display: table;
 }
 
-p.FooterLeft
+div.ContentRow::after
 {
-	
+	content: ' ';
+	display: table;
+	clear: both;
 }
 
-h1.Title
+div.ContentRow > div
 {
-	mc-heading-level: 0;
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-p.HeaderRight
+div.ContentRow > div:nth-child(1)
 {
-	text-align: right;
+	width: 58.333%;
+	margin-left: 0%;
 }
 
-p.note
+div.ContentRow > div:nth-child(2)
 {
-	mc-auto-number-class: Emphasis;
-	mc-auto-number-format: 'Note: ';
+	width: 33.333%;
+	margin-left: 8.3333%;
 }
 
-p.Tip
+a:link
 {
-	mc-auto-number-class: Emphasis;
-	mc-auto-number-format: 'Tip: ';
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	color: #5bc0de;
 }
 
-div.Tip
+a:focus
 {
-	mc-auto-number-class: Emphasis;
-	mc-auto-number-format: 'Tip: ';
+	color: #5bc0de;
 }
 
-span.Name
+a:hover
 {
-	
+	text-decoration: underline;
+	color: #5bc0de;
 }
 
-h1.chapnum
+a:active
 {
-	font-weight: normal;
-	margin-bottom: 8px;
-	padding-bottom: 10px;
-	margin-top: 30px;
-	color: #a9a9a9;
-	font-size: 2.5em;
+	color: #5bc0de;
 }
 
-MadCap|tocProxy
+a
 {
-	border-top-style: none;
-	border-top-color: transparent;
+	color: #5bc0de;
 }
 
 MadCap|glossaryTerm
 {
-	font-weight: normal;
-	font-style: normal;
-	color: #8d5a12;
-}
-
-MadCap|popupBody
-{
-	color: #8d5a12;
-	background-color: #fdf4ec;
-}
-
-MadCap|glossaryTerm:focus
-{
-	color: #8d5a12;
+	color: #a15a13;
 	font-weight: normal;
 	font-style: normal;
 }
 
-h4
+img
 {
-	mc-heading-level: 0;
-	margin-top: 0.75rem;
-	margin-bottom: 0.75rem;
+	
 }
 
-h5
+MadCap|dropDown
 {
-	mc-heading-level: 0;
+	mc-closed-image: url('../Images/DropDownClosed.png');
+	mc-open-image: url('../Images/DropDownOpenBlue.png');
+	box-sizing: content-box;
 }
 
-h6
+div.blueheader
 {
-	mc-heading-level: 0;
+	font-style: inherit;
+	font-family: inherit;
+	font: inherit;
+	font-variant: inherit;
+	color: #ffffff;
+	text-align: justify;
+	background-color: #136a8f;
+	background: #136a8f;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 0.5em;
 }
 
-small
+h1.ProductName
 {
-	font-size: small;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+	height: 0px;
+	color: #6e6e6d;
+	line-height: 12px;
+}
+
+p.HomePage
+{
+	font-size: 1.10em;
+	line-height: 16pt;
+	color: #808080;
+}
+
+div.greyheader
+{
+	font-style: inherit;
+	font-family: inherit;
+	font: inherit;
+	font-variant: inherit;
+	text-align: justify;
+	background: #136a8f;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 0.5em;
+	background-color: #eceeef;
+	color: #575756;
+}
+
+p.Home
+{
+	color: #a9a9a9;
+}
+
+h1.MissionTitle
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+	height: 0px;
+	color: #ffffff;
+	line-height: inherit;
+}
+
+p.Mission
+{
+	font-size: 1.10em;
+	color: #ffffff;
+	line-height: 20pt;
+}
+
+h1.findinformation
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+	height: 0px;
+	color: #6e6e6d;
+	line-height: inherit;
+	text-align: center;
+}
+
+p.aftertable
+{
+	line-height: 0.5px;
+}
+
+p.quotation
+{
+	mc-hyphenate-shortest-prefix: 20;
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 30pt;
+	margin-right: 30px;
+}
+
+p.red
+{
+	color: #ff0000;
+}
+
+p.important
+{
+	mc-auto-number-format: '{b}{color red}Important! {/color}{/b} ';
+}
+
+span.Name
+{
+	color: #136a8f;
+	font-weight: bold;
+	font-style: normal;
+}
+
+img.thumbnail
+{
+	mc-thumbnail: popup;
+	mc-thumbnail-max-height: 48px;
+	mc-thumbnail-max-width: auto;
+}
+
+h2.NotInToc
+{
+	mc-heading-level: 0;
+	text-align: left;
+}
+
+h4.RelatedTopicHeading
+{
+	
+}
+
+p.RelatedTopic
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+div.RelatedTopics
+{
+	color: #808080;
+	background-color: #faf2cc;
+}
+
+span.Emphasis
+{
+	font-weight: bold;
+}
+
+h5.panelmoreinfo
+{
+	font-size: 0.75em;
+	color: #2577aa;
+	margin: 0.25em 0;
+}
+
+hr
+{
+	margin-bottom: 1px;
+	margin-top: 1px;
+	border: solid 1px #f4f4f4;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	div.ContentRow > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.ContentRow > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.ContentRow > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ContentRow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
 }
 
 @media print
@@ -635,14 +623,14 @@ small
 		text-decoration: none;
 	}
 
-	MadCap|xref.textinsidechapter
-	{
-		mc-format: '{h2} on page {page}';
-	}
-
 	MadCap|xref.textinchapter
 	{
-		mc-format: '{h1} on page {page}';
+		mc-format: '{para}';
+	}
+
+	MadCap|xref.textinsidechapter
+	{
+		mc-format: '{para}';
 	}
 
 	h4.RelatedTopicHeading
@@ -652,136 +640,22 @@ small
 		font-style: normal;
 		margin-top: 0;
 	}
+
+	h1.nobreakbefore
+	{
+		page-break-before: avoid;
+		mc-float: center;
+	}
+
+	p.pagebreak
+	{
+		mc-hyphenate-shortest-prefix: 20;
+		page-break-before: always;
+	}
+
+	td.topalign
+	{
+		vertical-align: top;
+	}
 }
 
-li.bullet
-{
-	
-}
-
-p.bullet
-{
-	mc-hyphenate-shortest-prefix: 20;
-}
-
-h4.RelatedTopicHeading
-{
-	
-}
-
-p.RelatedTopic
-{
-	margin-bottom: 8px;
-	margin-top: 8px;
-}
-
-div.RelatedTopics
-{
-	color: #808080;
-	background-color: #faf2cc;
-}
-
-p.warning
-{
-	mc-auto-number-format: '{b}{color red}Warning! {/color}{/b} ';
-}
-
-div.warning
-{
-	mc-auto-number-format: '{b}{color red}Warning! {/color}{/b} ';
-}
-
-a.tiplink:link
-{
-	color: #ffffff;
-}
-
-h4.paneltitle
-{
-	color: #2577aa;
-	padding-bottom: 10px;
-}
-
-h5.panelmoreinfo
-{
-	font-size: 0.75em;
-	color: #2577aa;
-}
-
-h2.NotInToc
-{
-	mc-heading-level: 0;
-	text-align: left;
-}
-
-h1.NotInToc
-{
-	mc-heading-level: 0;
-}
-
-td.topalign
-{
-	vertical-align: top;
-}
-
-p.web
-{
-	
-}
-
-p.aftertable
-{
-	line-height: 0.5px;
-}
-
-h1.nobreakbefore
-{
-	page-break-before: avoid;
-	mc-float: center;
-}
-
-p.pagebreak
-{
-	mc-hyphenate-shortest-prefix: 20;
-	page-break-before: always;
-}
-
-p.quotation
-{
-	mc-hyphenate-shortest-prefix: 20;
-	font-weight: normal;
-	font-style: italic;
-	margin-left: 30pt;
-	margin-right: 30px;
-}
-
-th.PageBreakBefore
-{
-	
-}
-
-p.pagebreakafter
-{
-	mc-auto-number-class: Emphasis;
-	mc-auto-number-format: 'Tip: ';
-}
-
-MadCap|xref.textinchapter
-{
-	mc-format: '{para}';
-}
-
-MadCap|xref.textinsidechapter
-{
-	mc-format: '{para}';
-}
-
-p.red
-{
-	color: #ff0000;
-}
-
-p.important
-{
-	mc-auto-number-format: '{b}{color red}Important! {/color}{/b} ';
-}

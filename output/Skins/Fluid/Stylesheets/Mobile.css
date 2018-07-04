@@ -6,15 +6,28 @@
 	{
 		background-position: center top;
 		background-repeat: no-repeat;
-		background-color: #ffffff;
+		background: #ffffff;
+		background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		-pie-background: linear-gradient(#ffffff, #ffffff);
 	}
 
 	.title-bar-layout a.logo
 	{
-		width: 685px;
-		height: 151px;
-		background: transparent url('Images/pebble_logo_support2.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/pebble_logo_support2.png') no-repeat center center;
+		width: 548px;
+		height: 121px;
+		background: #ffffff url('Images/pebble_logo_support2.png') no-repeat center center;
+		background: url('Images/pebble_logo_support2.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+		background: url('Images/pebble_logo_support2.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+		background: url('Images/pebble_logo_support2.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+		background: url('Images/pebble_logo_support2.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		background: url('Images/pebble_logo_support2.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		background: url('Images/pebble_logo_support2.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		-pie-background: url('Skins/Fluid/Stylesheets/Images/pebble_logo_support2.png') no-repeat center center, linear-gradient(#ffffff, #ffffff);
 	}
 
 	.search-bar .search-submit
@@ -25,9 +38,8 @@
 
 	.search-bar .search-filter
 	{
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-color: #ffffff;
+		background: #ffffff url('Images/Filter.png') no-repeat center center;
+		-pie-background: #ffffff url('Skins/Fluid/Stylesheets/Images/Filter.png') no-repeat center center;
 	}
 
 	.search-input
@@ -68,12 +80,12 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 151px;
+		min-height: 121px;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 151px;
+		min-height: 121px;
 	}
 
 	.off-canvas-wrapper-inner .outer-row
@@ -340,6 +352,7 @@
 
 	.search-bar .search-filter.open
 	{
+		-pie-background: #ffffff url('Skins/Fluid/Stylesheets/Images/Filter.png') no-repeat center center;
 		background-color: #ffffff;
 	}
 
@@ -383,13 +396,13 @@
 	.search-bar.search-bar-container .search-submit
 	{
 		background-repeat: no-repeat;
-		background-color: transparent;
+		background-color: #b0e0e6;
 	}
 
 	.search-bar.search-bar-container .search-submit:hover
 	{
 		background-repeat: no-repeat;
-		background-color: transparent;
+		background-color: #009ee2;
 	}
 }
 

@@ -479,12 +479,6 @@ a.glossaryTerm
 
 .xref
 {
-	color: blue;
-	text-decoration: underline;
-}
-
-.xref
-{
 	color: #2D8DCC;
 	font-weight: bold;
 	text-decoration: underline;
@@ -492,26 +486,19 @@ a.glossaryTerm
 
 .xref:hover
 {
-	color: #c4e3f3;
+	color: #5bc0de;
 }
 
 .glossaryTerm
 {
+	color: #a15a13;
 	font-weight: normal;
 	font-style: normal;
-	color: #8d5a12;
 }
 
 .glossaryTerm:link
 {
-	font-weight: normal;
-	font-style: normal;
-	color: #8d5a12;
-}
-
-.glossaryTerm:focus
-{
-	color: #8d5a12;
+	color: #a15a13;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -534,35 +521,25 @@ a.glossaryTerm
 
 .popupBody
 {
-	color: #8d5a12;
-	background-color: #fdf4ec;
+	color: #000000;
+	background-color: #dcdcdc;
 	border: solid 1px #000000;
 	margin: 0px;
 	padding: 5px;
 }
 
-.img
-{
-	border: 0;
-}
-
 .dropDown
 {
-	margin-bottom: 6px;
-	margin-top: 6px;
+	box-sizing: content-box;
 }
 
 .dropDownHotspot
 {
-	font-size: 0.9em;
-	font-weight: bold;
 	text-decoration: none;
 }
 
 .dropDownHotspot:link
 {
-	font-size: 0.9em;
-	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -585,19 +562,6 @@ a.glossaryTerm
 .dropDownHead
 {
 	text-decoration: none;
-}
-
-.dropDownBody
-{
-	border-bottom: solid 1px # #5bc0de;
-	border-bottom-color: #5bc0de;
-}
-
-.xref
-{
-	font-weight: bold;
-	text-decoration: underline;
-	color: #6ca7cd;
 }
 
 .MCWebHelpFramesetLink a

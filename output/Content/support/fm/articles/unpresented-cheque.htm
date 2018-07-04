@@ -4,7 +4,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>How do I deal with unpresented cheques?</title>
@@ -20,9 +19,6 @@
         <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../../../Resources/TableStyles/table-pebble-grid.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/website.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/flare-website.css" rel="stylesheet" />
         <script src="../../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../../Resources/Scripts/jquery.min.js">
@@ -46,8 +42,8 @@
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
@@ -67,7 +63,7 @@
                                     <div class="nav-search row">
                                         <form class="search" action="#">
                                             <div class="search-bar search-bar-container needs-pie">
-                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ,,," />
                                                 <div class="search-filter-wrapper">
                                                     <div class="search-filter">
                                                         <div class="search-filter-content">
@@ -97,64 +93,82 @@
                                 </div>
                             </div>
                             <div class="body-container" data-mc-content-body="True">
-                                <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-                                    <div class="container">
-                                        <img src="../../../Resources/Images/pebble_logo_support2.png" />
-                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                                        <div class="navbar-xs hidden-xs-down">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="pull-sm-right">
-                                                        <ul class="nav navbar-nav navbar-nav-sm">
-                                                            <li class="nav-item " value="1"><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                                            </li>
-                                                        </ul>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                                        <div class="container">
+                                                            <img src="../../../Resources/Images/pebble_logo_support2.png" />
+                                                            <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../../../Resources/Images/GotoMainPebbleWebsite.png" /></a>
+                                                            </p>
+                                                        </div>
+                                                    </nav>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <div id="contentBody" class="container" style="margin-top: 120px">
+                                                        <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
+                                                        <div class="row">
+                                                            <div class="col-md-10 col-md-offset-1">
+                                                                <h1>How do I deal with unpresented cheques?</h1>
+                                                                <p><span class="Emphasis">Issue:</span>  Cheque(s) I have written have not appeared on a bank statement, but are waiting on the list of items to be reconciled (Bank and Cash menu&gt; Reconcile Bank Statement) and are now over six months old.</p>
+                                                                <p><span class="Emphasis">Solution:</span>   This depends on whether the cheque(s) were written in a 'current' financial period. If the cheque(s) were written in a financial period that has subsequently been closed use Method 1. If they were written in the current financial period, use Method 2.</p>
+                                                                <p>The purpose of this process is to 'write-back' the value of the cheque/s.</p>
+                                                                <h4>Method 1</h4>
+                                                                <p><span class="Emphasis">For cheque(s) written in a financial period which has been closed:</span>
+                                                                </p>
+                                                                <ul>
+                                                                    <li value="1"><span class="Name">Transactions &gt; Enter a Receipt</span>
+                                                                    </li>
+                                                                    <li value="2">Select the User Account against which the cheque was written. (If this User Account is not available in the current year select an appropriate alternative.)</li>
+                                                                    <li value="3">Select the name of the payee</li>
+                                                                    <li value="4">	In the Description' field type:  Unpresented cheque timed out</li>
+                                                                    <li value="5">	Enter the amount of the cheque</li>
+                                                                    <li value="6">	Choose type as a direct credit</li>
+                                                                    <li value="7">Then select the bank account the cheque was drawn against</li>
+                                                                    <li value="8">Enter an appropriate date</li>
+                                                                    <li value="9">	Both the direct credit transaction and the unpresented cheque must be reconciled, therefore go to Bank and Cash menu/Reconcile Bank Statement and reconcile them</li>
+                                                                </ul>
+                                                                <h4>Method 2</h4>
+                                                                <p><span class="Emphasis">For cheque(s) written in the current financial period:</span>
+                                                                </p>
+                                                                <ul>
+                                                                    <li value="1"><span class="Name">Transactions &gt; Cancel Receipt or Payment transaction</span>
+                                                                    </li>
+                                                                    <li value="2">Find the transaction for the cheque</li>
+                                                                    <li value="3">Click the radio button in the left column for the transaction and click Continue</li>
+                                                                    <li value="4">In the Reason for Cancellation field type Unpresented cheque timed out</li>
+                                                                </ul>
+                                                                <p>Cancelling the payment transaction will remove the item for the reconciliation list. You may see the details of this cancelled cheque payment from the Amendments Menu/List of Cancelled and Amended Receipts and Payments.</p>
+                                                                <p>&#160;</p>
+                                                                <p>&#160;</p><a href="javascript:window.print()"><img src="../../../Resources/Images/PrintTopic.png" /></a>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div id="contentBody" class="container" style="margin-top: 120px">
-                                    <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <h1>How do I deal with unpresented cheques?</h1>
-                                            <p><span class="Emphasis">Issue:</span>  Cheque(s) I have written have not appeared on a bank statement, but are waiting on the list of items to be reconciled (Bank and Cash menu&gt; Reconcile Bank Statement) and are now over six months old.</p>
-                                            <p><span class="Emphasis">Solution:</span>   This depends on whether the cheque(s) were written in a 'current' financial period. If the cheque(s) were written in a financial period that has subsequently been closed use Method 1. If they were written in the current financial period, use Method 2.</p>
-                                            <p>The purpose of this process is to 'write-back' the value of the cheque/s.</p>
-                                            <h4>Method 1</h4>
-                                            <p><span class="Emphasis">For cheque(s) written in a financial period which has been closed:</span>
-                                            </p>
-                                            <ul>
-                                                <li value="1"><span class="Name">Transactions &gt; Enter a Receipt</span>
-                                                </li>
-                                                <li value="2">Select the User Account against which the cheque was written. (If this User Account is not available in the current year select an appropriate alternative.)</li>
-                                                <li value="3">Select the name of the payee</li>
-                                                <li value="4">	In the Description' field type:  Unpresented cheque timed out</li>
-                                                <li value="5">	Enter the amount of the cheque</li>
-                                                <li value="6">	Choose type as a direct credit</li>
-                                                <li value="7">Then select the bank account the cheque was drawn against</li>
-                                                <li value="8">Enter an appropriate date</li>
-                                                <li value="9">	Both the direct credit transaction and the unpresented cheque must be reconciled, therefore go to Bank and Cash menu/Reconcile Bank Statement and reconcile them</li>
-                                            </ul>
-                                            <h4>Method 2</h4>
-                                            <p><span class="Emphasis">For cheque(s) written in the current financial period:</span>
-                                            </p>
-                                            <ul>
-                                                <li value="1"><span class="Name">Transactions &gt; Cancel Receipt or Payment transaction</span>
-                                                </li>
-                                                <li value="2">Find the transaction for the cheque</li>
-                                                <li value="3">Click the radio button in the left column for the transaction and click Continue</li>
-                                                <li value="4">In the Reason for Cancellation field type Unpresented cheque timed out</li>
-                                            </ul>
-                                            <p>Cancelling the payment transaction will remove the item for the reconciliation list. You may see the details of this cancelled cheque payment from the Amendments Menu/List of Cancelled and Amended Receipts and Payments.</p>
-                                            <p>&#160;</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p>&#160;</p>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <footer>
                                     <div class="container">
                                         <div class="row">

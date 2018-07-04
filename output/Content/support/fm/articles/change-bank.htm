@@ -4,7 +4,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>How do I change to a new bank?</title>
@@ -20,9 +19,6 @@
         <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../../../Resources/TableStyles/table-pebble-grid.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/website.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/flare-website.css" rel="stylesheet" />
         <script src="../../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../../Resources/Scripts/jquery.min.js">
@@ -46,8 +42,8 @@
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
@@ -67,7 +63,7 @@
                                     <div class="nav-search row">
                                         <form class="search" action="#">
                                             <div class="search-bar search-bar-container needs-pie">
-                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ,,," />
                                                 <div class="search-filter-wrapper">
                                                     <div class="search-filter">
                                                         <div class="search-filter-content">
@@ -97,100 +93,118 @@
                                 </div>
                             </div>
                             <div class="body-container" data-mc-content-body="True">
-                                <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-                                    <div class="container">
-                                        <img src="../../../Resources/Images/pebble_logo_support2.png" />
-                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                                        <div class="navbar-xs hidden-xs-down">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="pull-sm-right">
-                                                        <ul class="nav navbar-nav navbar-nav-sm">
-                                                            <li class="nav-item " value="1"><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                                            </li>
-                                                        </ul>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                                        <div class="container">
+                                                            <img src="../../../Resources/Images/pebble_logo_support2.png" />
+                                                            <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../../../Resources/Images/GotoMainPebbleWebsite.png" /></a>
+                                                            </p>
+                                                        </div>
+                                                    </nav>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <div id="contentBody" class="container" style="margin-top: 120px">
+                                                        <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
+                                                        <div class="row">
+                                                            <div class="col-md-10 col-md-offset-1">
+                                                                <h1>How do I change to a new bank?</h1>
+                                                                <p><span class="Emphasis">Issue:</span>   We have decided to change banks.</p>
+                                                                <p><span class="Emphasis">Solution:</span>   Set-up a new bank account and move the balance from the old bank account to the new one.</p>
+                                                                <h4>Method 1 - Transfer</h4>
+                                                                <p>Step 1 - Setup the new bank account.</p>
+                                                                <ul>
+                                                                    <li value="1"><![CDATA[	]]><span class="Name">Administration &gt; Manage Bank Accounts &gt; Create Bank Account</span></li>
+                                                                    <li value="2">Enter a new unique Account code (up to 6 characters) and new Account name</li>
+                                                                    <li value="3">	Click <span class="Name">Save</span> to save details</li>
+                                                                    <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>The bank account code must be something not already used.</p>
+                                                                </ul>
+                                                                <p>Step 2 - Transfer money from the old bank account to the new.</p>
+                                                                <ul>
+                                                                    <li value="1"><span class="Name">Bank and Cash &gt; Transfer Between Bank Accounts</span>
+                                                                    </li>
+                                                                    <li value="2">Select the 'old' bank account to transfer the money from and the 'new' account to transfer the money to</li>
+                                                                    <li value="3">Enter the amount</li>
+                                                                    <li value="4">Select the date of the Transfer</li>
+                                                                    <li value="5">Click <span class="Name">Transfer</span></li>
+                                                                    <li value="6">In due course when your bank statement arrives you should reconcile both halves of this by using options Bank and Cash/Reconcile Bank Statement.</li>
+                                                                </ul>
+                                                                <h4>Method 2 - Cheque Payment</h4>
+                                                                <p>Write a cheque - this is used if the accounts are at different banks or if a cheque is actually written to clear the 'old' bank account balance and then deposited in the 'new' bank account.</p>
+                                                                <p>Step 1 - Set-up the new bank account.</p>
+                                                                <ul>
+                                                                    <li value="1"><span class="Name">Administration &gt; Manage Bank Accounts &gt; Create Bank Account</span>
+                                                                    </li>
+                                                                    <li value="2">Enter a new unique Account code (up to 6 characters) and new Account name</li>
+                                                                    <li value="3">Click <span class="Name">Save</span> to save details</li>
+                                                                    <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>The bank account code must be something not already used</p>
+                                                                </ul>
+                                                                <p>Step 2 - Record a payment and receipt from the <span class="PebbleFundManager">Fund Manager</span> main menu, using the options:</p>
+                                                                <ul>
+                                                                    <li value="1"> Transactions</li>
+                                                                    <li value="2">Record a Payment</li>
+                                                                    <li value="3">Select a User Account* - anyone will do but we suggest a bank interest or general account is the most appropriate</li>
+                                                                    <li value="4">Enter the description as cheque drawn to clear balance</li>
+                                                                    <li value="5">Select the type as cheque and the 'old' bank account as being the one from which this cheque has been drawn</li>
+                                                                    <li value="6">Enter the amount of the cheque and an appropriate date</li>
+                                                                    <li value="7">Enter an appropriate cheque number</li>
+                                                                    <li value="8">Select the name of the 'new' bank account from your names list (if it isn't there, add it by scrolling to and above the first name in the names list and "Add New Name").</li>
+                                                                    <li value="9">Save and print the transaction by left clicking "Save &amp; Print”</li>
+                                                                </ul>
+                                                                <p>From the <span class="PebbleFundManager">Fund Manager</span> main menu, use the options:</p>
+                                                                <ul>
+                                                                    <li value="1">Transactions</li>
+                                                                    <li value="2"> Enter a Receipt</li>
+                                                                    <li value="3">Select the same User Account as you used in step 2* above</li>
+                                                                    <li value="4">Select the name of the 'new bank account' from your names list (if it isn't there add it by selecting “Manage Names” from the right hand side)</li>
+                                                                    <li value="5">Enter the reason as cheque received to clear balance</li>
+                                                                    <li value="6">Enter the amount and select the Cheque option and accept the receipt number</li>
+                                                                    <li value="7">Enter an appropriate date and save the transaction by left clicking "Save"</li>
+                                                                </ul>
+                                                                <p>Step 3 - Bank the cheque. From the Bank &amp; Cash menu, use the options:</p>
+                                                                <ul>
+                                                                    <li value="1">Pay In Receipts to Bank</li>
+                                                                    <li value="2">Select the item by double clicking it</li>
+                                                                    <li value="3">Enter appropriate paying in slip number and date</li>
+                                                                    <li value="4">Select the 'new' bank account as the receiving bank</li>
+                                                                    <li value="5">Select “Pay Receipts To Bank” to save</li>
+                                                                </ul>
+                                                                <p>When you receive the bank statements, reconcile the transactions from the Bank &amp; Cash menu by using the options:</p>
+                                                                <ul>
+                                                                    <li value="1">Reconcile Bank Statement</li>
+                                                                </ul>
+                                                                <p>The User Account you used in steps 1 and 2 above will have the same balance as before this exercise. The 'old' bank account should have a zero balance and the 'new' bank account should have a balance including the value of the cheque.</p>
+                                                                <p>&#160;</p>
+                                                                <p>&#160;</p><a href="javascript:window.print()"><img src="../../../Resources/Images/PrintTopic.png" /></a>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div id="contentBody" class="container" style="margin-top: 120px">
-                                    <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <h1>How do I change to a new bank?</h1>
-                                            <p><span class="Emphasis">Issue:</span>   We have decided to change banks.</p>
-                                            <p><span class="Emphasis">Solution:</span>   Set-up a new bank account and move the balance from the old bank account to the new one.</p>
-                                            <h4>Method 1 - Transfer</h4>
-                                            <p>Step 1 - Setup the new bank account.</p>
-                                            <ul>
-                                                <li value="1"><![CDATA[	]]><span class="Name">Administration &gt; Manage Bank Accounts &gt; Create Bank Account</span></li>
-                                                <li value="2">Enter a new unique Account code (up to 6 characters) and new Account name</li>
-                                                <li value="3">	Click <span class="Name">Save</span> to save details</li>
-                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>The bank account code must be something not already used.</p>
-                                            </ul>
-                                            <p>Step 2 - Transfer money from the old bank account to the new.</p>
-                                            <ul>
-                                                <li value="1"><span class="Name">Bank and Cash &gt; Transfer Between Bank Accounts</span>
-                                                </li>
-                                                <li value="2">Select the 'old' bank account to transfer the money from and the 'new' account to transfer the money to</li>
-                                                <li value="3">Enter the amount</li>
-                                                <li value="4">Select the date of the Transfer</li>
-                                                <li value="5">Click <span class="Name">Transfer</span></li>
-                                                <li value="6">In due course when your bank statement arrives you should reconcile both halves of this by using options Bank and Cash/Reconcile Bank Statement.</li>
-                                            </ul>
-                                            <h4>Method 2 - Cheque Payment</h4>
-                                            <p>Write a cheque - this is used if the accounts are at different banks or if a cheque is actually written to clear the 'old' bank account balance and then deposited in the 'new' bank account.</p>
-                                            <p>Step 1 - Set-up the new bank account.</p>
-                                            <ul>
-                                                <li value="1"><span class="Name">Administration &gt; Manage Bank Accounts &gt; Create Bank Account</span>
-                                                </li>
-                                                <li value="2">Enter a new unique Account code (up to 6 characters) and new Account name</li>
-                                                <li value="3">Click <span class="Name">Save</span> to save details</li>
-                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>The bank account code must be something not already used</p>
-                                            </ul>
-                                            <p>Step 2 - Record a payment and receipt from the <span class="PebbleFundManager">Fund Manager</span> main menu, using the options:</p>
-                                            <ul>
-                                                <li value="1"> Transactions</li>
-                                                <li value="2">Record a Payment</li>
-                                                <li value="3">Select a User Account* - anyone will do but we suggest a bank interest or general account is the most appropriate</li>
-                                                <li value="4">Enter the description as cheque drawn to clear balance</li>
-                                                <li value="5">Select the type as cheque and the 'old' bank account as being the one from which this cheque has been drawn</li>
-                                                <li value="6">Enter the amount of the cheque and an appropriate date</li>
-                                                <li value="7">Enter an appropriate cheque number</li>
-                                                <li value="8">Select the name of the 'new' bank account from your names list (if it isn't there, add it by scrolling to and above the first name in the names list and "Add New Name").</li>
-                                                <li value="9">Save and print the transaction by left clicking "Save &amp; Print”</li>
-                                            </ul>
-                                            <p>From the <span class="PebbleFundManager">Fund Manager</span> main menu, use the options:</p>
-                                            <ul>
-                                                <li value="1">Transactions</li>
-                                                <li value="2"> Enter a Receipt</li>
-                                                <li value="3">Select the same User Account as you used in step 2* above</li>
-                                                <li value="4">Select the name of the 'new bank account' from your names list (if it isn't there add it by selecting “Manage Names” from the right hand side)</li>
-                                                <li value="5">Enter the reason as cheque received to clear balance</li>
-                                                <li value="6">Enter the amount and select the Cheque option and accept the receipt number</li>
-                                                <li value="7">Enter an appropriate date and save the transaction by left clicking "Save"</li>
-                                            </ul>
-                                            <p>Step 3 - Bank the cheque. From the Bank &amp; Cash menu, use the options:</p>
-                                            <ul>
-                                                <li value="1">Pay In Receipts to Bank</li>
-                                                <li value="2">Select the item by double clicking it</li>
-                                                <li value="3">Enter appropriate paying in slip number and date</li>
-                                                <li value="4">Select the 'new' bank account as the receiving bank</li>
-                                                <li value="5">Select “Pay Receipts To Bank” to save</li>
-                                            </ul>
-                                            <p>When you receive the bank statements, reconcile the transactions from the Bank &amp; Cash menu by using the options:</p>
-                                            <ul>
-                                                <li value="1">Reconcile Bank Statement</li>
-                                            </ul>
-                                            <p>The User Account you used in steps 1 and 2 above will have the same balance as before this exercise. The 'old' bank account should have a zero balance and the 'new' bank account should have a balance including the value of the cheque.</p>
-                                            <p>&#160;</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p>&#160;</p>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <footer>
                                     <div class="container">
                                         <div class="row">

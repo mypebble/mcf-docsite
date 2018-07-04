@@ -4,7 +4,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>Managing MISapp Tasks</title>
@@ -20,9 +19,6 @@
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../Resources/TableStyles/table-pebble-grid.css" rel="stylesheet" />
-        <link href="../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
-        <link href="../Resources/Stylesheets/website.css" rel="stylesheet" />
-        <link href="../Resources/Stylesheets/flare-website.css" rel="stylesheet" />
         <script src="../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../Resources/Scripts/jquery.min.js">
@@ -46,8 +42,8 @@
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
@@ -67,7 +63,7 @@
                                     <div class="nav-search row">
                                         <form class="search" action="#">
                                             <div class="search-bar search-bar-container needs-pie">
-                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ,,," />
                                                 <div class="search-filter-wrapper">
                                                     <div class="search-filter">
                                                         <div class="search-filter-content">
@@ -97,75 +93,95 @@
                                 </div>
                             </div>
                             <div class="body-container" data-mc-content-body="True">
-                                <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-                                    <div class="container">
-                                        <img src="../Resources/Images/pebble_logo_support2.png" />
-                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                                        <div class="navbar-xs hidden-xs-down">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="pull-sm-right">
-                                                        <ul class="nav navbar-nav navbar-nav-sm">
-                                                            <li class="nav-item " value="1"><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                                            </li>
-                                                        </ul>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                                        <div class="container">
+                                                            <img src="../Resources/Images/pebble_logo_support2.png" />
+                                                            <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../Resources/Images/GotoMainPebbleWebsite.png" /></a>
+                                                            </p>
+                                                        </div>
+                                                    </nav>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <div id="contentBody" class="container" style="margin-top: 120px">
+                                                        <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../support/home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p><p><a class="btn btn-default" href="https://docs.google.com/a/talktopebble.co.uk/forms/d/e/1FAIpQLSd1TRiH9VUi0j7yun8x_72m0yn1pHT497QM0mgGyPiCPWCpOQ/viewform">How likely are you to recommend our INCOME GENERATION SUPPORT to other schools?</a></p></div></div>
+                                                        <div class="row">
+                                                            <div class="col-md-10 col-md-offset-1">
+                                                                <h1>Managing MISapp Tasks</h1>
+                                                                <p>By default, MISapp is sscheduled to run at 02:00 am every day. </p>
+                                                                <p>You can schedule MISapp to run at a different time by changing the task time in MISapp, or you can run the task immediately if you are aware of SIMS updates and you want these reflected in <span class="PebbleFundManager">Fund Manager</span> or <span class="PebbleArro">Arro</span> immediately. </p>
+                                                                <p class="warning" data-mc-autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; "><span class="autonumber"><span><b><span style="color: Red;" class="mcFormatColor">Warning! </span></b> </span></span>We recommend that you do not schedule MISapp to run around midnight because this is when SIMS updates.</p>
+                                                                <h2>Set MISapp to run at a specific time</h2>
+                                                                <ol>
+                                                                    <li value="1">Select the <span class="Name">Schedule</span> tab.</li>
+                                                                    <p>
+                                                                        <img src="../support/Images/FMMISappInstInstr12.png" />
+                                                                        <img src="../support/Images/FMMISappInstInstr13.png" />
+                                                                    </p>
+                                                                    <li value="2">The current Windows <span class="Name">Username</span> should automatically be filled in, but you will need to enter your Windows <span class="Name">Password</span>.</li>
+                                                                    <li value="3">To change the time, scroll to the desired time and click <span class="Name">Register Task</span>.</li>
+                                                                    <p>This saves the new time for the task in MISapp. If the task was added successfully, it should look like the box below.</p>
+                                                                    <p>
+                                                                        <img src="../support/Images/FMMISappInstInstr14.png" />
+                                                                    </p>
+                                                                    <li value="4">Check at least 30 minutes after the scheduled task has run in the <span class="Name">Log (Task)</span> tab whether the MISapp reports have been run and data sent for all schools listed on the <span class="Name">Schools</span> tab. If the Log states <span class="Name">data sent to pebble successfully</span> and you receive no error messages, the data has transferred successfully. You will also be able to see  updated pupils in <span class="PebbleFundManager">Fund Manager</span> or names in <span class="PebbleArro">Arro</span>.</li>
+                                                                </ol>
+                                                                <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>We recommend that when you first register a task in MISapp that you use Run Task to ensure that the schedule is created and the reports are sent correctly.</p>
+                                                                <h2>Unschedule a MISapp  task</h2>
+                                                                <ol>
+                                                                    <li value="1">Select the <span class="Name">Schedule</span> tab.</li>
+                                                                    <li value="2">Enter your Windows <span class="Name">Password</span> to access the <span class="Name">Schedule</span> tab.</li>
+                                                                    <li value="3">Click <span class="Name">Remove Task</span>.</li>
+                                                                </ol>
+                                                                <h2>Set MISapp to run on-demand</h2>
+                                                                <ol>
+                                                                    <li value="1">Select the <span class="Name">Schedule</span> tab.</li>
+                                                                    <li value="2">Enter your Windows <span class="Name">Password</span> to access the <span class="Name">Schedule</span> tab.</li>
+                                                                    <li value="3">Click <span class="Name">Run Task</span>.</li>
+                                                                    <p>The <span class="Name">Log (Task)</span> tab is displayed.</p>
+                                                                    <p>You can check here that the MISapp reports are being run and data is being sent for all schools that have been added on the <span class="Name">Schools</span> tab.</p>
+                                                                    <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>This can take some time, depending on how much data there is to send - generally between 2 and 15 minutes.</p>
+                                                                    <li value="4">Once the task has finished, the Log (Task) lists all the events that have run, as shown below.</li>
+                                                                    <p>
+                                                                        <img src="../support/Images/FMMISappInstInstr15.png" />
+                                                                    </p>
+                                                                    <p>If the Log states <span class="Name">data sent to pebble successfully</span> and you receive no error messages, the data has transferred successfully.</p>
+                                                                    <p>You will be able to see updated pupils in <span class="PebbleFundManager">Fund Manager</span> or in <span class="PebbleArro">Arro</span> generally within 30 minutes.</p>
+                                                                    <p>&#160;</p>
+                                                                </ol>
+                                                                <p>&#160;</p>
+                                                                <p><a href="javascript:window.print()"><img src="../Resources/Images/PrintTopic.png" /></a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div id="contentBody" class="container" style="margin-top: 120px">
-                                    <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../support/fm/fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p><p><a class="btn btn-default" href="https://docs.google.com/a/talktopebble.co.uk/forms/d/e/1FAIpQLSd1TRiH9VUi0j7yun8x_72m0yn1pHT497QM0mgGyPiCPWCpOQ/viewform">How likely are you to recommend our INCOME GENERATION SUPPORT to other schools?</a></p></div></div>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <h1>Managing MISapp Tasks</h1>
-                                            <p>By default, MISapp is sscheduled to run at 02:00 am every day. </p>
-                                            <p>You can schedule MISapp to run at a different time by changing the task time in MISapp, or you can run the task immediately if you are aware of SIMS updates and you want these reflected in <span class="PebbleFundManager">Fund Manager</span> or <span class="PebbleArro">Arro</span> immediately. </p>
-                                            <p class="warning" data-mc-autonum="&lt;b&gt;&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;Warning! &lt;/span&gt;&lt;/b&gt; "><span class="autonumber"><span><b><span style="color: Red;" class="mcFormatColor">Warning! </span></b> </span></span>We recommend that you do not schedule MISapp to run around midnight because this is when SIMS updates.</p>
-                                            <h2>Set MISapp to run at a specific time</h2>
-                                            <ol>
-                                                <li value="1">Select the <span class="Name">Schedule</span> tab.</li>
-                                                <p>
-                                                    <img src="../support/Images/FMMISappInstInstr12.png" />
-                                                    <img src="../support/Images/FMMISappInstInstr13.png" />
                                                 </p>
-                                                <li value="2">The current Windows <span class="Name">Username</span> should automatically be filled in, but you will need to enter your Windows <span class="Name">Password</span>.</li>
-                                                <li value="3">To change the time, scroll to the desired time and click <span class="Name">Register Task</span>.</li>
-                                                <p>This saves the new time for the task in MISapp. If the task was added successfully, it should look like the box below.</p>
-                                                <p>
-                                                    <img src="../support/Images/FMMISappInstInstr14.png" />
-                                                </p>
-                                                <li value="4">Check at least 30 minutes after the scheduled task has run in the <span class="Name">Log (Task)</span> tab whether the MISapp reports have been run and data sent for all schools listed on the <span class="Name">Schools</span> tab. If the Log states <span class="Name">data sent to pebble successfully</span> and you receive no error messages, the data has transferred successfully. You will also be able to see  updated pupils in <span class="PebbleFundManager">Fund Manager</span> or names in <span class="PebbleArro">Arro</span>.</li>
-                                            </ol>
-                                            <p class="Tip" data-mc-autonum="Tip: "><span class="autonumber"><span class="Emphasis">Tip: </span></span>We recommend that when you first register a task in MISapp that you use Run Task to ensure that the schedule is created and the reports are sent correctly.</p>
-                                            <h2>Unschedule a MISapp  task</h2>
-                                            <ol>
-                                                <li value="1">Select the <span class="Name">Schedule</span> tab.</li>
-                                                <li value="2">Enter your Windows <span class="Name">Password</span> to access the <span class="Name">Schedule</span> tab.</li>
-                                                <li value="3">Click <span class="Name">Remove Task</span>.</li>
-                                            </ol>
-                                            <h2>Set MISapp to run on-demand</h2>
-                                            <ol>
-                                                <li value="1">Select the <span class="Name">Schedule</span> tab.</li>
-                                                <li value="2">Enter your Windows <span class="Name">Password</span> to access the <span class="Name">Schedule</span> tab.</li>
-                                                <li value="3">Click <span class="Name">Run Task</span>.</li>
-                                                <p>The <span class="Name">Log (Task)</span> tab is displayed.</p>
-                                                <p>You can check here that the MISapp reports are being run and data is being sent for all schools that have been added on the <span class="Name">Schools</span> tab.</p>
-                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>This can take some time, depending on how much data there is to send - generally between 2 and 15 minutes.</p>
-                                                <li value="4">Once the task has finished, the Log (Task) lists all the events that have run, as shown below.</li>
-                                                <p>
-                                                    <img src="../support/Images/FMMISappInstInstr15.png" />
-                                                </p>
-                                                <p>If the Log states <span class="Name">data sent to pebble successfully</span> and you receive no error messages, the data has transferred successfully.</p>
-                                                <p>You will be able to see updated pupils in <span class="PebbleFundManager">Fund Manager</span> or in <span class="PebbleArro">Arro</span> generally within 30 minutes.</p>
-                                                <p>&#160;</p>
-                                            </ol><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p>&#160;</p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <footer>
                                     <div class="container">
                                         <div class="row">

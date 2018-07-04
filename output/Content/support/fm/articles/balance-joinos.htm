@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Let a parent or carer see what balance is left to pay on a Joinos offer." />
-        <!--        <link href="../TableStyles/PebbleHomePageSimple.css" rel="stylesheet" MadCap:stylesheetType="table" />-->
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title>How can I let a parent see what’s left to pay towards a trip in Joinos?</title>
@@ -21,9 +20,6 @@
         <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
         <link href="../../../Resources/TableStyles/table-pebble-grid.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/StylesForSupportHomePage.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/website.css" rel="stylesheet" />
-        <link href="../../../Resources/Stylesheets/flare-website.css" rel="stylesheet" />
         <script src="../../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../../Resources/Scripts/jquery.min.js">
@@ -47,8 +43,8 @@
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
@@ -68,7 +64,7 @@
                                     <div class="nav-search row">
                                         <form class="search" action="#">
                                             <div class="search-bar search-bar-container needs-pie">
-                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help on ,,," />
                                                 <div class="search-filter-wrapper">
                                                     <div class="search-filter">
                                                         <div class="search-filter-content">
@@ -98,48 +94,66 @@
                                 </div>
                             </div>
                             <div class="body-container" data-mc-content-body="True">
-                                <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
-                                    <div class="container">
-                                        <img src="../../../Resources/Images/pebble_logo_support2.png" />
-                                        <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#responsive-menu"><![CDATA[				]]></button>
-                                        <div class="navbar-xs hidden-xs-down">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="pull-sm-right">
-                                                        <ul class="nav navbar-nav navbar-nav-sm">
-                                                            <li class="nav-item " value="1"><a class="btn btn-support" href="https://www.mypebble.co.uk">Go to the main Pebble Website</a>
-                                                            </li>
-                                                        </ul>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <nav class="navbar navbar-fixed-top navbar-standard" id="navigation">
+                                                        <div class="container">
+                                                            <img src="../../../Resources/Images/pebble_logo_support2.png" />
+                                                            <p style="text-align: right;"><a href="https://www.mypebble.co.uk/"><img src="../../../Resources/Images/GotoMainPebbleWebsite.png" /></a>
+                                                            </p>
+                                                        </div>
+                                                    </nav>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="width: 100%;">
+                                    <col style="width: 15%;" />
+                                    <col style="width: 70%;" />
+                                    <col style="width: 15%;" />
+                                    <tbody>
+                                        <tr>
+                                            <td>&#160;</td>
+                                            <td>
+                                                <p>
+                                                    <div id="contentBody" class="container" style="margin-top: 120px">
+                                                        <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
+                                                        <div class="row">
+                                                            <div class="col-md-10 col-md-offset-1">
+                                                                <h1><a name="aanchor1"></a>
+                                                                    <MadCap:concept term="Payments;Joinoa;Trips" />How can I let a parent see what’s left to pay towards a trip in Joinos?</h1>
+                                                                <p><span class="Emphasis">Issue: </span>I want parents to pay a deposit for a school trip to secure their child’s place; how can I make sure they see the remaining balance that’s left to pay?</p>
+                                                                <p><span class="Emphasis">Solution:</span> It is now possible to choose to share the balance of an account via Joinos so parents are able to see what’s left to pay on an offer</p>
+                                                                <p>In the <span class="Name">Administration &gt; Manage Accounts</span> screen:</p>
+                                                                <ul>
+                                                                    <li value="1">Choose the account for the offer that you want to share</li>
+                                                                    <li value="2">Ensure that the account is marked <span class="Name">In Use</span>; if it isn’t, populate the checkbox to update it</li>
+                                                                    <li value="3">Populate the <span class="Name">Share Balances</span> checkbox to instruct <span class="PebbleFundManager">Fund Manager</span> to share all outstanding balances for offers associated to the account</li>
+                                                                    <li value="4">Create the offer as usual via the <span class="Name">Offers &gt; Create Offer</span> screen</li>
+                                                                    <li value="5">Populate the <span class="Name">Unspecified</span> checkbox and enter the minimum amount you would like parents to pay</li>
+                                                                    <li value="6">Add any relevant attachments, select names then post the offer to make it visible to parents</li>
+                                                                    <li value="7">Once a parent has paid their deposit, they will be able to see what they have left to pay via the <span class="Name">Balances</span> tab in Joinos</li>
+                                                                </ul>
+                                                                <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Only offers where a parent has expressed an interest by paying something towards the total amount will be displayed</p>
+                                                                <p>&#160;</p><a href="javascript:window.print()"><img src="../../../Resources/Images/PrintTopic.png" /></a>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div id="contentBody" class="container" style="margin-top: 120px">
-                                    <div class="row"> <div class="col-sm-12"><a class="btn btn-default" href="../fm-home.htm">Back to Support</a><p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfKBI_Ai0F0X_Vgzl6wRn8KWROR8enAjSy0_SkJu73MoF82eQ/viewform">How likely are you to recommend our FINANCE SUPPORT to other schools?</a></p></div></div>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <h1><a name="aanchor1"></a>
-                                                <MadCap:concept term="Payments;Joinoa;Trips" />How can I let a parent see what’s left to pay towards a trip in Joinos?</h1>
-                                            <p><span class="Emphasis">Issue: </span>I want parents to pay a deposit for a school trip to secure their child’s place; how can I make sure they see the remaining balance that’s left to pay?</p>
-                                            <p><span class="Emphasis">Solution:</span> It is now possible to choose to share the balance of an account via Joinos so parents are able to see what’s left to pay on an offer</p>
-                                            <p>In the <span class="Name">Administration &gt; Manage Accounts</span> screen:</p>
-                                            <ul>
-                                                <li value="1">Choose the account for the offer that you want to share</li>
-                                                <li value="2">Ensure that the account is marked <span class="Name">In Use</span>; if it isn’t, populate the checkbox to update it</li>
-                                                <li value="3">Populate the <span class="Name">Share Balances</span> checkbox to instruct <span class="PebbleFundManager">Fund Manager</span> to share all outstanding balances for offers associated to the account</li>
-                                                <li value="4">Create the offer as usual via the <span class="Name">Offers &gt; Create Offer</span> screen</li>
-                                                <li value="5">Populate the <span class="Name">Unspecified</span> checkbox and enter the minimum amount you would like parents to pay</li>
-                                                <li value="6">Add any relevant attachments, select names then post the offer to make it visible to parents</li>
-                                                <li value="7">Once a parent has paid their deposit, they will be able to see what they have left to pay via the <span class="Name">Balances</span> tab in Joinos</li>
-                                            </ul>
-                                            <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>Only offers where a parent has expressed an interest by paying something towards the total amount will be displayed</p><a href="javascript:window.print()" class="btn btn-info-outline btn-sm"><i class="awesome awesome-print"></i> Print
-					</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p>&#160;</p>
+                                                </p>
+                                            </td>
+                                            <td>&#160;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <footer>
                                     <div class="container">
                                         <div class="row">
