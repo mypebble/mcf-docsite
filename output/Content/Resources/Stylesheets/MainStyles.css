@@ -65,6 +65,7 @@ p.Tip
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: #ffffff;
 }
 
 div.Tip
@@ -76,6 +77,7 @@ div.Tip
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: #ffffff;
 }
 
 p.warning
@@ -453,9 +455,20 @@ h1.nobreakbefore
 	page-break-before: avoid;
 }
 
+a.tiplink:link
+{
+	color: #ffffff;
+}
+
 h1.NotInToc
 {
 	mc-heading-level: 0;
+}
+
+p.TOC1
+{
+	margin-top: 1.12em;
+	margin-bottom: 3px;
 }
 
 @media only screen and (max-width: 1279px)
@@ -638,6 +651,7 @@ h1.NotInToc
 	MadCap|xref
 	{
 		mc-format: '{h1} on page {page}';
+		color: #2d8dcc;
 	}
 
 	div.GlossaryPageTerm
@@ -686,10 +700,55 @@ h1.NotInToc
 	{
 		vertical-align: top;
 	}
+
+	MadCap|tocProxy
+	{
+		border-top-color: transparent;
+		border-top-style: none;
+	}
+
+	p.TOC2
+	{
+		font-weight: normal;
+	}
+
+	p.TOC3
+	{
+		font-weight: normal;
+	}
+
+	p.TOC4
+	{
+		font-weight: normal;
+	}
+
+	p.TOC5
+	{
+		font-weight: normal;
+	}
+
+	p.Tip
+	{
+		color: #ffffff;
+	}
+
+	div.Tip
+	{
+		color: #ffffff;
+	}
 }
 
 h1.Title
 {
 	mc-heading-level: 0;
+}
+
+MadCap|xref.tiplink
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #ffffff;
+	mc-dita-type: xref;
+	mc-format: '{para}';
 }
 

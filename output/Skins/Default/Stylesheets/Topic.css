@@ -564,6 +564,13 @@ a.glossaryTerm
 	text-decoration: none;
 }
 
+.xref.xreftiplink
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #ffffff;
+}
+
 .MCWebHelpFramesetLink a
 {
 	
