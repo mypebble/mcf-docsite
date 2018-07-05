@@ -98,34 +98,36 @@ div.warning
 
 h1
 {
-	font-size: 1.75em;
-	font-weight: bold;
 	margin-bottom: 8px;
-	padding-bottom: 10px;
 	margin-top: 30px;
 	color: #575756;
+	font-size: 2em;
+	font-weight: bolder;
+	padding-bottom: 10px;
+	line-height: normal;
 }
 
 h2
 {
-	font-size: 1.2em;
-	font-weight: normal;
-	margin-bottom: 4px;
 	margin-top: 0.75rem;
 	color: #575756;
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin-bottom: 4px;
 }
 
 h3
 {
-	font-size: 1.1em;
-	font-weight: normal;
-	margin-bottom: 4px;
-	margin-top: 16px;
+	font-size: 1.17em;
+	font-weight: bolder;
+	margin-top: 0.75rem;
 }
 
 h4
 {
-	
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	mc-heading-level: 0;
 }
 
 li
@@ -422,11 +424,38 @@ h5.panelmoreinfo
 	margin: 0.25em 0;
 }
 
+h4.paneltitle
+{
+	color: #2577aa;
+	padding-bottom: 10px;
+}
+
 hr
 {
 	margin-bottom: 1px;
 	margin-top: 1px;
 	border: solid 1px #f4f4f4;
+}
+
+h1.chapnum
+{
+	font-size: 2.5em;
+	font-weight: normal;
+	color: #a9a9a9;
+	margin-bottom: 8px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+
+h1.nobreakbefore
+{
+	mc-heading-level: 0;
+	page-break-before: avoid;
+}
+
+h1.NotInToc
+{
+	mc-heading-level: 0;
 }
 
 @media only screen and (max-width: 1279px)
@@ -657,5 +686,10 @@ hr
 	{
 		vertical-align: top;
 	}
+}
+
+h1.Title
+{
+	mc-heading-level: 0;
 }
 
