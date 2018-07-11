@@ -152,19 +152,12 @@ MadCap|xref
 {
 	color: #2D8DCC;
 	font-weight: bold;
-	mc-format: '{para}';
 	text-decoration: underline;
 }
 
 MadCap|xref:hover
 {
 	color: #5bc0de;
-}
-
-p
-{
-	margin-bottom: 8px;
-	margin-top: 8px;
 }
 
 div.sideContent
@@ -467,8 +460,22 @@ h1.NotInToc
 
 p.TOC1
 {
-	margin-top: 1.12em;
 	margin-bottom: 3px;
+	margin-top: 1.12em;
+}
+
+h1.Title
+{
+	mc-heading-level: 0;
+}
+
+MadCap|xref.tiplink
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #ffffff;
+	mc-dita-type: xref;
+	mc-format: '{para}';
 }
 
 @media only screen and (max-width: 1279px)
@@ -484,25 +491,53 @@ p.TOC1
 		width: 33.33333%;
 		margin-left: 0%;
 	}
+
+	img
+	{
+		max-height: auto;
+		max-width: 5in;
+	}
 }
 
 @media only screen and (max-width: 767px)
 {
-	div.ContentRow > div:nth-child(1)
+	div.ContentRow > div:nth-child
 	{
 		width: 100%;
 		margin-left: 0%;
 	}
 
-	div.ContentRow > div:nth-child(2)
+	h1.findinformation
 	{
-		width: 100%;
-		margin-left: 0%;
+		font-size: 1em;
+	}
+
+	div.blueheader
+	{
+		font-size: 0.5em;
+		padding-right: 0.05em;
+		padding-left: 0.05em;
+		padding-bottom: 0.05em;
+		padding-top: 0.05em;
+		font-size: inherit;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	img
+	{
+		max-height: auto;
+		max-width: 2.5in;
 	}
 }
 
 @media print
 {
+	/*body
+	{
+		line-height: 25px;
+	}*/
+
 	MadCap|dropDownBody
 	{
 		border-bottom-color: transparent;
@@ -558,6 +593,9 @@ p.TOC1
 	{
 		mc-hyphenate: never;
 		mc-hyphenate-shortest-word: 20;
+		margin-top: 1.12em;
+		margin-bottom: 3px;
+		mc-hyphenate-shortest-prefix: 20;
 	}
 
 	img.print
@@ -710,11 +748,13 @@ p.TOC1
 	p.TOC2
 	{
 		font-weight: normal;
+		line-height: 0;
 	}
 
 	p.TOC3
 	{
 		font-weight: normal;
+		line-height: 0;
 	}
 
 	p.TOC4
@@ -736,19 +776,21 @@ p.TOC1
 	{
 		color: #ffffff;
 	}
+
+	p.TOC1
+	{
+		margin-bottom: 3px;
+		line-height: 0;
+	}
+
+	MadCap|xref.Tip
+	{
+		font: inherit;
+	}
 }
 
-h1.Title
-{
-	mc-heading-level: 0;
-}
-
-MadCap|xref.tiplink
+span.TipXref
 {
 	font-weight: bold;
-	text-decoration: underline;
-	color: #ffffff;
-	mc-dita-type: xref;
-	mc-format: '{para}';
 }
 

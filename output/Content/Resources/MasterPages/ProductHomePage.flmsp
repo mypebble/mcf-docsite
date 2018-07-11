@@ -29,6 +29,7 @@
             </tbody>
         </table>
         <MadCap:bodyProxy />
+		<div class="ContentRow">
         <footer>
             <div class="container">
                 <div class="row">
@@ -81,6 +82,6 @@
                 <p style="text-align: center;">For response times see the <span class="Name">Service Level Commitments</span> for <a href="../../PDFs/Pebble Arro SLC - October 2017.pdf" target="_blank">Arro</a> and <a href="../../PDFs/Pebble Fund Manager SLC - March 2017.pdf" target="_blank">Fund Manager</a>.</p>
                 <p style="text-align: center;">© SF Software Limited t/a PEBBLE 2018 All Rights Reserved.</p>
             </div>
-        </footer>
+        </footer></div>
     </body>
 </html>
