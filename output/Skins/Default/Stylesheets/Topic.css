@@ -479,12 +479,17 @@ a.glossaryTerm
 
 .xref
 {
-	color: #2D8DCC;
 	font-weight: bold;
 	text-decoration: underline;
+	color: #5bc0de;
 }
 
 .xref:hover
+{
+	color: #5bc0de;
+}
+
+.xref:focus
 {
 	color: #5bc0de;
 }

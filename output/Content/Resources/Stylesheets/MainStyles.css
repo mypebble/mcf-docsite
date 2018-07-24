@@ -5,8 +5,8 @@
 body
 {
 	color: #404040;
-	font-family: Arial, Avenir, Myriad;
 	line-height: 1.7em;
+	font-family: Arial, Avenir, Myriad;
 }
 
 a.MCBreadcrumbsLink
@@ -150,9 +150,9 @@ MadCap|breadcrumbsProxy
 
 MadCap|xref
 {
-	color: #2D8DCC;
 	font-weight: bold;
 	text-decoration: underline;
+	color: #5bc0de;
 }
 
 MadCap|xref:hover
@@ -217,6 +217,11 @@ a:link
 	font-weight: bold;
 	font-style: normal;
 	text-decoration: none;
+	color: #5bc0de;
+}
+
+a:visited
+{
 	color: #5bc0de;
 }
 
@@ -476,6 +481,21 @@ MadCap|xref.tiplink
 	color: #ffffff;
 	mc-dita-type: xref;
 	mc-format: '{para}';
+}
+
+MadCap|xref:focus
+{
+	color: #5bc0de;
+}
+
+span.TipXref
+{
+	font-weight: bold;
+}
+
+MadCap|xref.visited
+{
+	
 }
 
 @media only screen and (max-width: 1279px)
@@ -787,10 +807,28 @@ MadCap|xref.tiplink
 	{
 		font: inherit;
 	}
+
+	a:active
+	{
+		color: #5bc0de;
+	}
+
+	a:visited
+	{
+		color: #5bc0de;
+	}
+
+	body
+	{
+		font-family: sans-serif;
+		line-height: 1.7em;
+	}
 }
 
-span.TipXref
+div.noteintip
 {
-	font-weight: bold;
+	color: #404040;
+	background-color: #eceeef;
+	mc-auto-number-format: '{b}Note: {/b}';
 }
 
