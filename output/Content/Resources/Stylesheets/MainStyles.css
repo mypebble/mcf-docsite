@@ -832,3 +832,26 @@ div.noteintip
 	mc-auto-number-format: '{b}Note: {/b}';
 }
 
+MadCap|helpControlMenuItem.whiteonblack
+{
+	color: #ffffff;
+	background-color: #444444;
+}
+
+p.whiteonblack
+{
+	background: #000000;
+	format: inherit;
+	color: #ffffff;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 10pt;
+}
+
+h6.h6notbold
+{
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.6em;
+}
+
