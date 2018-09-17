@@ -1,9 +1,0 @@
-test:
-  override:
-    - sh test.sh
-
-deployment:
-  sync_stage:
-    branch: master
-    commands:
-      - ./send-to-s3.sh
