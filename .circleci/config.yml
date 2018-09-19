@@ -4,9 +4,10 @@ jobs:
     - machine
     steps:
       - checkout
-      - build:
+      - run:
+          name: upload
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              ./send-to-s3.sh
+            ./send-to-s3.sh
             else
-              echo "Not the main branch so won't be sent."
+            echo "Not the main branch so won't be sent."
