@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/manage-accounts.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Search.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/change-name.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMJoinos08.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/02 Configuring Your Browser.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/fm/fm-home.htm</loc>
@@ -16,7 +22,13 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss05.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/update-students.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss06.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMJoinos12_719x101.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/Awards-Competitions.png</loc>
@@ -26,9 +38,6 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/MISapp images/newconversation.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/period-end.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM Configuring Browsers Firefox Options.png</loc>
@@ -52,7 +61,7 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/Bullet1Blue.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/update-staff-members.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/cancel-paying-in-slip.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMFAQPups01.png</loc>
@@ -61,19 +70,10 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/chat bubble.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/joinos.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Setup/balancesfrompreviouspages.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/08 Register.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss07.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/10 Action Buttons.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Setup/setup form 1.png</loc>
@@ -86,15 +86,6 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/conversationswindow1_207x329.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/nochex-refunds.htm</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/cancel-previous-year-items.htm</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Search.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM Configuring Browsers Firefox Shortcuts.png</loc>
@@ -118,9 +109,6 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Setup/reset password.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/change-name.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMMISappInstInstr08.png</loc>
     </url>
     <url>
@@ -130,19 +118,25 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/grant search.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/import-parentmail.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/CSVScheduleHMRC.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/Fund Manager User Guide.pdf</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Default.mcwebhelp</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/08 Register.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMJoinos21.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMImportingSchoolMoneyTx02.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Default.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/06 Reports.htm</loc>
@@ -154,13 +148,7 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/TableStyles/SimpleWithPadding.css</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/02 Configuring Your Browser.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/New Starter/step101.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/unreconciled-items.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/Pebble Product Terms.pdf</loc>
@@ -178,7 +166,10 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/view-account-balances.htm</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reregister-joinos.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/ManagingMISappTasks.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/cancel-previous-year-items.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss02.png</loc>
@@ -190,19 +181,19 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/import-parentpay-automatic.htm</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/Troubleshooting MISapp.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FMFAQReg04_457x131.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/unpresented-cheque.htm</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FMFAQReg03_454x202.png</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/cancel-transactions.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM UIFSM 03.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMFAQTxOwed03.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/import-parentpay-manual.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM Period End 03.png</loc>
@@ -220,9 +211,6 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FMFAQReg06.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/import-parentpay-manual.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/PrintTopic.png</loc>
     </url>
     <url>
@@ -238,6 +226,9 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Edinburgh FM Guide/questionmark.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reregister-joinos.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/TwitterIcon.png</loc>
     </url>
     <url>
@@ -245,12 +236,6 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Setup/unpresentedandunreconciledcreditsanddebits.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/period-end-transaction-owed.htm</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Default.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss21.png</loc>
@@ -283,6 +268,9 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/conversationswindow3.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reconcile-period-end.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss19.png</loc>
     </url>
     <url>
@@ -310,13 +298,13 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss10.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/update-students.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Edinburgh FM Guide/UpdateAccounts.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/draftperiodend8.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/previous-versions-transactions.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMmanageaccounts12.png</loc>
@@ -343,7 +331,13 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM Register App 02.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/sQuid Pending Import_479x337.png</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/10 Action Buttons.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/change-bank.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM sQuid 10 New_440x305.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/searchaccountbalancesoutput1.png</loc>
@@ -358,19 +352,19 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/final1.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/05 Transactions.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/09 Integrated SIMs.htm</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reconcile-bank.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/squid.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/viewhelp3.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/cancel-transactions.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/draftperiodend13.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/draftperiodend13.png</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/import-schoolcomms.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/mark-leavers.htm</loc>
@@ -397,22 +391,19 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMMISappInstInstr15.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/browser-setup.htm</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/squid.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/manage-names.htm</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/import-schoolcomms.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/unreconciled-items.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMUninstallMisapp1.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/favouritesNewUX.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reverse-uncashed-cheque.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/New Starter/Transactions1.png</loc>
@@ -428,6 +419,9 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss25.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/who-has-paid.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/bounced-cheques.htm</loc>
@@ -457,12 +451,6 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/MISapp images/expandedconversation.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/transfers.htm</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/gift-aid.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/04 Administration.htm</loc>
     </url>
     <url>
@@ -472,7 +460,7 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/conversationswindow2.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/cancel-paying-in-slip.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/unreconcile-bank-statement.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/Joinos for Schools User Guide.pdf</loc>
@@ -493,13 +481,16 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/Pebble logo.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/Whats New.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/01 How to access Fund Manager.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/Freebies-Support.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/Grants filter.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/03 Dashboard.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/duplicated-transaction.htm</loc>
@@ -512,9 +503,6 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/CompanyLogo.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/Whats New.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Setup/create account or login.png</loc>
@@ -532,7 +520,13 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/draftperiodend2.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/nochex-refunds.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/Fund Manager New Starters Guide.pdf</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/sQuid Offers2_479x340.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss26.png</loc>
@@ -544,16 +538,10 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMmanageaccounts09.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/import-parentmail.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/MISapp images/conversations icon.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reprint-transctions.htm</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/change-bank.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FMFAQReconcile01.png</loc>
@@ -577,6 +565,9 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM UIFSM 04.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/New Starter/Transactions1_1148x654.png</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Edinburgh FM Guide/creategroup.png</loc>
     </url>
     <url>
@@ -598,7 +589,10 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/MISapp User Guide.pdf</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMJoinos12_719x101.png</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/transfers.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/UninstallingMISapp.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/Fund Manager Period End Closedown Guide.pdf</loc>
@@ -616,9 +610,6 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/New Contact.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/previous-versions-transactions.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/thumbsdown_31x27.png</loc>
     </url>
     <url>
@@ -626,6 +617,9 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/searchaccountbalances.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/manage-accounts.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/balance-joinos.htm</loc>
@@ -670,6 +664,9 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/favouritesNewUXselected.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/05 Transactions.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM Register App 01.png</loc>
     </url>
     <url>
@@ -680,9 +677,6 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/reconcile002.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reconcile-period-end.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/Privacy &amp; Security Policy May 2018.pdf</loc>
@@ -709,6 +703,12 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/Pebble GDPR Statement - May 2018.pdf</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/period-end-transaction-owed.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/pupil-changes.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/green tick.png</loc>
     </url>
     <url>
@@ -716,9 +716,6 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss30.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/ManagingMISappTasks.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Setup/progressbar.png</loc>
@@ -743,6 +740,9 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/New Starter/Transactions5.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FMFAQReg03_454x202.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMMISappInstInstr09.png</loc>
@@ -778,9 +778,6 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/PDFs/Support Fair Use Policy - March 2017.pdf</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/09 Integrated SIMs.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/register-app.htm</loc>
     </url>
     <url>
@@ -790,19 +787,22 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/home.htm</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/who-has-paid.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/SettingUpSchools in MISapp.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMPebbleFolder_thumb_0_48.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/sQuid Pending Import_479x337.png</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Edinburgh FM Guide/Names1.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/correct-value-cheque.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/period-end.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMmanageaccounts11.png</loc>
@@ -826,13 +826,7 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/add-interest.htm</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/01 How to access Fund Manager.htm</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM sQuid 02.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/unreconcile-bank-statement.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/draftperiodend10.png</loc>
@@ -842,15 +836,6 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FMFAQReg03.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/sQuid Offers2_479x340.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/UninstallingMISapp.htm</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM sQuid 10 New_440x305.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM UIFSM 02.png</loc>
@@ -904,16 +889,10 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FM Period End 04.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FMFAQReg04_457x131.png</loc>
-    </url>
-    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMMISappInstInstr12.png</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss22.png</loc>
-    </url>
-    <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/pupil-changes.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/completingclaim.png</loc>
@@ -928,7 +907,7 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/duplicate-cheque.htm</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/New Starter/Transactions1_1148x654.png</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/Troubleshooting MISapp.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMImportingSchoolMoneyTx01.png</loc>
@@ -946,7 +925,22 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/TableStyles/table-pebble-clear.css</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/joinos.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/Fund Manager User Guide/03 Dashboard.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMFAQTxOwed04.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/update-staff-members.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/browser-setup.htm</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/gift-aid.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/uifsm.htm</loc>
@@ -967,13 +961,16 @@
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/draftperiodend7.png</loc>
     </url>
     <url>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/unpresented-cheque.htm</loc>
+    </url>
+    <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/support/Images/FMMISappInstInstr07.png</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reverse-uncashed-cheque.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/PreparingforMISappInstallation.htm</loc>
     </url>
     <url>
-        <loc>https://support.mypebble.co.uk/content/support/Content/MISapp Guide/PreparingforMISappInstallation.htm</loc>
+        <loc>https://support.mypebble.co.uk/content/support/Content/support/articles/reconcile-bank.htm</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/thumbsup.png</loc>
@@ -986,6 +983,9 @@
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Images/FMGloss31.png</loc>
+    </url>
+    <url>
+        <loc>https://support.mypebble.co.uk/content/support/Default.mcwebhelp</loc>
     </url>
     <url>
         <loc>https://support.mypebble.co.uk/content/support/Content/Resources/Images/FM common/Year End/URL.png</loc>
