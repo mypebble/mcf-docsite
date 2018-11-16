@@ -107,7 +107,13 @@ ul.navigation ul
 	-pie-background: linear-gradient(#ffffff, #ffffff);
 }
 
-ul.navigation > li > ul
+ul.navigation > li > ul.openLeft
+{
+	left: auto;
+	right: 0;
+}
+
+ul.navigation > li > ul.openRight
 {
 	left: 0;
 }
@@ -1147,9 +1153,24 @@ ul.navigation ul ul ul ul > li > a
 	padding-right: 10px;
 }
 
+ul.navigation li.is-expanded > a
+{
+	color: #009ee2;
+}
+
+ul.navigation ul > li.is-expanded > a
+{
+	
+}
+
 ul.navigation ul ul > li:hover
 {
 	background-color: #ffffff;
+}
+
+ul.navigation ul ul > li.is-expanded > a
+{
+	
 }
 
 ul.navigation ul ul ul > li:hover
@@ -1157,8 +1178,18 @@ ul.navigation ul ul ul > li:hover
 	background-color: #ffffff;
 }
 
+ul.navigation ul ul ul > li.is-expanded > a
+{
+	
+}
+
 ul.navigation ul ul ul ul > li:hover
 {
 	background-color: #ffffff;
+}
+
+ul.navigation ul ul ul ul > li.is-expanded > a
+{
+	
 }
 
