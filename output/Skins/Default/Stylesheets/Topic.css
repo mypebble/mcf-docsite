@@ -494,13 +494,6 @@ a.glossaryTerm
 	color: #5bc0de;
 }
 
-.xref.xreftiplink
-{
-	font-weight: bold;
-	text-decoration: underline;
-	color: #ffffff;
-}
-
 .dropDown
 {
 	box-sizing: content-box;
@@ -535,6 +528,13 @@ a.glossaryTerm
 .dropDownHead
 {
 	text-decoration: none;
+}
+
+.xref.xreftiplink
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #ffffff;
 }
 
 .MCWebHelpFramesetLink a
